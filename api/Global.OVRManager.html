@@ -1,0 +1,2436 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class OVRManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class OVRManager
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Global.OVRManager">
+  
+  
+  <h1 id="Global_OVRManager" data-uid="Global.OVRManager" class="text-break">Class OVRManager
+  </h1>
+  <div class="markdown level0 summary"><p>Configuration data for Oculus virtual reality.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">OVRManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <h6><strong>Assembly</strong>: Oculus.VR.dll</h6>
+  <h5 id="Global_OVRManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class OVRManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_AllowRecenter.md&amp;value=---%0Auid%3A%20Global.OVRManager.AllowRecenter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L1008">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_AllowRecenter" data-uid="Global.OVRManager.AllowRecenter">AllowRecenter</h4>
+  <div class="markdown level1 summary"><p>If true, the Reset View in the universal menu will cause the pose to be reset. This should generally be
+enabled for applications with a stationary position in the virtual world and will allow the View Reset
+command to place the person back to a predefined location (such as a cockpit seat).
+Set this to false if you have a locomotion system because resetting the view would effectively teleport
+the player to potentially invalid locations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;If true, the Reset View in the universal menu will cause the pose to be reset. This should generally be enabled for applications with a stationary position in the virtual world and will allow the View Reset command to place the person back to a predefined location (such as a cockpit seat). Set this to false if you have a locomotion system because resetting the view would effectively teleport the player to potentially invalid locations.&quot;)]
+public bool AllowRecenter</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_colorGamut.md&amp;value=---%0Auid%3A%20Global.OVRManager.colorGamut%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L347">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_colorGamut" data-uid="Global.OVRManager.colorGamut">colorGamut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public OVRPlugin.ColorSpace colorGamut</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRPlugin.ColorSpace.html">OVRPlugin.ColorSpace</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_enableAdaptiveResolution.md&amp;value=---%0Auid%3A%20Global.OVRManager.enableAdaptiveResolution%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L341">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_enableAdaptiveResolution" data-uid="Global.OVRManager.enableAdaptiveResolution">enableAdaptiveResolution</h4>
+  <div class="markdown level1 summary"><p>If true, dynamic resolution will be enabled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;If true, dynamic resolution will be enabled On PC&quot;)]
+public bool enableAdaptiveResolution</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_enableColorGamut.md&amp;value=---%0Auid%3A%20Global.OVRManager.enableColorGamut%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L344">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_enableColorGamut" data-uid="Global.OVRManager.enableColorGamut">enableColorGamut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public bool enableColorGamut</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_LateControllerUpdate.md&amp;value=---%0Auid%3A%20Global.OVRManager.LateControllerUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L1016">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_LateControllerUpdate" data-uid="Global.OVRManager.LateControllerUpdate">LateControllerUpdate</h4>
+  <div class="markdown level1 summary"><p>If true, a lower-latency update will occur right before rendering. If false, the only controller pose update will occur at the start of simulation for a given frame.
+Selecting this option lowers rendered latency for controllers and is often a net positive; however, it also creates a slight disconnect between rendered and simulated controller poses.
+Visit online Oculus documentation to learn more.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;If true, rendered controller latency is reduced by several ms, as the left/right controllers will have their positions updated right before rendering.&quot;)]
+public bool LateControllerUpdate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_loadedXRDevice.md&amp;value=---%0Auid%3A%20Global.OVRManager.loadedXRDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L651">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_loadedXRDevice" data-uid="Global.OVRManager.loadedXRDevice">loadedXRDevice</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static OVRManager.XRDevice loadedXRDevice</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRManager.XRDevice.html">OVRManager.XRDevice</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_maxRenderScale.md&amp;value=---%0Auid%3A%20Global.OVRManager.maxRenderScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L370">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_maxRenderScale" data-uid="Global.OVRManager.maxRenderScale">maxRenderScale</h4>
+  <div class="markdown level1 summary"><p>Max RenderScale the app can reach under adaptive resolution mode ( enableAdaptiveResolution = true );</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(0.5F, 2F)]
+[Tooltip(&quot;Max RenderScale the app can reach under adaptive resolution mode&quot;)]
+public float maxRenderScale</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_minRenderScale.md&amp;value=---%0Auid%3A%20Global.OVRManager.minRenderScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L363">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_minRenderScale" data-uid="Global.OVRManager.minRenderScale">minRenderScale</h4>
+  <div class="markdown level1 summary"><p>Min RenderScale the app can reach under adaptive resolution mode ( enableAdaptiveResolution = true );</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(0.5F, 2F)]
+[Tooltip(&quot;Min RenderScale the app can reach under adaptive resolution mode&quot;)]
+public float minRenderScale</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_OCULUS_UNITY_NAME_STR.md&amp;value=---%0Auid%3A%20Global.OVRManager.OCULUS_UNITY_NAME_STR%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L648">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_OCULUS_UNITY_NAME_STR" data-uid="Global.OVRManager.OCULUS_UNITY_NAME_STR">OCULUS_UNITY_NAME_STR</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string OCULUS_UNITY_NAME_STR</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_OPENVR_UNITY_NAME_STR.md&amp;value=---%0Auid%3A%20Global.OVRManager.OPENVR_UNITY_NAME_STR%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L649">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_OPENVR_UNITY_NAME_STR" data-uid="Global.OVRManager.OPENVR_UNITY_NAME_STR">OPENVR_UNITY_NAME_STR</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string OPENVR_UNITY_NAME_STR</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_OVRManagerinitialized.md&amp;value=---%0Auid%3A%20Global.OVRManager.OVRManagerinitialized%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L1145">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_OVRManagerinitialized" data-uid="Global.OVRManager.OVRManagerinitialized">OVRManagerinitialized</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool OVRManagerinitialized</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_profilerTcpPort.md&amp;value=---%0Auid%3A%20Global.OVRManager.profilerTcpPort%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L430">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_profilerTcpPort" data-uid="Global.OVRManager.profilerTcpPort">profilerTcpPort</h4>
+  <div class="markdown level1 summary"><p>The TCP listening port of Oculus Profiler Service, which will be activated in Debug/Developerment builds
+When the app is running on editor or device, open &quot;Tools/Oculus/Oculus Profiler Panel&quot; to view the realtime system metrics</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int profilerTcpPort</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_resetTrackerOnLoad.md&amp;value=---%0Auid%3A%20Global.OVRManager.resetTrackerOnLoad%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L998">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_resetTrackerOnLoad" data-uid="Global.OVRManager.resetTrackerOnLoad">resetTrackerOnLoad</h4>
+  <div class="markdown level1 summary"><p>If true, each scene load will cause the head pose to reset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;If true, each scene load will cause the head pose to reset.&quot;)]
+public bool resetTrackerOnLoad</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_UnityAlphaOrBetaVersionWarningMessage.md&amp;value=---%0Auid%3A%20Global.OVRManager.UnityAlphaOrBetaVersionWarningMessage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L1141">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_UnityAlphaOrBetaVersionWarningMessage" data-uid="Global.OVRManager.UnityAlphaOrBetaVersionWarningMessage">UnityAlphaOrBetaVersionWarningMessage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UnityAlphaOrBetaVersionWarningMessage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_useIPDInPositionTracking.md&amp;value=---%0Auid%3A%20Global.OVRManager.useIPDInPositionTracking%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L992">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_useIPDInPositionTracking" data-uid="Global.OVRManager.useIPDInPositionTracking">useIPDInPositionTracking</h4>
+  <div class="markdown level1 summary"><p>If true, the distance between the user&apos;s eyes will affect the position of each OVRCameraRig&apos;s cameras.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;If true, the distance between the user's eyes will affect the position of each OVRCameraRig's cameras.&quot;)]
+public bool useIPDInPositionTracking</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_usePositionTracking.md&amp;value=---%0Auid%3A%20Global.OVRManager.usePositionTracking%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L980">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_usePositionTracking" data-uid="Global.OVRManager.usePositionTracking">usePositionTracking</h4>
+  <div class="markdown level1 summary"><p>If true, head tracking will affect the position of each OVRCameraRig&apos;s cameras.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;If true, head tracking will affect the position of each OVRCameraRig's cameras.&quot;)]
+public bool usePositionTracking</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_useRecommendedMSAALevel.md&amp;value=---%0Auid%3A%20Global.OVRManager.useRecommendedMSAALevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L308">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_useRecommendedMSAALevel" data-uid="Global.OVRManager.useRecommendedMSAALevel">useRecommendedMSAALevel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Performance/Quality&quot;)]
+[Tooltip(&quot;If true, Unity will use the optimal antialiasing level for quality/performance on the current hardware.&quot;)]
+public bool useRecommendedMSAALevel</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_useRotationTracking.md&amp;value=---%0Auid%3A%20Global.OVRManager.useRotationTracking%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L986">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_useRotationTracking" data-uid="Global.OVRManager.useRotationTracking">useRotationTracking</h4>
+  <div class="markdown level1 summary"><p>If true, head tracking will affect the rotation of each OVRCameraRig&apos;s cameras.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public bool useRotationTracking</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_audioInId.md&amp;value=---%0Auid%3A%20Global.OVRManager.audioInId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L242">View Source</a>
+  </span>
+  <a id="Global_OVRManager_audioInId_" data-uid="Global.OVRManager.audioInId*"></a>
+  <h4 id="Global_OVRManager_audioInId" data-uid="Global.OVRManager.audioInId">audioInId</h4>
+  <div class="markdown level1 summary"><p>Gets the audio input device identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string audioInId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_audioOutId.md&amp;value=---%0Auid%3A%20Global.OVRManager.audioOutId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L231">View Source</a>
+  </span>
+  <a id="Global_OVRManager_audioOutId_" data-uid="Global.OVRManager.audioOutId*"></a>
+  <h4 id="Global_OVRManager_audioOutId" data-uid="Global.OVRManager.audioOutId">audioOutId</h4>
+  <div class="markdown level1 summary"><p>Gets the audio output device identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string audioOutId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_batteryLevel.md&amp;value=---%0Auid%3A%20Global.OVRManager.batteryLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L658">View Source</a>
+  </span>
+  <a id="Global_OVRManager_batteryLevel_" data-uid="Global.OVRManager.batteryLevel*"></a>
+  <h4 id="Global_OVRManager_batteryLevel" data-uid="Global.OVRManager.batteryLevel">batteryLevel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float batteryLevel { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_batteryStatus.md&amp;value=---%0Auid%3A%20Global.OVRManager.batteryStatus%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L688">View Source</a>
+  </span>
+  <a id="Global_OVRManager_batteryStatus_" data-uid="Global.OVRManager.batteryStatus*"></a>
+  <h4 id="Global_OVRManager_batteryStatus" data-uid="Global.OVRManager.batteryStatus">batteryStatus</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int batteryStatus { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_batteryTemperature.md&amp;value=---%0Auid%3A%20Global.OVRManager.batteryTemperature%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L673">View Source</a>
+  </span>
+  <a id="Global_OVRManager_batteryTemperature_" data-uid="Global.OVRManager.batteryTemperature*"></a>
+  <h4 id="Global_OVRManager_batteryTemperature" data-uid="Global.OVRManager.batteryTemperature">batteryTemperature</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float batteryTemperature { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_boundary.md&amp;value=---%0Auid%3A%20Global.OVRManager.boundary%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L113">View Source</a>
+  </span>
+  <a id="Global_OVRManager_boundary_" data-uid="Global.OVRManager.boundary*"></a>
+  <h4 id="Global_OVRManager_boundary" data-uid="Global.OVRManager.boundary">boundary</h4>
+  <div class="markdown level1 summary"><p>Gets a reference to the active boundary system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static OVRBoundary boundary { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRBoundary.html">OVRBoundary</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_chromatic.md&amp;value=---%0Auid%3A%20Global.OVRManager.chromatic%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L286">View Source</a>
+  </span>
+  <a id="Global_OVRManager_chromatic_" data-uid="Global.OVRManager.chromatic*"></a>
+  <h4 id="Global_OVRManager_chromatic" data-uid="Global.OVRManager.chromatic">chromatic</h4>
+  <div class="markdown level1 summary"><p>If true, chromatic de-aberration will be applied, improving the image at the cost of texture bandwidth.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool chromatic { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_cpuLevel.md&amp;value=---%0Auid%3A%20Global.OVRManager.cpuLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L715">View Source</a>
+  </span>
+  <a id="Global_OVRManager_cpuLevel_" data-uid="Global.OVRManager.cpuLevel*"></a>
+  <h4 id="Global_OVRManager_cpuLevel" data-uid="Global.OVRManager.cpuLevel">cpuLevel</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the current CPU performance level (0-2). Lower performance levels save more power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int cpuLevel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_display.md&amp;value=---%0Auid%3A%20Global.OVRManager.display%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L103">View Source</a>
+  </span>
+  <a id="Global_OVRManager_display_" data-uid="Global.OVRManager.display*"></a>
+  <h4 id="Global_OVRManager_display" data-uid="Global.OVRManager.display">display</h4>
+  <div class="markdown level1 summary"><p>Gets a reference to the active display.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static OVRDisplay display { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRDisplay.html">OVRDisplay</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_eyeTextureFormat.md&amp;value=---%0Auid%3A%20Global.OVRManager.eyeTextureFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L768">View Source</a>
+  </span>
+  <a id="Global_OVRManager_eyeTextureFormat_" data-uid="Global.OVRManager.eyeTextureFormat*"></a>
+  <h4 id="Global_OVRManager_eyeTextureFormat" data-uid="Global.OVRManager.eyeTextureFormat">eyeTextureFormat</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the eye texture format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static OVRManager.EyeTextureFormat eyeTextureFormat { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRManager.EyeTextureFormat.html">OVRManager.EyeTextureFormat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_fixedFoveatedRenderingLevel.md&amp;value=---%0Auid%3A%20Global.OVRManager.fixedFoveatedRenderingLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L797">View Source</a>
+  </span>
+  <a id="Global_OVRManager_fixedFoveatedRenderingLevel_" data-uid="Global.OVRManager.fixedFoveatedRenderingLevel*"></a>
+  <h4 id="Global_OVRManager_fixedFoveatedRenderingLevel" data-uid="Global.OVRManager.fixedFoveatedRenderingLevel">fixedFoveatedRenderingLevel</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the tiled-based multi-resolution level
+This feature is only supported on QCOMM-based Android devices</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static OVRManager.FixedFoveatedRenderingLevel fixedFoveatedRenderingLevel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRManager.FixedFoveatedRenderingLevel.html">OVRManager.FixedFoveatedRenderingLevel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_fixedFoveatedRenderingSupported.md&amp;value=---%0Auid%3A%20Global.OVRManager.fixedFoveatedRenderingSupported%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L785">View Source</a>
+  </span>
+  <a id="Global_OVRManager_fixedFoveatedRenderingSupported_" data-uid="Global.OVRManager.fixedFoveatedRenderingSupported*"></a>
+  <h4 id="Global_OVRManager_fixedFoveatedRenderingSupported" data-uid="Global.OVRManager.fixedFoveatedRenderingSupported">fixedFoveatedRenderingSupported</h4>
+  <div class="markdown level1 summary"><p>Gets if tiled-based multi-resolution technique is supported
+This feature is only supported on QCOMM-based Android devices</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool fixedFoveatedRenderingSupported { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_gpuLevel.md&amp;value=---%0Auid%3A%20Global.OVRManager.gpuLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L735">View Source</a>
+  </span>
+  <a id="Global_OVRManager_gpuLevel_" data-uid="Global.OVRManager.gpuLevel*"></a>
+  <h4 id="Global_OVRManager_gpuLevel" data-uid="Global.OVRManager.gpuLevel">gpuLevel</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the current GPU performance level (0-2). Lower performance levels save more power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int gpuLevel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_gpuUtilLevel.md&amp;value=---%0Auid%3A%20Global.OVRManager.gpuUtilLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L887">View Source</a>
+  </span>
+  <a id="Global_OVRManager_gpuUtilLevel_" data-uid="Global.OVRManager.gpuUtilLevel*"></a>
+  <h4 id="Global_OVRManager_gpuUtilLevel" data-uid="Global.OVRManager.gpuUtilLevel">gpuUtilLevel</h4>
+  <div class="markdown level1 summary"><p>Gets the GPU Utilised Level (0.0 - 1.0)
+This feature is only supported on QCOMM-based Android devices</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float gpuUtilLevel { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_gpuUtilSupported.md&amp;value=---%0Auid%3A%20Global.OVRManager.gpuUtilSupported%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L875">View Source</a>
+  </span>
+  <a id="Global_OVRManager_gpuUtilSupported_" data-uid="Global.OVRManager.gpuUtilSupported*"></a>
+  <h4 id="Global_OVRManager_gpuUtilSupported" data-uid="Global.OVRManager.gpuUtilSupported">gpuUtilSupported</h4>
+  <div class="markdown level1 summary"><p>Gets if the GPU Utility is supported
+This feature is only supported on QCOMM-based Android devices</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool gpuUtilSupported { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_hasInputFocus.md&amp;value=---%0Auid%3A%20Global.OVRManager.hasInputFocus%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L275">View Source</a>
+  </span>
+  <a id="Global_OVRManager_hasInputFocus_" data-uid="Global.OVRManager.hasInputFocus*"></a>
+  <h4 id="Global_OVRManager_hasInputFocus" data-uid="Global.OVRManager.hasInputFocus">hasInputFocus</h4>
+  <div class="markdown level1 summary"><p>If true, the app has Input Focus.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool hasInputFocus { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_hasVrFocus.md&amp;value=---%0Auid%3A%20Global.OVRManager.hasVrFocus%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L253">View Source</a>
+  </span>
+  <a id="Global_OVRManager_hasVrFocus_" data-uid="Global.OVRManager.hasVrFocus*"></a>
+  <h4 id="Global_OVRManager_hasVrFocus" data-uid="Global.OVRManager.hasVrFocus">hasVrFocus</h4>
+  <div class="markdown level1 summary"><p>If true, the app has VR Focus.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool hasVrFocus { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_headPoseRelativeOffsetRotation.md&amp;value=---%0Auid%3A%20Global.OVRManager.headPoseRelativeOffsetRotation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L378">View Source</a>
+  </span>
+  <a id="Global_OVRManager_headPoseRelativeOffsetRotation_" data-uid="Global.OVRManager.headPoseRelativeOffsetRotation*"></a>
+  <h4 id="Global_OVRManager_headPoseRelativeOffsetRotation" data-uid="Global.OVRManager.headPoseRelativeOffsetRotation">headPoseRelativeOffsetRotation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 headPoseRelativeOffsetRotation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_headPoseRelativeOffsetTranslation.md&amp;value=---%0Auid%3A%20Global.OVRManager.headPoseRelativeOffsetTranslation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L404">View Source</a>
+  </span>
+  <a id="Global_OVRManager_headPoseRelativeOffsetTranslation_" data-uid="Global.OVRManager.headPoseRelativeOffsetTranslation*"></a>
+  <h4 id="Global_OVRManager_headPoseRelativeOffsetTranslation" data-uid="Global.OVRManager.headPoseRelativeOffsetTranslation">headPoseRelativeOffsetTranslation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 headPoseRelativeOffsetTranslation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_instance.md&amp;value=---%0Auid%3A%20Global.OVRManager.instance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L98">View Source</a>
+  </span>
+  <a id="Global_OVRManager_instance_" data-uid="Global.OVRManager.instance*"></a>
+  <h4 id="Global_OVRManager_instance" data-uid="Global.OVRManager.instance">instance</h4>
+  <div class="markdown level1 summary"><p>Gets the singleton instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static OVRManager instance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRManager.html">OVRManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_isHmdPresent.md&amp;value=---%0Auid%3A%20Global.OVRManager.isHmdPresent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L207">View Source</a>
+  </span>
+  <a id="Global_OVRManager_isHmdPresent_" data-uid="Global.OVRManager.isHmdPresent*"></a>
+  <h4 id="Global_OVRManager_isHmdPresent" data-uid="Global.OVRManager.isHmdPresent">isHmdPresent</h4>
+  <div class="markdown level1 summary"><p>If true, a head-mounted display is connected and present.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isHmdPresent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_isPowerSavingActive.md&amp;value=---%0Auid%3A%20Global.OVRManager.isPowerSavingActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L755">View Source</a>
+  </span>
+  <a id="Global_OVRManager_isPowerSavingActive_" data-uid="Global.OVRManager.isPowerSavingActive*"></a>
+  <h4 id="Global_OVRManager_isPowerSavingActive" data-uid="Global.OVRManager.isPowerSavingActive">isPowerSavingActive</h4>
+  <div class="markdown level1 summary"><p>If true, the CPU and GPU are currently throttled to save power and/or reduce the temperature.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isPowerSavingActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_isSupportedPlatform.md&amp;value=---%0Auid%3A%20Global.OVRManager.isSupportedPlatform%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L1021">View Source</a>
+  </span>
+  <a id="Global_OVRManager_isSupportedPlatform_" data-uid="Global.OVRManager.isSupportedPlatform*"></a>
+  <h4 id="Global_OVRManager_isSupportedPlatform" data-uid="Global.OVRManager.isSupportedPlatform">isSupportedPlatform</h4>
+  <div class="markdown level1 summary"><p>True if the current platform supports virtual reality.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isSupportedPlatform { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_isUserPresent.md&amp;value=---%0Auid%3A%20Global.OVRManager.isUserPresent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L1029">View Source</a>
+  </span>
+  <a id="Global_OVRManager_isUserPresent_" data-uid="Global.OVRManager.isUserPresent*"></a>
+  <h4 id="Global_OVRManager_isUserPresent" data-uid="Global.OVRManager.isUserPresent">isUserPresent</h4>
+  <div class="markdown level1 summary"><p>True if the user is currently wearing the display.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isUserPresent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_monoscopic.md&amp;value=---%0Auid%3A%20Global.OVRManager.monoscopic%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L317">View Source</a>
+  </span>
+  <a id="Global_OVRManager_monoscopic_" data-uid="Global.OVRManager.monoscopic*"></a>
+  <h4 id="Global_OVRManager_monoscopic" data-uid="Global.OVRManager.monoscopic">monoscopic</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool monoscopic { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_pluginVersion.md&amp;value=---%0Auid%3A%20Global.OVRManager.pluginVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L1058">View Source</a>
+  </span>
+  <a id="Global_OVRManager_pluginVersion_" data-uid="Global.OVRManager.pluginVersion*"></a>
+  <h4 id="Global_OVRManager_pluginVersion" data-uid="Global.OVRManager.pluginVersion">pluginVersion</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Version pluginVersion { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Version</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_profile.md&amp;value=---%0Auid%3A%20Global.OVRManager.profile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L119">View Source</a>
+  </span>
+  <a id="Global_OVRManager_profile_" data-uid="Global.OVRManager.profile*"></a>
+  <h4 id="Global_OVRManager_profile" data-uid="Global.OVRManager.profile">profile</h4>
+  <div class="markdown level1 summary"><p>Gets the current profile, which contains information about the user&apos;s settings and body dimensions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static OVRProfile profile { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRProfile.html">OVRProfile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_sdkVersion.md&amp;value=---%0Auid%3A%20Global.OVRManager.sdkVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L1063">View Source</a>
+  </span>
+  <a id="Global_OVRManager_sdkVersion_" data-uid="Global.OVRManager.sdkVersion*"></a>
+  <h4 id="Global_OVRManager_sdkVersion" data-uid="Global.OVRManager.sdkVersion">sdkVersion</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Version sdkVersion { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Version</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_tiledMultiResLevel.md&amp;value=---%0Auid%3A%20Global.OVRManager.tiledMultiResLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L850">View Source</a>
+  </span>
+  <a id="Global_OVRManager_tiledMultiResLevel_" data-uid="Global.OVRManager.tiledMultiResLevel*"></a>
+  <h4 id="Global_OVRManager_tiledMultiResLevel" data-uid="Global.OVRManager.tiledMultiResLevel">tiledMultiResLevel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use fixedFoveatedRenderingLevel instead&quot;, false)]
+public static OVRManager.TiledMultiResLevel tiledMultiResLevel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRManager.TiledMultiResLevel.html">OVRManager.TiledMultiResLevel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_tiledMultiResSupported.md&amp;value=---%0Auid%3A%20Global.OVRManager.tiledMultiResSupported%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L841">View Source</a>
+  </span>
+  <a id="Global_OVRManager_tiledMultiResSupported_" data-uid="Global.OVRManager.tiledMultiResSupported*"></a>
+  <h4 id="Global_OVRManager_tiledMultiResSupported" data-uid="Global.OVRManager.tiledMultiResSupported">tiledMultiResSupported</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use fixedFoveatedRenderingSupported instead&quot;, false)]
+public static bool tiledMultiResSupported { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_tracker.md&amp;value=---%0Auid%3A%20Global.OVRManager.tracker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L108">View Source</a>
+  </span>
+  <a id="Global_OVRManager_tracker_" data-uid="Global.OVRManager.tracker*"></a>
+  <h4 id="Global_OVRManager_tracker" data-uid="Global.OVRManager.tracker">tracker</h4>
+  <div class="markdown level1 summary"><p>Gets a reference to the active sensor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static OVRTracker tracker { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRTracker.html">OVRTracker</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_trackingOriginType.md&amp;value=---%0Auid%3A%20Global.OVRManager.trackingOriginType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L955">View Source</a>
+  </span>
+  <a id="Global_OVRManager_trackingOriginType_" data-uid="Global.OVRManager.trackingOriginType*"></a>
+  <h4 id="Global_OVRManager_trackingOriginType" data-uid="Global.OVRManager.trackingOriginType">trackingOriginType</h4>
+  <div class="markdown level1 summary"><p>Defines the current tracking origin type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OVRManager.TrackingOrigin trackingOriginType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRManager.TrackingOrigin.html">OVRManager.TrackingOrigin</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_useDynamicFixedFoveatedRendering.md&amp;value=---%0Auid%3A%20Global.OVRManager.useDynamicFixedFoveatedRendering%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L821">View Source</a>
+  </span>
+  <a id="Global_OVRManager_useDynamicFixedFoveatedRendering_" data-uid="Global.OVRManager.useDynamicFixedFoveatedRendering*"></a>
+  <h4 id="Global_OVRManager_useDynamicFixedFoveatedRendering" data-uid="Global.OVRManager.useDynamicFixedFoveatedRendering">useDynamicFixedFoveatedRendering</h4>
+  <div class="markdown level1 summary"><p>Let the system decide the best foveation level adaptively (Off .. fixedFoveatedRenderingLevel)
+This feature is only supported on QCOMM-based Android devices</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool useDynamicFixedFoveatedRendering { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_utilitiesVersion.md&amp;value=---%0Auid%3A%20Global.OVRManager.utilitiesVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L1053">View Source</a>
+  </span>
+  <a id="Global_OVRManager_utilitiesVersion_" data-uid="Global.OVRManager.utilitiesVersion*"></a>
+  <h4 id="Global_OVRManager_utilitiesVersion" data-uid="Global.OVRManager.utilitiesVersion">utilitiesVersion</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Version utilitiesVersion { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Version</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_volumeLevel.md&amp;value=---%0Auid%3A%20Global.OVRManager.volumeLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L702">View Source</a>
+  </span>
+  <a id="Global_OVRManager_volumeLevel_" data-uid="Global.OVRManager.volumeLevel*"></a>
+  <h4 id="Global_OVRManager_volumeLevel" data-uid="Global.OVRManager.volumeLevel">volumeLevel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float volumeLevel { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_vsyncCount.md&amp;value=---%0Auid%3A%20Global.OVRManager.vsyncCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L631">View Source</a>
+  </span>
+  <a id="Global_OVRManager_vsyncCount_" data-uid="Global.OVRManager.vsyncCount*"></a>
+  <h4 id="Global_OVRManager_vsyncCount" data-uid="Global.OVRManager.vsyncCount">vsyncCount</h4>
+  <div class="markdown level1 summary"><p>The number of expected display frames per rendered frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int vsyncCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_GetOpenVRControllerOffset_UnityEngine_XR_XRNode_.md&amp;value=---%0Auid%3A%20Global.OVRManager.GetOpenVRControllerOffset(UnityEngine.XR.XRNode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L931">View Source</a>
+  </span>
+  <a id="Global_OVRManager_GetOpenVRControllerOffset_" data-uid="Global.OVRManager.GetOpenVRControllerOffset*"></a>
+  <h4 id="Global_OVRManager_GetOpenVRControllerOffset_UnityEngine_XR_XRNode_" data-uid="Global.OVRManager.GetOpenVRControllerOffset(UnityEngine.XR.XRNode)">GetOpenVRControllerOffset(XRNode)</h4>
+  <div class="markdown level1 summary"><p>Specifies the pose offset required to make an OpenVR controller&apos;s reported pose match the virtual pose.
+Currently we only specify this offset for Oculus Touch on OpenVR.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static OVRPose GetOpenVRControllerOffset(XRNode hand)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.XR.XRNode</span></td>
+        <td><span class="parametername">hand</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRPose.html">OVRPose</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_IsAdaptiveResSupportedByEngine.md&amp;value=---%0Auid%3A%20Global.OVRManager.IsAdaptiveResSupportedByEngine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L353">View Source</a>
+  </span>
+  <a id="Global_OVRManager_IsAdaptiveResSupportedByEngine_" data-uid="Global.OVRManager.IsAdaptiveResSupportedByEngine*"></a>
+  <h4 id="Global_OVRManager_IsAdaptiveResSupportedByEngine" data-uid="Global.OVRManager.IsAdaptiveResSupportedByEngine">IsAdaptiveResSupportedByEngine()</h4>
+  <div class="markdown level1 summary"><p>Adaptive Resolution is based on Unity engine&apos;s renderViewportScale/eyeTextureResolutionScale feature
+But renderViewportScale was broken in an array of Unity engines, this function help to filter out those broken engines</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAdaptiveResSupportedByEngine()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_IsUnityAlphaOrBetaVersion.md&amp;value=---%0Auid%3A%20Global.OVRManager.IsUnityAlphaOrBetaVersion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L1125">View Source</a>
+  </span>
+  <a id="Global_OVRManager_IsUnityAlphaOrBetaVersion_" data-uid="Global.OVRManager.IsUnityAlphaOrBetaVersion*"></a>
+  <h4 id="Global_OVRManager_IsUnityAlphaOrBetaVersion" data-uid="Global.OVRManager.IsUnityAlphaOrBetaVersion">IsUnityAlphaOrBetaVersion()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsUnityAlphaOrBetaVersion()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_PlatformUIConfirmQuit.md&amp;value=---%0Auid%3A%20Global.OVRManager.PlatformUIConfirmQuit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L1852">View Source</a>
+  </span>
+  <a id="Global_OVRManager_PlatformUIConfirmQuit_" data-uid="Global.OVRManager.PlatformUIConfirmQuit*"></a>
+  <h4 id="Global_OVRManager_PlatformUIConfirmQuit" data-uid="Global.OVRManager.PlatformUIConfirmQuit">PlatformUIConfirmQuit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PlatformUIConfirmQuit()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_ReturnToLauncher.md&amp;value=---%0Auid%3A%20Global.OVRManager.ReturnToLauncher%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L1846">View Source</a>
+  </span>
+  <a id="Global_OVRManager_ReturnToLauncher_" data-uid="Global.OVRManager.ReturnToLauncher*"></a>
+  <h4 id="Global_OVRManager_ReturnToLauncher" data-uid="Global.OVRManager.ReturnToLauncher">ReturnToLauncher()</h4>
+  <div class="markdown level1 summary"><p>Leaves the application/game and returns to the launcher/dashboard</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReturnToLauncher()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_SetColorScaleAndOffset_UnityEngine_Vector4_UnityEngine_Vector4_System_Boolean_.md&amp;value=---%0Auid%3A%20Global.OVRManager.SetColorScaleAndOffset(UnityEngine.Vector4%2CUnityEngine.Vector4%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L907">View Source</a>
+  </span>
+  <a id="Global_OVRManager_SetColorScaleAndOffset_" data-uid="Global.OVRManager.SetColorScaleAndOffset*"></a>
+  <h4 id="Global_OVRManager_SetColorScaleAndOffset_UnityEngine_Vector4_UnityEngine_Vector4_System_Boolean_" data-uid="Global.OVRManager.SetColorScaleAndOffset(UnityEngine.Vector4,UnityEngine.Vector4,System.Boolean)">SetColorScaleAndOffset(Vector4, Vector4, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the Color Scale and Offset which is commonly used for effects like fade-to-black.
+In our compositor, once a given frame is rendered, warped, and ready to be displayed, we then multiply
+each pixel by colorScale and add it to colorOffset, whereby newPixel = oldPixel * colorScale + colorOffset.
+Note that for mobile devices (Quest, etc.), colorOffset is not supported, so colorScale is all that can
+be used. A colorScale of (1, 1, 1, 1) and colorOffset of (0, 0, 0, 0) will lead to an identity multiplication
+and have no effect.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetColorScaleAndOffset(Vector4 colorScale, Vector4 colorOffset, bool applyToAllLayers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector4</span></td>
+        <td><span class="parametername">colorScale</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector4</span></td>
+        <td><span class="parametername">colorOffset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">applyToAllLayers</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_SetOpenVRLocalPose_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Quaternion_.md&amp;value=---%0Auid%3A%20Global.OVRManager.SetOpenVRLocalPose(UnityEngine.Vector3%2CUnityEngine.Vector3%2CUnityEngine.Quaternion%2CUnityEngine.Quaternion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L915">View Source</a>
+  </span>
+  <a id="Global_OVRManager_SetOpenVRLocalPose_" data-uid="Global.OVRManager.SetOpenVRLocalPose*"></a>
+  <h4 id="Global_OVRManager_SetOpenVRLocalPose_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Quaternion_" data-uid="Global.OVRManager.SetOpenVRLocalPose(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Quaternion)">SetOpenVRLocalPose(Vector3, Vector3, Quaternion, Quaternion)</h4>
+  <div class="markdown level1 summary"><p>Specifies OpenVR pose local to tracking space</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetOpenVRLocalPose(Vector3 leftPos, Vector3 rightPos, Quaternion leftRot, Quaternion rightRot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">leftPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">rightPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">leftRot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">rightRot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_AudioInChanged.md&amp;value=---%0Auid%3A%20Global.OVRManager.AudioInChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L180">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_AudioInChanged" data-uid="Global.OVRManager.AudioInChanged">AudioInChanged</h4>
+  <div class="markdown level1 summary"><p>Occurs when the active Audio In device has changed and a restart is needed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action AudioInChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_AudioOutChanged.md&amp;value=---%0Auid%3A%20Global.OVRManager.AudioOutChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L175">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_AudioOutChanged" data-uid="Global.OVRManager.AudioOutChanged">AudioOutChanged</h4>
+  <div class="markdown level1 summary"><p>Occurs when the active Audio Out device has changed and a restart is needed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action AudioOutChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_HMDAcquired.md&amp;value=---%0Auid%3A%20Global.OVRManager.HMDAcquired%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L135">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_HMDAcquired" data-uid="Global.OVRManager.HMDAcquired">HMDAcquired</h4>
+  <div class="markdown level1 summary"><p>Occurs when an HMD attached.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action HMDAcquired</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_HMDLost.md&amp;value=---%0Auid%3A%20Global.OVRManager.HMDLost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L140">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_HMDLost" data-uid="Global.OVRManager.HMDLost">HMDLost</h4>
+  <div class="markdown level1 summary"><p>Occurs when an HMD detached.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action HMDLost</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_HMDMounted.md&amp;value=---%0Auid%3A%20Global.OVRManager.HMDMounted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L145">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_HMDMounted" data-uid="Global.OVRManager.HMDMounted">HMDMounted</h4>
+  <div class="markdown level1 summary"><p>Occurs when an HMD is put on the user&apos;s head.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action HMDMounted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_HMDUnmounted.md&amp;value=---%0Auid%3A%20Global.OVRManager.HMDUnmounted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L150">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_HMDUnmounted" data-uid="Global.OVRManager.HMDUnmounted">HMDUnmounted</h4>
+  <div class="markdown level1 summary"><p>Occurs when an HMD is taken off the user&apos;s head.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action HMDUnmounted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_HSWDismissed.md&amp;value=---%0Auid%3A%20Global.OVRManager.HSWDismissed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L198">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_HSWDismissed" data-uid="Global.OVRManager.HSWDismissed">HSWDismissed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static event Action HSWDismissed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_InputFocusAcquired.md&amp;value=---%0Auid%3A%20Global.OVRManager.InputFocusAcquired%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L165">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_InputFocusAcquired" data-uid="Global.OVRManager.InputFocusAcquired">InputFocusAcquired</h4>
+  <div class="markdown level1 summary"><p>Occurs when Input Focus is acquired.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action InputFocusAcquired</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_InputFocusLost.md&amp;value=---%0Auid%3A%20Global.OVRManager.InputFocusLost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L170">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_InputFocusLost" data-uid="Global.OVRManager.InputFocusLost">InputFocusLost</h4>
+  <div class="markdown level1 summary"><p>Occurs when Input Focus is lost.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action InputFocusLost</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_TrackingAcquired.md&amp;value=---%0Auid%3A%20Global.OVRManager.TrackingAcquired%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L185">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_TrackingAcquired" data-uid="Global.OVRManager.TrackingAcquired">TrackingAcquired</h4>
+  <div class="markdown level1 summary"><p>Occurs when the sensor gained tracking.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action TrackingAcquired</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_TrackingLost.md&amp;value=---%0Auid%3A%20Global.OVRManager.TrackingLost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L190">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_TrackingLost" data-uid="Global.OVRManager.TrackingLost">TrackingLost</h4>
+  <div class="markdown level1 summary"><p>Occurs when the sensor lost tracking.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action TrackingLost</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_VrFocusAcquired.md&amp;value=---%0Auid%3A%20Global.OVRManager.VrFocusAcquired%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L155">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_VrFocusAcquired" data-uid="Global.OVRManager.VrFocusAcquired">VrFocusAcquired</h4>
+  <div class="markdown level1 summary"><p>Occurs when VR Focus is acquired.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action VrFocusAcquired</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager_VrFocusLost.md&amp;value=---%0Auid%3A%20Global.OVRManager.VrFocusLost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L160">View Source</a>
+  </span>
+  <h4 id="Global_OVRManager_VrFocusLost" data-uid="Global.OVRManager.VrFocusLost">VrFocusLost</h4>
+  <div class="markdown level1 summary"><p>Occurs when VR Focus is lost.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action VrFocusLost</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_OVRManager.md&amp;value=---%0Auid%3A%20Global.OVRManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/VR/Scripts/OVRManager.cs/#L53" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

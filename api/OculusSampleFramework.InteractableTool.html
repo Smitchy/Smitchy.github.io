@@ -1,0 +1,623 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class InteractableTool
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class InteractableTool
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="OculusSampleFramework.InteractableTool">
+  
+  
+  <h1 id="OculusSampleFramework_InteractableTool" data-uid="OculusSampleFramework.InteractableTool" class="text-break">Class InteractableTool
+  </h1>
+  <div class="markdown level0 summary"><p>A tool that can engage interactables.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">InteractableTool</span></div>
+      <div class="level6"><a class="xref" href="OculusSampleFramework.FingerTipPokeTool.html">FingerTipPokeTool</a></div>
+      <div class="level6"><a class="xref" href="OculusSampleFramework.RayTool.html">RayTool</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OculusSampleFramework.html">OculusSampleFramework</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="OculusSampleFramework_InteractableTool_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class InteractableTool : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool__currentIntersectingObjects.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool._currentIntersectingObjects%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L84">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_InteractableTool__currentIntersectingObjects" data-uid="OculusSampleFramework.InteractableTool._currentIntersectingObjects">_currentIntersectingObjects</h4>
+  <div class="markdown level1 summary"><p>List of objects that intersect tool.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;InteractableCollisionInfo&gt; _currentIntersectingObjects</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="OculusSampleFramework.InteractableCollisionInfo.html">InteractableCollisionInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_EnableState.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.EnableState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L103">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_EnableState_" data-uid="OculusSampleFramework.InteractableTool.EnableState*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_EnableState" data-uid="OculusSampleFramework.InteractableTool.EnableState">EnableState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract bool EnableState { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_InteractionPosition.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.InteractionPosition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L79">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_InteractionPosition_" data-uid="OculusSampleFramework.InteractableTool.InteractionPosition*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_InteractionPosition" data-uid="OculusSampleFramework.InteractableTool.InteractionPosition">InteractionPosition</h4>
+  <div class="markdown level1 summary"><p>Sometimes we want the position of a tool for stuff like pokes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 InteractionPosition { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_IsFarFieldTool.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.IsFarFieldTool%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L72">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_IsFarFieldTool_" data-uid="OculusSampleFramework.InteractableTool.IsFarFieldTool*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_IsFarFieldTool" data-uid="OculusSampleFramework.InteractableTool.IsFarFieldTool">IsFarFieldTool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract bool IsFarFieldTool { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_IsRightHandedTool.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.IsRightHandedTool%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L66">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_IsRightHandedTool_" data-uid="OculusSampleFramework.InteractableTool.IsRightHandedTool*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_IsRightHandedTool" data-uid="OculusSampleFramework.InteractableTool.IsRightHandedTool">IsRightHandedTool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRightHandedTool { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_ToolInputState.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.ToolInputState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L70">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_ToolInputState_" data-uid="OculusSampleFramework.InteractableTool.ToolInputState*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_ToolInputState" data-uid="OculusSampleFramework.InteractableTool.ToolInputState">ToolInputState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract ToolInputState ToolInputState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OculusSampleFramework.ToolInputState.html">ToolInputState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_ToolTags.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.ToolTags%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L68">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_ToolTags_" data-uid="OculusSampleFramework.InteractableTool.ToolTags*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_ToolTags" data-uid="OculusSampleFramework.InteractableTool.ToolTags">ToolTags</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract InteractableToolTags ToolTags { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OculusSampleFramework.InteractableToolTags.html">InteractableToolTags</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_ToolTransform.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.ToolTransform%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L65">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_ToolTransform_" data-uid="OculusSampleFramework.InteractableTool.ToolTransform*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_ToolTransform" data-uid="OculusSampleFramework.InteractableTool.ToolTransform">ToolTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform ToolTransform { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_Velocity.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.Velocity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L74">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_Velocity_" data-uid="OculusSampleFramework.InteractableTool.Velocity*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_Velocity" data-uid="OculusSampleFramework.InteractableTool.Velocity">Velocity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Velocity { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_ClearAllCurrentCollisionInfos.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.ClearAllCurrentCollisionInfos%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L122">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_ClearAllCurrentCollisionInfos_" data-uid="OculusSampleFramework.InteractableTool.ClearAllCurrentCollisionInfos*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_ClearAllCurrentCollisionInfos" data-uid="OculusSampleFramework.InteractableTool.ClearAllCurrentCollisionInfos">ClearAllCurrentCollisionInfos()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearAllCurrentCollisionInfos()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_DeFocus.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.DeFocus%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L101">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_DeFocus_" data-uid="OculusSampleFramework.InteractableTool.DeFocus*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_DeFocus" data-uid="OculusSampleFramework.InteractableTool.DeFocus">DeFocus()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void DeFocus()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_FocusOnInteractable_OculusSampleFramework_Interactable_OculusSampleFramework_ColliderZone_.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.FocusOnInteractable(OculusSampleFramework.Interactable%2COculusSampleFramework.ColliderZone)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L98">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_FocusOnInteractable_" data-uid="OculusSampleFramework.InteractableTool.FocusOnInteractable*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_FocusOnInteractable_OculusSampleFramework_Interactable_OculusSampleFramework_ColliderZone_" data-uid="OculusSampleFramework.InteractableTool.FocusOnInteractable(OculusSampleFramework.Interactable,OculusSampleFramework.ColliderZone)">FocusOnInteractable(Interactable, ColliderZone)</h4>
+  <div class="markdown level1 summary"><p>Used to tell the tool to &quot;focus&quot; on a specific object, if
+focusing is indeed possible given the tool type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void FocusOnInteractable(Interactable focusedInteractable, ColliderZone colliderZone)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OculusSampleFramework.Interactable.html">Interactable</a></td>
+        <td><span class="parametername">focusedInteractable</span></td>
+        <td><p>Interactable to focus.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OculusSampleFramework.ColliderZone.html">ColliderZone</a></td>
+        <td><span class="parametername">colliderZone</span></td>
+        <td><p>Collider zone of interactable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_GetCurrentIntersectingObjects.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.GetCurrentIntersectingObjects%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L86">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_GetCurrentIntersectingObjects_" data-uid="OculusSampleFramework.InteractableTool.GetCurrentIntersectingObjects*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_GetCurrentIntersectingObjects" data-uid="OculusSampleFramework.InteractableTool.GetCurrentIntersectingObjects">GetCurrentIntersectingObjects()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;InteractableCollisionInfo&gt; GetCurrentIntersectingObjects()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="OculusSampleFramework.InteractableCollisionInfo.html">InteractableCollisionInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_GetFirstCurrentCollisionInfo.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.GetFirstCurrentCollisionInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L117">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_GetFirstCurrentCollisionInfo_" data-uid="OculusSampleFramework.InteractableTool.GetFirstCurrentCollisionInfo*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_GetFirstCurrentCollisionInfo" data-uid="OculusSampleFramework.InteractableTool.GetFirstCurrentCollisionInfo">GetFirstCurrentCollisionInfo()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyValuePair&lt;Interactable, InteractableCollisionInfo&gt; GetFirstCurrentCollisionInfo()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<a class="xref" href="OculusSampleFramework.Interactable.html">Interactable</a>, <a class="xref" href="OculusSampleFramework.InteractableCollisionInfo.html">InteractableCollisionInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_GetNextIntersectingObjects.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.GetNextIntersectingObjects%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L90">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_GetNextIntersectingObjects_" data-uid="OculusSampleFramework.InteractableTool.GetNextIntersectingObjects*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_GetNextIntersectingObjects" data-uid="OculusSampleFramework.InteractableTool.GetNextIntersectingObjects">GetNextIntersectingObjects()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract List&lt;InteractableCollisionInfo&gt; GetNextIntersectingObjects()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="OculusSampleFramework.InteractableCollisionInfo.html">InteractableCollisionInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_Initialize.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L115">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_Initialize_" data-uid="OculusSampleFramework.InteractableTool.Initialize*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_Initialize" data-uid="OculusSampleFramework.InteractableTool.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Initialize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_UpdateCurrentCollisionsBasedOnDepth.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.UpdateCurrentCollisionsBasedOnDepth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L130">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_UpdateCurrentCollisionsBasedOnDepth_" data-uid="OculusSampleFramework.InteractableTool.UpdateCurrentCollisionsBasedOnDepth*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_UpdateCurrentCollisionsBasedOnDepth" data-uid="OculusSampleFramework.InteractableTool.UpdateCurrentCollisionsBasedOnDepth">UpdateCurrentCollisionsBasedOnDepth()</h4>
+  <div class="markdown level1 summary"><p>For each intersecting interactable, update meta data to indicate deepest collision only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void UpdateCurrentCollisionsBasedOnDepth()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool_UpdateLatestCollisionData.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool.UpdateLatestCollisionData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L155">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_InteractableTool_UpdateLatestCollisionData_" data-uid="OculusSampleFramework.InteractableTool.UpdateLatestCollisionData*"></a>
+  <h4 id="OculusSampleFramework_InteractableTool_UpdateLatestCollisionData" data-uid="OculusSampleFramework.InteractableTool.UpdateLatestCollisionData">UpdateLatestCollisionData()</h4>
+  <div class="markdown level1 summary"><p>If our collision information changed per frame, make note of it.
+Removed, added and remaining objects must get their proper events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void UpdateLatestCollisionData()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_InteractableTool.md&amp;value=---%0Auid%3A%20OculusSampleFramework.InteractableTool%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs/#L63" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CharacterCameraConstraint
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CharacterCameraConstraint
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Global.CharacterCameraConstraint">
+  
+  
+  <h1 id="Global_CharacterCameraConstraint" data-uid="Global.CharacterCameraConstraint" class="text-break">Class CharacterCameraConstraint
+  </h1>
+  <div class="markdown level0 summary"><p>This component is responsible for moving the character capsule to match the HMD, fading out the camera or blocking movement when 
+collisions occur, and adjusting the character capsule height to match the HMD&apos;s offset from the ground.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">CharacterCameraConstraint</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Global_CharacterCameraConstraint_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CharacterCameraConstraint : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_CharacterCameraConstraint_CameraRig.md&amp;value=---%0Auid%3A%20Global.CharacterCameraConstraint.CameraRig%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/CharacterCameraConstraint.cs/#L23">View Source</a>
+  </span>
+  <h4 id="Global_CharacterCameraConstraint_CameraRig" data-uid="Global.CharacterCameraConstraint.CameraRig">CameraRig</h4>
+  <div class="markdown level1 summary"><p>This should be a reference to the OVRCameraRig that is usually a child of the PlayerController.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;This should be a reference to the OVRCameraRig that is usually a child of the PlayerController.&quot;)]
+public OVRCameraRig CameraRig</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVRCameraRig.html">OVRCameraRig</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_CharacterCameraConstraint_CollideLayers.md&amp;value=---%0Auid%3A%20Global.CharacterCameraConstraint.CollideLayers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/CharacterCameraConstraint.cs/#L30">View Source</a>
+  </span>
+  <h4 id="Global_CharacterCameraConstraint_CollideLayers" data-uid="Global.CharacterCameraConstraint.CollideLayers">CollideLayers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayerMask CollideLayers</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_CharacterCameraConstraint_EnableCollision.md&amp;value=---%0Auid%3A%20Global.CharacterCameraConstraint.EnableCollision%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/CharacterCameraConstraint.cs/#L29">View Source</a>
+  </span>
+  <h4 id="Global_CharacterCameraConstraint_EnableCollision" data-uid="Global.CharacterCameraConstraint.EnableCollision">EnableCollision</h4>
+  <div class="markdown level1 summary"><p>When true, the character capsule won&apos;t grow into upwards geo when the player stands up under a low surface.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;When true, the camera will be prevented from passing through collidable geometry. This is usually considered uncomfortable for users.&quot;)]
+public bool EnableCollision</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_CharacterCameraConstraint_FadeMaxDistance.md&amp;value=---%0Auid%3A%20Global.CharacterCameraConstraint.FadeMaxDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/CharacterCameraConstraint.cs/#L55">View Source</a>
+  </span>
+  <h4 id="Global_CharacterCameraConstraint_FadeMaxDistance" data-uid="Global.CharacterCameraConstraint.FadeMaxDistance">FadeMaxDistance</h4>
+  <div class="markdown level1 summary"><p>This value is used to control how far from the character capsule the HMD must be before the fade to black is complete. 
+This should be tuned so that it is fully faded in before the camera will clip geometry that the player should not be able see beyond.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;This value is used to control how far from the character capsule the HMD must be before the fade to black is complete. This should be tuned so that it is fully faded in before the camera will clip geometry that the player should not be able see beyond.&quot;)]
+public float FadeMaxDistance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_CharacterCameraConstraint_FadeMinDistance.md&amp;value=---%0Auid%3A%20Global.CharacterCameraConstraint.FadeMinDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/CharacterCameraConstraint.cs/#L42">View Source</a>
+  </span>
+  <h4 id="Global_CharacterCameraConstraint_FadeMinDistance" data-uid="Global.CharacterCameraConstraint.FadeMinDistance">FadeMinDistance</h4>
+  <div class="markdown level1 summary"><p>This value is used to control how far from the character capsule the HMD must be before the fade to black begins.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;This value is used to control how far from the character capsule the HMD must be before the fade to black begins.&quot;)]
+public float FadeMinDistance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_CharacterCameraConstraint_MaxFade.md&amp;value=---%0Auid%3A%20Global.CharacterCameraConstraint.MaxFade%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/CharacterCameraConstraint.cs/#L36">View Source</a>
+  </span>
+  <h4 id="Global_CharacterCameraConstraint_MaxFade" data-uid="Global.CharacterCameraConstraint.MaxFade">MaxFade</h4>
+  <div class="markdown level1 summary"><p>This should be set to 1 to make the screen completely fade out when the HMD is inside world geometry. Lesser values can be useful for testing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;This should be set to 1 to make the screen completely fade out when the HMD is inside world geometry. Lesser values can be useful for testing.&quot;)]
+public float MaxFade</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_CharacterCameraConstraint_PreferredHeight.md&amp;value=---%0Auid%3A%20Global.CharacterCameraConstraint.PreferredHeight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/CharacterCameraConstraint.cs/#L48">View Source</a>
+  </span>
+  <h4 id="Global_CharacterCameraConstraint_PreferredHeight" data-uid="Global.CharacterCameraConstraint.PreferredHeight">PreferredHeight</h4>
+  <div class="markdown level1 summary"><p>If &gt; 0, the capsule will stretch or shrink so that the top of it is at the camera&apos;s y location.
+Note that if you want the capsule to go a bit higher than the camera you&apos;ll need to add your own padding logic.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PreferredHeight</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_CharacterCameraConstraint.md&amp;value=---%0Auid%3A%20Global.CharacterCameraConstraint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/CharacterCameraConstraint.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

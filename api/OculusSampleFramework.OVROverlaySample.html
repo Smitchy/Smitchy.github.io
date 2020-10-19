@@ -1,0 +1,687 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class OVROverlaySample
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class OVROverlaySample
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="OculusSampleFramework.OVROverlaySample">
+  
+  
+  <h1 id="OculusSampleFramework_OVROverlaySample" data-uid="OculusSampleFramework.OVROverlaySample" class="text-break">Class OVROverlaySample
+  </h1>
+  <div class="markdown level0 summary"><p>Usage: demonstrate how to use overlay layers for a paneled UI system
+On Mobile, we support both Cylinder layer and Quad layer
+Press any button: it will cycle  [world geometry Quad]-&gt;[overlay layer Quad]-&gt;[world geometry cylinder]-&gt;[overlay layer cylinder]
+On PC, only Quad layer is supported
+Press any button: it will cycle  [world geometry Quad]-&gt;[overlay layer Quad]</p>
+<p>You should be able to observe sharper and less aliased image when switch from world geometry to overlay layer.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">OVROverlaySample</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OculusSampleFramework.html">OculusSampleFramework</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="OculusSampleFramework_OVROverlaySample_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class OVROverlaySample : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_applicationLabelTexture.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.applicationLabelTexture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L89">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_applicationLabelTexture" data-uid="OculusSampleFramework.OVROverlaySample.applicationLabelTexture">applicationLabelTexture</h4>
+  <div class="markdown level1 summary"><p>The quad textures to indicate the active rendering method</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture applicationLabelTexture</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_cameraRenderOverlay.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.cameraRenderOverlay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L79">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_cameraRenderOverlay" data-uid="OculusSampleFramework.OVROverlaySample.cameraRenderOverlay">cameraRenderOverlay</h4>
+  <div class="markdown level1 summary"><p>The OVROverlay component to pass the uiCamera rendered RT to</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OVROverlay cameraRenderOverlay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVROverlay.html">OVROverlay</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_compositorLabelTexture.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.compositorLabelTexture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L90">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_compositorLabelTexture" data-uid="OculusSampleFramework.OVROverlaySample.compositorLabelTexture">compositorLabelTexture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture compositorLabelTexture</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_cubemapOverlay.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.cubemapOverlay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L97">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_cubemapOverlay" data-uid="OculusSampleFramework.OVROverlaySample.cubemapOverlay">cubemapOverlay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OVROverlay cubemapOverlay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVROverlay.html">OVROverlay</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_cubeSpawnRadius.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.cubeSpawnRadius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L100">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_cubeSpawnRadius" data-uid="OculusSampleFramework.OVROverlaySample.cubeSpawnRadius">cubeSpawnRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float cubeSpawnRadius</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_distanceFromCamToLoadText.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.distanceFromCamToLoadText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L99">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_distanceFromCamToLoadText" data-uid="OculusSampleFramework.OVROverlaySample.distanceFromCamToLoadText">distanceFromCamToLoadText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float distanceFromCamToLoadText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_heightBetweenItems.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.heightBetweenItems%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L101">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_heightBetweenItems" data-uid="OculusSampleFramework.OVROverlaySample.heightBetweenItems">heightBetweenItems</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float heightBetweenItems</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_loadingTextQuadOverlay.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.loadingTextQuadOverlay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L98">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_loadingTextQuadOverlay" data-uid="OculusSampleFramework.OVROverlaySample.loadingTextQuadOverlay">loadingTextQuadOverlay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OVROverlay loadingTextQuadOverlay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVROverlay.html">OVROverlay</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_mainCamera.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.mainCamera%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L63">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_mainCamera" data-uid="OculusSampleFramework.OVROverlaySample.mainCamera">mainCamera</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;App vs Compositor Comparison Settings&quot;)]
+public GameObject mainCamera</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_numLevels.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.numLevels%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L103">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_numLevels" data-uid="OculusSampleFramework.OVROverlaySample.numLevels">numLevels</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numLevels</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_numLoopsTrigger.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.numLoopsTrigger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L104">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_numLoopsTrigger" data-uid="OculusSampleFramework.OVROverlaySample.numLoopsTrigger">numLoopsTrigger</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numLoopsTrigger</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_numObjectsPerLevel.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.numObjectsPerLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L102">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_numObjectsPerLevel" data-uid="OculusSampleFramework.OVROverlaySample.numObjectsPerLevel">numObjectsPerLevel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numObjectsPerLevel</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_prefabForLevelLoadSim.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.prefabForLevelLoadSim%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L96">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_prefabForLevelLoadSim" data-uid="OculusSampleFramework.OVROverlaySample.prefabForLevelLoadSim">prefabForLevelLoadSim</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Level Loading Sim Settings&quot;)]
+public GameObject prefabForLevelLoadSim</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_renderingLabelOverlay.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.renderingLabelOverlay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L84">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_renderingLabelOverlay" data-uid="OculusSampleFramework.OVROverlaySample.renderingLabelOverlay">renderingLabelOverlay</h4>
+  <div class="markdown level1 summary"><p>The OVROverlay component displaying which rendering mode is active</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OVROverlay renderingLabelOverlay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.OVROverlay.html">OVROverlay</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_uiCamera.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.uiCamera%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L68">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_uiCamera" data-uid="OculusSampleFramework.OVROverlaySample.uiCamera">uiCamera</h4>
+  <div class="markdown level1 summary"><p>The camera used to render UI panels</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject uiCamera</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_uiGeoParent.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.uiGeoParent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L73">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_uiGeoParent" data-uid="OculusSampleFramework.OVROverlaySample.uiGeoParent">uiGeoParent</h4>
+  <div class="markdown level1 summary"><p>The parents of grouped UI panels</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject uiGeoParent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_worldspaceGeoParent.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.worldspaceGeoParent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L74">View Source</a>
+  </span>
+  <h4 id="OculusSampleFramework_OVROverlaySample_worldspaceGeoParent" data-uid="OculusSampleFramework.OVROverlaySample.worldspaceGeoParent">worldspaceGeoParent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject worldspaceGeoParent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample_RadioPressed_System_String_System_String_UnityEngine_UI_Toggle_.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample.RadioPressed(System.String%2CSystem.String%2CUnityEngine.UI.Toggle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L357">View Source</a>
+  </span>
+  <a id="OculusSampleFramework_OVROverlaySample_RadioPressed_" data-uid="OculusSampleFramework.OVROverlaySample.RadioPressed*"></a>
+  <h4 id="OculusSampleFramework_OVROverlaySample_RadioPressed_System_String_System_String_UnityEngine_UI_Toggle_" data-uid="OculusSampleFramework.OVROverlaySample.RadioPressed(System.String,System.String,UnityEngine.UI.Toggle)">RadioPressed(String, String, Toggle)</h4>
+  <div class="markdown level1 summary"><p>Usage: radio button handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RadioPressed(string radioLabel, string group, Toggle t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">radioLabel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.Toggle</span></td>
+        <td><span class="parametername">t</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=OculusSampleFramework_OVROverlaySample.md&amp;value=---%0Auid%3A%20OculusSampleFramework.OVROverlaySample%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs/#L41" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

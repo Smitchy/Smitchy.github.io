@@ -1,0 +1,674 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class WaveWriter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class WaveWriter
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CSCore.Codecs.WAV.WaveWriter">
+  
+  
+  <h1 id="CSCore_Codecs_WAV_WaveWriter" data-uid="CSCore.Codecs.WAV.WaveWriter" class="text-break">Class WaveWriter
+  </h1>
+  <div class="markdown level0 summary"><p>Encoder for wave files.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">WaveWriter</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="CSCore.IWriteable.html">IWriteable</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CSCore.Codecs.WAV.html">CSCore.Codecs.WAV</a></h6>
+  <h6><strong>Assembly</strong>: PhotonVoice.dll</h6>
+  <h5 id="CSCore_Codecs_WAV_WaveWriter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class WaveWriter : IDisposable, IWriteable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter__ctor_System_IO_Stream_CSCore_WaveFormat_.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.%23ctor(System.IO.Stream%2CCSCore.WaveFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L68">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter__ctor_" data-uid="CSCore.Codecs.WAV.WaveWriter.#ctor*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter__ctor_System_IO_Stream_CSCore_WaveFormat_" data-uid="CSCore.Codecs.WAV.WaveWriter.#ctor(System.IO.Stream,CSCore.WaveFormat)">WaveWriter(Stream, WaveFormat)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="CSCore.Codecs.WAV.WaveWriter.html">WaveWriter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WaveWriter(Stream stream, WaveFormat waveFormat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>Destination stream which should be used to store the</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CSCore.WaveFormat.html">WaveFormat</a></td>
+        <td><span class="parametername">waveFormat</span></td>
+        <td><p>Format of the waveform-audio data. Note that the <a class="xref" href="CSCore.Codecs.WAV.WaveWriter.html">WaveWriter</a> won&apos;t convert any
+data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter__ctor_System_String_CSCore_WaveFormat_.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.%23ctor(System.String%2CCSCore.WaveFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L54">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter__ctor_" data-uid="CSCore.Codecs.WAV.WaveWriter.#ctor*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter__ctor_System_String_CSCore_WaveFormat_" data-uid="CSCore.Codecs.WAV.WaveWriter.#ctor(System.String,CSCore.WaveFormat)">WaveWriter(String, WaveFormat)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="CSCore.Codecs.WAV.WaveWriter.html">WaveWriter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WaveWriter(string fileName, WaveFormat waveFormat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>Filename of the destination file. This filename should typically end with the .wav extension.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CSCore.WaveFormat.html">WaveFormat</a></td>
+        <td><span class="parametername">waveFormat</span></td>
+        <td><p>Format of the waveform-audio data. Note that the <a class="xref" href="CSCore.Codecs.WAV.WaveWriter.html">WaveWriter</a> won&apos;t convert any
+data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_IsDisposed.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.IsDisposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L27">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_IsDisposed_" data-uid="CSCore.Codecs.WAV.WaveWriter.IsDisposed*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_IsDisposed" data-uid="CSCore.Codecs.WAV.WaveWriter.IsDisposed">IsDisposed</h4>
+  <div class="markdown level1 summary"><p>Signals if the object has already been disposed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_IsDisposing.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.IsDisposing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L38">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_IsDisposing_" data-uid="CSCore.Codecs.WAV.WaveWriter.IsDisposing*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_IsDisposing" data-uid="CSCore.Codecs.WAV.WaveWriter.IsDisposing">IsDisposing</h4>
+  <div class="markdown level1 summary"><p>Signals if the object is in a disposing state</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDisposing { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_Dispose.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L96">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_Dispose_" data-uid="CSCore.Codecs.WAV.WaveWriter.Dispose*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_Dispose" data-uid="CSCore.Codecs.WAV.WaveWriter.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Disposes the <a class="xref" href="CSCore.Codecs.WAV.WaveWriter.html">WaveWriter</a> and writes down the wave header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L315">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_Dispose_" data-uid="CSCore.Codecs.WAV.WaveWriter.Dispose*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_Dispose_System_Boolean_" data-uid="CSCore.Codecs.WAV.WaveWriter.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Disposes the <a class="xref" href="CSCore.Codecs.WAV.WaveWriter.html">WaveWriter</a> and writes down the wave header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td><p>True to release both managed and unmanaged resources; false to release only unmanaged
+resources.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_Finalize.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L357">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_Finalize_" data-uid="CSCore.Codecs.WAV.WaveWriter.Finalize*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_Finalize" data-uid="CSCore.Codecs.WAV.WaveWriter.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"><p>Destructor of the <a class="xref" href="CSCore.Codecs.WAV.WaveWriter.html">WaveWriter</a> which calls the <a class="xref" href="CSCore.Codecs.WAV.WaveWriter.html#CSCore_Codecs_WAV_WaveWriter_Dispose_System_Boolean_">Dispose(Boolean)</a> method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_Write_System_Byte_.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.Write(System.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L213">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_Write_" data-uid="CSCore.Codecs.WAV.WaveWriter.Write*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_Write_System_Byte_" data-uid="CSCore.Codecs.WAV.WaveWriter.Write(System.Byte)">Write(Byte)</h4>
+  <div class="markdown level1 summary"><p>Writes down a single byte.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Write(byte value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Byte to write down.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_Write_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.Write(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L201">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_Write_" data-uid="CSCore.Codecs.WAV.WaveWriter.Write*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_Write_System_Byte___System_Int32_System_Int32_" data-uid="CSCore.Codecs.WAV.WaveWriter.Write(System.Byte[],System.Int32,System.Int32)">Write(Byte[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Encodes raw data in the form of a byte array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Write(byte[] buffer, int offset, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>Byte array which contains the data to encode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>Zero-based offset in the <code data-dev-comment-type="paramref" class="paramref">buffer</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Number of bytes to encode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_Write_System_Int16_.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.Write(System.Int16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L225">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_Write_" data-uid="CSCore.Codecs.WAV.WaveWriter.Write*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_Write_System_Int16_" data-uid="CSCore.Codecs.WAV.WaveWriter.Write(System.Int16)">Write(Int16)</h4>
+  <div class="markdown level1 summary"><p>Writes down a single 16 bit integer value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Write(short value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to write down.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_Write_System_Int32_.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.Write(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L237">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_Write_" data-uid="CSCore.Codecs.WAV.WaveWriter.Write*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_Write_System_Int32_" data-uid="CSCore.Codecs.WAV.WaveWriter.Write(System.Int32)">Write(Int32)</h4>
+  <div class="markdown level1 summary"><p>Writes down a single 32 bit integer value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Write(int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to write down.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_Write_System_Single_.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.Write(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L249">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_Write_" data-uid="CSCore.Codecs.WAV.WaveWriter.Write*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_Write_System_Single_" data-uid="CSCore.Codecs.WAV.WaveWriter.Write(System.Single)">Write(Single)</h4>
+  <div class="markdown level1 summary"><p>Writes down a single 32 bit float value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Write(float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value to write down.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_WriteSample_System_Single_.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.WriteSample(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L138">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_WriteSample_" data-uid="CSCore.Codecs.WAV.WaveWriter.WriteSample*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_WriteSample_System_Single_" data-uid="CSCore.Codecs.WAV.WaveWriter.WriteSample(System.Single)">WriteSample(Single)</h4>
+  <div class="markdown level1 summary"><p>Encodes a single sample.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteSample(float sample)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">sample</span></td>
+        <td><p>The sample to encode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_WriteSamples_System_Single___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.WriteSamples(System.Single%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L185">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_WriteSamples_" data-uid="CSCore.Codecs.WAV.WaveWriter.WriteSamples*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_WriteSamples_System_Single___System_Int32_System_Int32_" data-uid="CSCore.Codecs.WAV.WaveWriter.WriteSamples(System.Single[],System.Int32,System.Int32)">WriteSamples(Single[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Encodes multiple samples.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteSamples(float[] samples, int offset, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td><span class="parametername">samples</span></td>
+        <td><p>Float array which contains the samples to encode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>Zero-based offset in the <code data-dev-comment-type="paramref" class="paramref">samples</code> array.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Number of samples to encode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter_WriteToFile_System_String_CSCore_IWaveSource_System_Boolean_System_Int32_.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter.WriteToFile(System.String%2CCSCore.IWaveSource%2CSystem.Boolean%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L112">View Source</a>
+  </span>
+  <a id="CSCore_Codecs_WAV_WaveWriter_WriteToFile_" data-uid="CSCore.Codecs.WAV.WaveWriter.WriteToFile*"></a>
+  <h4 id="CSCore_Codecs_WAV_WaveWriter_WriteToFile_System_String_CSCore_IWaveSource_System_Boolean_System_Int32_" data-uid="CSCore.Codecs.WAV.WaveWriter.WriteToFile(System.String,CSCore.IWaveSource,System.Boolean,System.Int32)">WriteToFile(String, IWaveSource, Boolean, Int32)</h4>
+  <div class="markdown level1 summary"><p>Writes down all audio data of the <a class="xref" href="CSCore.IWaveSource.html">IWaveSource</a> to a file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use the Extensions.WriteToWaveStream extension instead.&quot;)]
+public static void WriteToFile(string filename, IWaveSource source, bool deleteFileIfAlreadyExists, int maxlength = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filename</span></td>
+        <td><p>The filename.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CSCore.IWaveSource.html">IWaveSource</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The source to write down to the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">deleteFileIfAlreadyExists</span></td>
+        <td><p>if set to <code>true</code> the file will be overritten if it already exists.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxlength</span></td>
+        <td><p>The maximum number of bytes to write. Use -1 to write an infinte number of bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="CSCore_Codecs_WAV_WaveWriter_WriteToFile_System_String_CSCore_IWaveSource_System_Boolean_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is obsolete. Use the <see cref="!:Extensions.WriteToWaveStream"></see> extension instead.</p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CSCore.IWriteable.html">IWriteable</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=CSCore_Codecs_WAV_WaveWriter.md&amp;value=---%0Auid%3A%20CSCore.Codecs.WAV.WaveWriter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Code/UtilityScripts/AudioUtils/CSCore/WaveWriter.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

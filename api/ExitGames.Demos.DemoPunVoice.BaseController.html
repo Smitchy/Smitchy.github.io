@@ -1,0 +1,549 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseController
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ExitGames.Demos.DemoPunVoice.BaseController">
+  
+  
+  <h1 id="ExitGames_Demos_DemoPunVoice_BaseController" data-uid="ExitGames.Demos.DemoPunVoice.BaseController" class="text-break">Class BaseController
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">BaseController</span></div>
+      <div class="level6"><a class="xref" href="ExitGames.Demos.DemoPunVoice.FirstPersonController.html">FirstPersonController</a></div>
+      <div class="level6"><a class="xref" href="ExitGames.Demos.DemoPunVoice.ThirdPersonController.html">ThirdPersonController</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ExitGames.Demos.DemoPunVoice.html">ExitGames.Demos.DemoPunVoice</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="ExitGames_Demos_DemoPunVoice_BaseController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[RequireComponent(typeof(PhotonView))]
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Animator))]
+public abstract class BaseController : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_animator.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.animator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L25">View Source</a>
+  </span>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_animator" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.animator">animator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Animator animator</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Animator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_camTrans.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.camTrans%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L26">View Source</a>
+  </span>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_camTrans" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.camTrans">camTrans</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform camTrans</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_ControllerCamera.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.ControllerCamera%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L22">View Source</a>
+  </span>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_ControllerCamera" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.ControllerCamera">ControllerCamera</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Camera ControllerCamera</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Camera</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_rigidBody.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.rigidBody%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L24">View Source</a>
+  </span>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_rigidBody" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.rigidBody">rigidBody</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Rigidbody rigidBody</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rigidbody</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_speed.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.speed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L31">View Source</a>
+  </span>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_speed" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.speed">speed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected float speed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_ChangePOV_CameraChanged_UnityEngine_Camera_.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.ChangePOV_CameraChanged(UnityEngine.Camera)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L46">View Source</a>
+  </span>
+  <a id="ExitGames_Demos_DemoPunVoice_BaseController_ChangePOV_CameraChanged_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.ChangePOV_CameraChanged*"></a>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_ChangePOV_CameraChanged_UnityEngine_Camera_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.ChangePOV_CameraChanged(UnityEngine.Camera)">ChangePOV_CameraChanged(Camera)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ChangePOV_CameraChanged(Camera camera)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Camera</span></td>
+        <td><span class="parametername">camera</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_FixedUpdate.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.FixedUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L94">View Source</a>
+  </span>
+  <a id="ExitGames_Demos_DemoPunVoice_BaseController_FixedUpdate_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.FixedUpdate*"></a>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_FixedUpdate" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.FixedUpdate">FixedUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void FixedUpdate()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_HideCamera_UnityEngine_Camera_.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.HideCamera(UnityEngine.Camera)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L116">View Source</a>
+  </span>
+  <a id="ExitGames_Demos_DemoPunVoice_BaseController_HideCamera_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.HideCamera*"></a>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_HideCamera_UnityEngine_Camera_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.HideCamera(UnityEngine.Camera)">HideCamera(Camera)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void HideCamera(Camera camera)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Camera</span></td>
+        <td><span class="parametername">camera</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_Init.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.Init%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L74">View Source</a>
+  </span>
+  <a id="ExitGames_Demos_DemoPunVoice_BaseController_Init_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.Init*"></a>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_Init" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.Init">Init()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Init()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_Move_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.Move(System.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L121">View Source</a>
+  </span>
+  <a id="ExitGames_Demos_DemoPunVoice_BaseController_Move_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.Move*"></a>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_Move_System_Single_System_Single_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.Move(System.Single,System.Single)">Move(Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void Move(float h, float v)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">h</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">v</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_OnDisable.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.OnDisable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L41">View Source</a>
+  </span>
+  <a id="ExitGames_Demos_DemoPunVoice_BaseController_OnDisable_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.OnDisable*"></a>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_OnDisable" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.OnDisable">OnDisable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDisable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_OnEnable.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.OnEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L36">View Source</a>
+  </span>
+  <a id="ExitGames_Demos_DemoPunVoice_BaseController_OnEnable_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.OnEnable*"></a>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_OnEnable" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnEnable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_SetCamera.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.SetCamera%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L80">View Source</a>
+  </span>
+  <a id="ExitGames_Demos_DemoPunVoice_BaseController_SetCamera_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.SetCamera*"></a>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_SetCamera" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.SetCamera">SetCamera()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SetCamera()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_ShowCamera_UnityEngine_Camera_.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.ShowCamera(UnityEngine.Camera)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L111">View Source</a>
+  </span>
+  <a id="ExitGames_Demos_DemoPunVoice_BaseController_ShowCamera_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.ShowCamera*"></a>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_ShowCamera_UnityEngine_Camera_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.ShowCamera(UnityEngine.Camera)">ShowCamera(Camera)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ShowCamera(Camera camera)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Camera</span></td>
+        <td><span class="parametername">camera</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_Start.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L59">View Source</a>
+  </span>
+  <a id="ExitGames_Demos_DemoPunVoice_BaseController_Start_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.Start*"></a>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_Start" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController_UpdateAnimator_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController.UpdateAnimator(System.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L86">View Source</a>
+  </span>
+  <a id="ExitGames_Demos_DemoPunVoice_BaseController_UpdateAnimator_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.UpdateAnimator*"></a>
+  <h4 id="ExitGames_Demos_DemoPunVoice_BaseController_UpdateAnimator_System_Single_System_Single_" data-uid="ExitGames.Demos.DemoPunVoice.BaseController.UpdateAnimator(System.Single,System.Single)">UpdateAnimator(Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void UpdateAnimator(float h, float v)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">h</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">v</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=ExitGames_Demos_DemoPunVoice_BaseController.md&amp;value=---%0Auid%3A%20ExitGames.Demos.DemoPunVoice.BaseController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

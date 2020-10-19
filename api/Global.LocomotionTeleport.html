@@ -1,0 +1,1928 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class LocomotionTeleport
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class LocomotionTeleport
+   ">
+    <meta name="generator" content="docfx 2.56.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Global.LocomotionTeleport">
+  
+  
+  <h1 id="Global_LocomotionTeleport" data-uid="Global.LocomotionTeleport" class="text-break">Class LocomotionTeleport
+  </h1>
+  <div class="markdown level0 summary"><p>The LocomotionTeleport class controls and centralizes functionality for the various types 
+of teleports. The system is designed to work as a set of components that are each responsible 
+for different aspects of the teleport process. This makes it possible for different kinds of 
+teleport behaviors to be occur by simply enabling different combinations of components.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">LocomotionTeleport</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Global_LocomotionTeleport_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class LocomotionTeleport : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_AimCollisionHeight.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.AimCollisionHeight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L283">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_AimCollisionHeight" data-uid="Global.LocomotionTeleport.AimCollisionHeight">AimCollisionHeight</h4>
+  <div class="markdown level1 summary"><p>Height of the capsule used for collision testing when aiming to possible teleport destinations. Ignored if UseCharacterCollisionData is true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Height of the capsule used for collision testing when aiming to possible teleport destinations. Ignored if UseCharacterCollisionData is true.&quot;)]
+public float AimCollisionHeight</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_AimCollisionRadius.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.AimCollisionRadius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L277">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_AimCollisionRadius" data-uid="Global.LocomotionTeleport.AimCollisionRadius">AimCollisionRadius</h4>
+  <div class="markdown level1 summary"><p>Radius of the sphere or capsule used for collision testing when aiming to possible teleport destinations. Ignored if UseCharacterCollisionData is true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Radius of the sphere or capsule used for collision testing when aiming to possible teleport destinations. Ignored if UseCharacterCollisionData is true.&quot;)]
+public float AimCollisionRadius</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_AimCollisionType.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.AimCollisionType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L265">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_AimCollisionType" data-uid="Global.LocomotionTeleport.AimCollisionType">AimCollisionType</h4>
+  <div class="markdown level1 summary"><p>When aiming at possible destinations, the aim collision type determines which shape to use for collision tests.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;When aiming at possible destinations, the aim collision type determines which shape to use for collision tests.&quot;)]
+public LocomotionTeleport.AimCollisionTypes AimCollisionType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.LocomotionTeleport.AimCollisionTypes.html">LocomotionTeleport.AimCollisionTypes</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_AimHandler.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.AimHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L143">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_AimHandler" data-uid="Global.LocomotionTeleport.AimHandler">AimHandler</h4>
+  <div class="markdown level1 summary"><p>Aiming is handled by one specific aim handler at a time. When the aim handler component is enabled, it 
+will set this reference to the AimHandler so that other parts of the system which need access to the 
+current aim handler can be sure to use the correct component. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public TeleportAimHandler AimHandler</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.TeleportAimHandler.html">TeleportAimHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_CurrentIntention.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.CurrentIntention%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L197">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_CurrentIntention" data-uid="Global.LocomotionTeleport.CurrentIntention">CurrentIntention</h4>
+  <div class="markdown level1 summary"><p>The CurrentIntention is used by the state machine to know when it is time to switch to a new state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public LocomotionTeleport.TeleportIntentions CurrentIntention</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.LocomotionTeleport.TeleportIntentions.html">LocomotionTeleport.TeleportIntentions</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnableMovementDuringAim.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnableMovementDuringAim%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L57">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnableMovementDuringAim" data-uid="Global.LocomotionTeleport.EnableMovementDuringAim">EnableMovementDuringAim</h4>
+  <div class="markdown level1 summary"><p>Allow linear movement while the teleport system is in the process of aiming for a teleport target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Allow linear movement while the teleport system is in the process of aiming for a teleport target.&quot;)]
+public bool EnableMovementDuringAim</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnableMovementDuringPostTeleport.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnableMovementDuringPostTeleport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L69">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnableMovementDuringPostTeleport" data-uid="Global.LocomotionTeleport.EnableMovementDuringPostTeleport">EnableMovementDuringPostTeleport</h4>
+  <div class="markdown level1 summary"><p>Allow linear movement after the teleport has occurred but before the system has returned to the ready state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Allow linear movement after the teleport has occurred but before the system has returned to the ready state.&quot;)]
+public bool EnableMovementDuringPostTeleport</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnableMovementDuringPreTeleport.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnableMovementDuringPreTeleport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L63">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnableMovementDuringPreTeleport" data-uid="Global.LocomotionTeleport.EnableMovementDuringPreTeleport">EnableMovementDuringPreTeleport</h4>
+  <div class="markdown level1 summary"><p>Allow linear movement while the teleport system is in the process of configuring the landing orientation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Allow linear movement while the teleport system is in the process of configuring the landing orientation.&quot;)]
+public bool EnableMovementDuringPreTeleport</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnableMovementDuringReady.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnableMovementDuringReady%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L51">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnableMovementDuringReady" data-uid="Global.LocomotionTeleport.EnableMovementDuringReady">EnableMovementDuringReady</h4>
+  <div class="markdown level1 summary"><p>Allow linear movement prior to the teleport system being activated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Allow linear movement prior to the teleport system being activated.&quot;)]
+public bool EnableMovementDuringReady</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnableRotationDuringAim.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnableRotationDuringAim%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L100">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnableRotationDuringAim" data-uid="Global.LocomotionTeleport.EnableRotationDuringAim">EnableRotationDuringAim</h4>
+  <div class="markdown level1 summary"><p>Allow rotation while the teleport system is in the process of aiming for a teleport target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Allow rotation while the teleport system is in the process of aiming for a teleport target.&quot;)]
+public bool EnableRotationDuringAim</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnableRotationDuringPostTeleport.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnableRotationDuringPostTeleport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L112">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnableRotationDuringPostTeleport" data-uid="Global.LocomotionTeleport.EnableRotationDuringPostTeleport">EnableRotationDuringPostTeleport</h4>
+  <div class="markdown level1 summary"><p>Allow rotation after the teleport has occurred but before the system has returned to the ready state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Allow rotation after the teleport has occurred but before the system has returned to the ready state.&quot;)]
+public bool EnableRotationDuringPostTeleport</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnableRotationDuringPreTeleport.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnableRotationDuringPreTeleport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L106">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnableRotationDuringPreTeleport" data-uid="Global.LocomotionTeleport.EnableRotationDuringPreTeleport">EnableRotationDuringPreTeleport</h4>
+  <div class="markdown level1 summary"><p>Allow rotation while the teleport system is in the process of configuring the landing orientation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Allow rotation while the teleport system is in the process of configuring the landing orientation.&quot;)]
+public bool EnableRotationDuringPreTeleport</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnableRotationDuringReady.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnableRotationDuringReady%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L94">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnableRotationDuringReady" data-uid="Global.LocomotionTeleport.EnableRotationDuringReady">EnableRotationDuringReady</h4>
+  <div class="markdown level1 summary"><p>Allow rotation prior to the teleport system being activated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Allow rotation prior to the teleport system being activated.&quot;)]
+public bool EnableRotationDuringReady</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_InputHandler.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.InputHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L180">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_InputHandler" data-uid="Global.LocomotionTeleport.InputHandler">InputHandler</h4>
+  <div class="markdown level1 summary"><p>The TeleportInputHandler is responsible for converting input events to TeleportIntentions. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public TeleportInputHandler InputHandler</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.TeleportInputHandler.html">TeleportInputHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_IsPostTeleportRequested.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.IsPostTeleportRequested%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L220">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_IsPostTeleportRequested" data-uid="Global.LocomotionTeleport.IsPostTeleportRequested">IsPostTeleportRequested</h4>
+  <div class="markdown level1 summary"><p>The state machine will not exit the PostTeleport state while IsPostTeleportRequested is true. 
+The sample doesn&apos;t currently use this, however this provides new components the ability to delay exiting 
+the PostTeleport state until game logic is ready for it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public bool IsPostTeleportRequested</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_IsPreTeleportRequested.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.IsPreTeleportRequested%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L205">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_IsPreTeleportRequested" data-uid="Global.LocomotionTeleport.IsPreTeleportRequested">IsPreTeleportRequested</h4>
+  <div class="markdown level1 summary"><p>The state machine will not exit the PreTeleport state while IsPreTeleportRequested is true.
+The sample doesn&apos;t currently use this, however this provides new components the ability to delay exiting 
+the PreTeleport state until game logic is ready for it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public bool IsPreTeleportRequested</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_IsTransitioning.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.IsTransitioning%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L212">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_IsTransitioning" data-uid="Global.LocomotionTeleport.IsTransitioning">IsTransitioning</h4>
+  <div class="markdown level1 summary"><p>The state machine will not exit the Teleporting state while IsTransitioning is true. This is how the BlinkTransition and WarpTransition 
+force the system to remain in the Teleporting state until the transition is complete.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public bool IsTransitioning</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_TeleportDestinationLayer.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.TeleportDestinationLayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L151">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_TeleportDestinationLayer" data-uid="Global.LocomotionTeleport.TeleportDestinationLayer">TeleportDestinationLayer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;TeleportDestinationPrefab will be instantiated into this layer.&quot;)]
+public int TeleportDestinationLayer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_TeleportDestinationPrefab.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.TeleportDestinationPrefab%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L149">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_TeleportDestinationPrefab" data-uid="Global.LocomotionTeleport.TeleportDestinationPrefab">TeleportDestinationPrefab</h4>
+  <div class="markdown level1 summary"><p>This prefab will be instantiated as needed and updated to match the current aim target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;This prefab will be instantiated as needed and updated to match the current aim target.&quot;)]
+public TeleportDestination TeleportDestinationPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.TeleportDestination.html">TeleportDestination</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_UseCharacterCollisionData.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.UseCharacterCollisionData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L271">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_UseCharacterCollisionData" data-uid="Global.LocomotionTeleport.UseCharacterCollisionData">UseCharacterCollisionData</h4>
+  <div class="markdown level1 summary"><p>Use the character collision radius/height/skinwidth for sphere/capsule collision tests.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Use the character collision radius/height/skinwidth for sphere/capsule collision tests.&quot;)]
+public bool UseCharacterCollisionData</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_CurrentState.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.CurrentState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L135">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_CurrentState_" data-uid="Global.LocomotionTeleport.CurrentState*"></a>
+  <h4 id="Global_LocomotionTeleport_CurrentState" data-uid="Global.LocomotionTeleport.CurrentState">CurrentState</h4>
+  <div class="markdown level1 summary"><p>The current state of the teleport state machine.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LocomotionTeleport.States CurrentState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.LocomotionTeleport.States.html">LocomotionTeleport.States</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_DestinationRotation.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.DestinationRotation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L238">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_DestinationRotation_" data-uid="Global.LocomotionTeleport.DestinationRotation*"></a>
+  <h4 id="Global_LocomotionTeleport_DestinationRotation" data-uid="Global.LocomotionTeleport.DestinationRotation">DestinationRotation</h4>
+  <div class="markdown level1 summary"><p>Returns the orientation of the current teleport destination&apos;s orientation indicator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion DestinationRotation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_LocomotionController.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.LocomotionController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L248">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_LocomotionController_" data-uid="Global.LocomotionTeleport.LocomotionController*"></a>
+  <h4 id="Global_LocomotionTeleport_LocomotionController" data-uid="Global.LocomotionTeleport.LocomotionController">LocomotionController</h4>
+  <div class="markdown level1 summary"><p>The LocomotionController that is used by object to discover shared references.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LocomotionController LocomotionController { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.LocomotionController.html">LocomotionController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_AimCollisionTest_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_LayerMask_UnityEngine_RaycastHit__.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.AimCollisionTest(UnityEngine.Vector3%2CUnityEngine.Vector3%2CUnityEngine.LayerMask%2CUnityEngine.RaycastHit%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L295">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_AimCollisionTest_" data-uid="Global.LocomotionTeleport.AimCollisionTest*"></a>
+  <h4 id="Global_LocomotionTeleport_AimCollisionTest_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_LayerMask_UnityEngine_RaycastHit__" data-uid="Global.LocomotionTeleport.AimCollisionTest(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.LayerMask,UnityEngine.RaycastHit@)">AimCollisionTest(Vector3, Vector3, LayerMask, out RaycastHit)</h4>
+  <div class="markdown level1 summary"><p>AimCollisionTest is used by many of the aim handlers to standardize the testing of aiming beams. By choosing between the increasingly restrictive 
+point, sphere and capsule tests, the aiming system can limit targeting to routes which are not physically blocked. For example, a sphere test 
+is good for ensuring the player can&apos;t teleport through bars to get out of a jail cell. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AimCollisionTest(Vector3 start, Vector3 end, LayerMask aimCollisionLayerMask, out RaycastHit hitInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.LayerMask</span></td>
+        <td><span class="parametername">aimCollisionLayerMask</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.RaycastHit</span></td>
+        <td><span class="parametername">hitInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_AimStateCoroutine.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.AimStateCoroutine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L535">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_AimStateCoroutine_" data-uid="Global.LocomotionTeleport.AimStateCoroutine*"></a>
+  <h4 id="Global_LocomotionTeleport_AimStateCoroutine" data-uid="Global.LocomotionTeleport.AimStateCoroutine">AimStateCoroutine()</h4>
+  <div class="markdown level1 summary"><p>This coroutine will be running while the aim state is active. The teleport destination will become active,
+and depending on the target and current intention of the user it might enter the CancelAim state or 
+PreTeleport state when it is done.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerator AimStateCoroutine()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_CancelAimStateCoroutine.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.CancelAimStateCoroutine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L583">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_CancelAimStateCoroutine_" data-uid="Global.LocomotionTeleport.CancelAimStateCoroutine*"></a>
+  <h4 id="Global_LocomotionTeleport_CancelAimStateCoroutine" data-uid="Global.LocomotionTeleport.CancelAimStateCoroutine">CancelAimStateCoroutine()</h4>
+  <div class="markdown level1 summary"><p>This coroutine will be executed when the aim state is cancelled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerator CancelAimStateCoroutine()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_CancelTeleportStateCoroutine.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.CancelTeleportStateCoroutine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L656">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_CancelTeleportStateCoroutine_" data-uid="Global.LocomotionTeleport.CancelTeleportStateCoroutine*"></a>
+  <h4 id="Global_LocomotionTeleport_CancelTeleportStateCoroutine" data-uid="Global.LocomotionTeleport.CancelTeleportStateCoroutine">CancelTeleportStateCoroutine()</h4>
+  <div class="markdown level1 summary"><p>This coroutine will be executed when the pre-teleport state is unabled to transition to the teleporting state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerator CancelTeleportStateCoroutine()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_CreateNewTeleportDestination.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.CreateNewTeleportDestination%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L363">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_CreateNewTeleportDestination_" data-uid="Global.LocomotionTeleport.CreateNewTeleportDestination*"></a>
+  <h4 id="Global_LocomotionTeleport_CreateNewTeleportDestination" data-uid="Global.LocomotionTeleport.CreateNewTeleportDestination">CreateNewTeleportDestination()</h4>
+  <div class="markdown level1 summary"><p>This is called whenever a new teleport destination is required. This might occur when rapidly switching
+between targets, or when teleporting multiple times in quick succession when the teleport destination
+requires additional time to complete any animations that are triggered by these actions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CreateNewTeleportDestination()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_DoTeleport.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.DoTeleport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L770">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_DoTeleport_" data-uid="Global.LocomotionTeleport.DoTeleport*"></a>
+  <h4 id="Global_LocomotionTeleport_DoTeleport" data-uid="Global.LocomotionTeleport.DoTeleport">DoTeleport()</h4>
+  <div class="markdown level1 summary"><p>Perform the actual teleport.
+Note that warp transitions do not call this function and instead moves the game object 
+during the transition time time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DoTeleport()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_DoWarp_UnityEngine_Vector3_System_Single_.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.DoWarp(UnityEngine.Vector3%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L844">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_DoWarp_" data-uid="Global.LocomotionTeleport.DoWarp*"></a>
+  <h4 id="Global_LocomotionTeleport_DoWarp_UnityEngine_Vector3_System_Single_" data-uid="Global.LocomotionTeleport.DoWarp(UnityEngine.Vector3,System.Single)">DoWarp(Vector3, Single)</h4>
+  <div class="markdown level1 summary"><p>Warp just the position towards the destination.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DoWarp(Vector3 startPos, float positionPercent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">startPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">positionPercent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnableMovement_System_Boolean_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnableMovement(System.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L80">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_EnableMovement_" data-uid="Global.LocomotionTeleport.EnableMovement*"></a>
+  <h4 id="Global_LocomotionTeleport_EnableMovement_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="Global.LocomotionTeleport.EnableMovement(System.Boolean,System.Boolean,System.Boolean,System.Boolean)">EnableMovement(Boolean, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Helper function to enable linear movement during the various teleport states.
+Movement may not be desired at all states, for instance during aiming it may be preferred to prevent movement to allow a 
+thumbstick to be used for choosing the landing orientation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableMovement(bool ready, bool aim, bool pre, bool post)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ready</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">aim</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">pre</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">post</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnableRotation_System_Boolean_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnableRotation(System.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L123">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_EnableRotation_" data-uid="Global.LocomotionTeleport.EnableRotation*"></a>
+  <h4 id="Global_LocomotionTeleport_EnableRotation_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="Global.LocomotionTeleport.EnableRotation(System.Boolean,System.Boolean,System.Boolean,System.Boolean)">EnableRotation(Boolean, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Helper function to enable rotation movement during the various teleport states.
+Rotation may not be desired at all states, for instance during aiming it may be preferred to prevent rotation (snap turn or linear) 
+to prevent the camera from being rotated while preparing to teleport.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableRotation(bool ready, bool aim, bool pre, bool post)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ready</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">aim</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">pre</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">post</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_GetCharacterPosition.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.GetCharacterPosition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L799">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_GetCharacterPosition_" data-uid="Global.LocomotionTeleport.GetCharacterPosition*"></a>
+  <h4 id="Global_LocomotionTeleport_GetCharacterPosition" data-uid="Global.LocomotionTeleport.GetCharacterPosition">GetCharacterPosition()</h4>
+  <div class="markdown level1 summary"><p>Convenience method for finding the character&apos;s position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetCharacterPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_GetHeadRotationY.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.GetHeadRotationY%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L809">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_GetHeadRotationY_" data-uid="Global.LocomotionTeleport.GetHeadRotationY*"></a>
+  <h4 id="Global_LocomotionTeleport_GetHeadRotationY" data-uid="Global.LocomotionTeleport.GetHeadRotationY">GetHeadRotationY()</h4>
+  <div class="markdown level1 summary"><p>Return a quaternion for the Y axis of the HMD&apos;s orientation. 
+Used by orientation handlers to track the current heading before processing user input to adjust it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion GetHeadRotationY()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_LogState_System_String_.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.LogState(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L352">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_LogState_" data-uid="Global.LocomotionTeleport.LogState*"></a>
+  <h4 id="Global_LocomotionTeleport_LogState_System_String_" data-uid="Global.LocomotionTeleport.LogState(System.String)">LogState(String)</h4>
+  <div class="markdown level1 summary"><p>Internal logging function that is conditionally enabled via DEBUG_TELEPORT_STATES</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Conditional(&quot;DEBUG_TELEPORT_STATES&quot;)]
+protected void LogState(string msg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">msg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_OnDisable.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.OnDisable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L422">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_OnDisable_" data-uid="Global.LocomotionTeleport.OnDisable*"></a>
+  <h4 id="Global_LocomotionTeleport_OnDisable" data-uid="Global.LocomotionTeleport.OnDisable">OnDisable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnDisable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_OnEnable.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.OnEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L417">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_OnEnable_" data-uid="Global.LocomotionTeleport.OnEnable*"></a>
+  <h4 id="Global_LocomotionTeleport_OnEnable" data-uid="Global.LocomotionTeleport.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"><p>Start the state machine coroutines.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnEnable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_OnUpdateAimData_LocomotionTeleport_AimData_.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.OnUpdateAimData(LocomotionTeleport.AimData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L515">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_OnUpdateAimData_" data-uid="Global.LocomotionTeleport.OnUpdateAimData*"></a>
+  <h4 id="Global_LocomotionTeleport_OnUpdateAimData_LocomotionTeleport_AimData_" data-uid="Global.LocomotionTeleport.OnUpdateAimData(LocomotionTeleport.AimData)">OnUpdateAimData(LocomotionTeleport.AimData)</h4>
+  <div class="markdown level1 summary"><p>The target handler will call this method when the aim data has been updated and is ready to be
+processed by anything that needs to be aware of any changes. This generally includes a visual
+indicator for the aiming and the active orientation handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnUpdateAimData(LocomotionTeleport.AimData aimData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.LocomotionTeleport.AimData.html">LocomotionTeleport.AimData</a></td>
+        <td><span class="parametername">aimData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_OnUpdateTeleportDestination_System_Boolean_System_Nullable_UnityEngine_Vector3__System_Nullable_UnityEngine_Quaternion__System_Nullable_UnityEngine_Quaternion__.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.OnUpdateTeleportDestination(System.Boolean%2CSystem.Nullable%7BUnityEngine.Vector3%7D%2CSystem.Nullable%7BUnityEngine.Quaternion%7D%2CSystem.Nullable%7BUnityEngine.Quaternion%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L168">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_OnUpdateTeleportDestination_" data-uid="Global.LocomotionTeleport.OnUpdateTeleportDestination*"></a>
+  <h4 id="Global_LocomotionTeleport_OnUpdateTeleportDestination_System_Boolean_System_Nullable_UnityEngine_Vector3__System_Nullable_UnityEngine_Quaternion__System_Nullable_UnityEngine_Quaternion__" data-uid="Global.LocomotionTeleport.OnUpdateTeleportDestination(System.Boolean,System.Nullable{UnityEngine.Vector3},System.Nullable{UnityEngine.Quaternion},System.Nullable{UnityEngine.Quaternion})">OnUpdateTeleportDestination(Boolean, Nullable&lt;Vector3&gt;, Nullable&lt;Quaternion&gt;, Nullable&lt;Quaternion&gt;)</h4>
+  <div class="markdown level1 summary"><p>When the active aim and orientation handler finishes preparing the data for the teleport destination, this method will be called
+in order to raise the UpdateTeleportDestination event, which will in turn give any active teleport destination objects an opportunity
+to update their visual state accordingly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnUpdateTeleportDestination(bool isValidDestination, Vector3? position, Quaternion? rotation, Quaternion? landingRotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isValidDestination</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">UnityEngine.Vector3</span>&gt;</td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">UnityEngine.Quaternion</span>&gt;</td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">UnityEngine.Quaternion</span>&gt;</td>
+        <td><span class="parametername">landingRotation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_PostTeleportStateCoroutine.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.PostTeleportStateCoroutine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L730">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_PostTeleportStateCoroutine_" data-uid="Global.LocomotionTeleport.PostTeleportStateCoroutine*"></a>
+  <h4 id="Global_LocomotionTeleport_PostTeleportStateCoroutine" data-uid="Global.LocomotionTeleport.PostTeleportStateCoroutine">PostTeleportStateCoroutine()</h4>
+  <div class="markdown level1 summary"><p>The PostTeleport coroutine is typically just a single frame state that deactivates the destination 
+indicator and raises the EnterStatePostTeleport event which could be used for any number of gameplay
+purposes such as triggering a character animation, sound effect or possibly delaying the exit of the 
+PostTeleport state for some gameplay reason such as a cooldown on teleports.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerator PostTeleportStateCoroutine()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_PreTeleportStateCoroutine.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.PreTeleportStateCoroutine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L613">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_PreTeleportStateCoroutine_" data-uid="Global.LocomotionTeleport.PreTeleportStateCoroutine*"></a>
+  <h4 id="Global_LocomotionTeleport_PreTeleportStateCoroutine" data-uid="Global.LocomotionTeleport.PreTeleportStateCoroutine">PreTeleportStateCoroutine()</h4>
+  <div class="markdown level1 summary"><p>This coroutine will be active while the system is in the PreTeleport state.
+At this point, the user has indicated they want to teleport however there is a possibility that the
+target they have chosen might be or become invalid so the next state will be either Teleporting or 
+CancelTeleporting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerator PreTeleportStateCoroutine()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_ReadyStateCoroutine.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.ReadyStateCoroutine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L437">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_ReadyStateCoroutine_" data-uid="Global.LocomotionTeleport.ReadyStateCoroutine*"></a>
+  <h4 id="Global_LocomotionTeleport_ReadyStateCoroutine" data-uid="Global.LocomotionTeleport.ReadyStateCoroutine">ReadyStateCoroutine()</h4>
+  <div class="markdown level1 summary"><p>This coroutine will be running while the component is in the Ready state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerator ReadyStateCoroutine()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_RecycleTeleportDestination_TeleportDestination_.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.RecycleTeleportDestination(TeleportDestination)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L383">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_RecycleTeleportDestination_" data-uid="Global.LocomotionTeleport.RecycleTeleportDestination*"></a>
+  <h4 id="Global_LocomotionTeleport_RecycleTeleportDestination_TeleportDestination_" data-uid="Global.LocomotionTeleport.RecycleTeleportDestination(TeleportDestination)">RecycleTeleportDestination(TeleportDestination)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RecycleTeleportDestination(TeleportDestination oldDestination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.TeleportDestination.html">TeleportDestination</a></td>
+        <td><span class="parametername">oldDestination</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_TeleportingStateCoroutine.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.TeleportingStateCoroutine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L694">View Source</a>
+  </span>
+  <a id="Global_LocomotionTeleport_TeleportingStateCoroutine_" data-uid="Global.LocomotionTeleport.TeleportingStateCoroutine*"></a>
+  <h4 id="Global_LocomotionTeleport_TeleportingStateCoroutine" data-uid="Global.LocomotionTeleport.TeleportingStateCoroutine">TeleportingStateCoroutine()</h4>
+  <div class="markdown level1 summary"><p>This coroutine will yield until IsTransitioning back to false, which will be immediately unless there
+is a transition handler that needs to take some time to move the player to the new location.
+This allows transition handlers to take as much (or little) time as they need to complete their task
+of moving the player to the teleport destination.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerator TeleportingStateCoroutine()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnterStateAim.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnterStateAim%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L501">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnterStateAim" data-uid="Global.LocomotionTeleport.EnterStateAim">EnterStateAim</h4>
+  <div class="markdown level1 summary"><p>This event is raised when the user begins aiming for a target location for a teleport.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action EnterStateAim</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnterStateCancelAim.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnterStateCancelAim%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L577">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnterStateCancelAim" data-uid="Global.LocomotionTeleport.EnterStateCancelAim">EnterStateCancelAim</h4>
+  <div class="markdown level1 summary"><p>This event is raised when aiming for a teleport destination is aborted. It can be
+useful for cleaning up effects that may have been triggered when entering the Aim state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action EnterStateCancelAim</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnterStateCancelTeleport.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnterStateCancelTeleport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L650">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnterStateCancelTeleport" data-uid="Global.LocomotionTeleport.EnterStateCancelTeleport">EnterStateCancelTeleport</h4>
+  <div class="markdown level1 summary"><p>This event will occur if the user cancels the teleport after the destination has been selected.
+Typically not much different than cancelling an aim state, however there may be some effect
+triggered by the target selection which needs to be cleaned up, or perhaps a different visual 
+effect needs to be triggered when a teleport is aborted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action EnterStateCancelTeleport</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnterStatePostTeleport.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnterStatePostTeleport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L721">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnterStatePostTeleport" data-uid="Global.LocomotionTeleport.EnterStatePostTeleport">EnterStatePostTeleport</h4>
+  <div class="markdown level1 summary"><p>This event will occur after the teleport has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action EnterStatePostTeleport</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnterStatePreTeleport.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnterStatePreTeleport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L604">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnterStatePreTeleport" data-uid="Global.LocomotionTeleport.EnterStatePreTeleport">EnterStatePreTeleport</h4>
+  <div class="markdown level1 summary"><p>This event is raised when the system enteres the PreTeleport state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action EnterStatePreTeleport</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnterStateReady.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnterStateReady%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L431">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnterStateReady" data-uid="Global.LocomotionTeleport.EnterStateReady">EnterStateReady</h4>
+  <div class="markdown level1 summary"><p>This event is raised when entering the Ready state. The initial use for this is for the input handler to start 
+processing input in order to eventually set the TeleportIntention to Aim when the user requests it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action EnterStateReady</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_EnterStateTeleporting.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.EnterStateTeleporting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L686">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_EnterStateTeleporting" data-uid="Global.LocomotionTeleport.EnterStateTeleporting">EnterStateTeleporting</h4>
+  <div class="markdown level1 summary"><p>This event will occur when the teleport actually occurs. There should be one Transition Handler
+enabled and attached to this event. There may be other handlers attached to this event to trigger
+sound effects or gameplay logic to respond to the teleport event.</p>
+<p>The transition handler is responsible for actually moving the player to the destination, and can achieve
+this goal however it wants. Example teleport transition handlers include:</p>
+<ul>
+<li>Instant - Just move the player with no delay or effect.</li>
+<li>Blink - Fade the camera to black, teleport, then fade back up. </li>
+<li>Warp - Translate the camera over some fixed amount of time to the new destination.</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action EnterStateTeleporting</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_ExitStateAim.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.ExitStateAim%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L527">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_ExitStateAim" data-uid="Global.LocomotionTeleport.ExitStateAim">ExitStateAim</h4>
+  <div class="markdown level1 summary"><p>This event is raised when the aim state is exited. This is typically used by aim visualizers to
+deactivate any visual effects related to aiming.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action ExitStateAim</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_Teleported.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.Teleported%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L763">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_Teleported" data-uid="Global.LocomotionTeleport.Teleported">Teleported</h4>
+  <div class="markdown level1 summary"><p>This event is raised when the character actually teleports, which is typically triggered by the 
+transition handler.</p>
+<p>The first parameter is the character controller&apos;s transform.
+The second and third are the position and rotation, respectively, which the character controller 
+will be assigned immediately after the event is raised.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;Transform, Vector3, Quaternion&gt; Teleported</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">UnityEngine.Transform</span>, <span class="xref">UnityEngine.Vector3</span>, <span class="xref">UnityEngine.Quaternion</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_UpdateAimData.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.UpdateAimData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L507">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_UpdateAimData" data-uid="Global.LocomotionTeleport.UpdateAimData">UpdateAimData</h4>
+  <div class="markdown level1 summary"><p>Aim and Target handlers are responsible for populating the AimData with the relevant aim data,
+which is used for a number of purposes within the teleport system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;LocomotionTeleport.AimData&gt; UpdateAimData</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Global.LocomotionTeleport.AimData.html">LocomotionTeleport.AimData</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport_UpdateTeleportDestination.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport.UpdateTeleportDestination%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L158">View Source</a>
+  </span>
+  <h4 id="Global_LocomotionTeleport_UpdateTeleportDestination" data-uid="Global.LocomotionTeleport.UpdateTeleportDestination">UpdateTeleportDestination</h4>
+  <div class="markdown level1 summary"><p>This event is raised when the teleport destination is in the process of being updated. It is used by the active TeleportDestination
+to update it&apos;s visual state, position and orientation indicator to match the results of the teleport aim and targeting system.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;bool, Vector3?, Quaternion?, Quaternion?&gt; UpdateTeleportDestination</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Boolean</span>, <span class="xref">System.Nullable</span>&lt;<span class="xref">UnityEngine.Vector3</span>&gt;, <span class="xref">System.Nullable</span>&lt;<span class="xref">UnityEngine.Quaternion</span>&gt;, <span class="xref">System.Nullable</span>&lt;<span class="xref">UnityEngine.Quaternion</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=Global_LocomotionTeleport.md&amp;value=---%0Auid%3A%20Global.LocomotionTeleport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs/#L29" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

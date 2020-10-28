@@ -19,6 +19,19 @@ references:
   commentId: T:LegoVR.FollowScripts.FollowTransform
   fullName: LegoVR.FollowScripts.FollowTransform
   nameWithType: FollowTransform
+- uid: LegoVR.FollowScripts.FollowTransform.SetBoundaryLimits(UnityEngine.Vector3,UnityEngine.Vector3)
+  name: SetBoundaryLimits(Vector3, Vector3)
+  href: api/LegoVR.FollowScripts.FollowTransform.html#LegoVR_FollowScripts_FollowTransform_SetBoundaryLimits_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:LegoVR.FollowScripts.FollowTransform.SetBoundaryLimits(UnityEngine.Vector3,UnityEngine.Vector3)
+  fullName: LegoVR.FollowScripts.FollowTransform.SetBoundaryLimits(UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: FollowTransform.SetBoundaryLimits(Vector3, Vector3)
+- uid: LegoVR.FollowScripts.FollowTransform.SetBoundaryLimits*
+  name: SetBoundaryLimits
+  href: api/LegoVR.FollowScripts.FollowTransform.html#LegoVR_FollowScripts_FollowTransform_SetBoundaryLimits_
+  commentId: Overload:LegoVR.FollowScripts.FollowTransform.SetBoundaryLimits
+  isSpec: "True"
+  fullName: LegoVR.FollowScripts.FollowTransform.SetBoundaryLimits
+  nameWithType: FollowTransform.SetBoundaryLimits
 - uid: LegoVR.FollowScripts.FollowYRotation
   name: FollowYRotation
   href: api/LegoVR.FollowScripts.FollowYRotation.html
@@ -507,6 +520,12 @@ references:
   commentId: F:LegoVR.Locomotion.ViewPort.viewportQuad
   fullName: LegoVR.Locomotion.ViewPort.viewportQuad
   nameWithType: ViewPort.viewportQuad
+- uid: LegoVR.Locomotion.WallStopper
+  name: WallStopper
+  href: api/LegoVR.Locomotion.WallStopper.html
+  commentId: T:LegoVR.Locomotion.WallStopper
+  fullName: LegoVR.Locomotion.WallStopper
+  nameWithType: WallStopper
 - uid: LegoVR.MiniGames
   name: LegoVR.MiniGames
   href: api/LegoVR.MiniGames.html
@@ -681,6 +700,197 @@ references:
   commentId: N:LegoVR.Networking
   fullName: LegoVR.Networking
   nameWithType: LegoVR.Networking
+- uid: LegoVR.Networking.ClientManager
+  name: ClientManager
+  href: api/LegoVR.Networking.ClientManager.html
+  commentId: T:LegoVR.Networking.ClientManager
+  fullName: LegoVR.Networking.ClientManager
+  nameWithType: ClientManager
+- uid: LegoVR.Networking.ClientManager.Body
+  name: Body
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_Body
+  commentId: F:LegoVR.Networking.ClientManager.Body
+  fullName: LegoVR.Networking.ClientManager.Body
+  nameWithType: ClientManager.Body
+- uid: LegoVR.Networking.ClientManager.ConnectToServer
+  name: ConnectToServer()
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_ConnectToServer
+  commentId: M:LegoVR.Networking.ClientManager.ConnectToServer
+  fullName: LegoVR.Networking.ClientManager.ConnectToServer()
+  nameWithType: ClientManager.ConnectToServer()
+- uid: LegoVR.Networking.ClientManager.ConnectToServer*
+  name: ConnectToServer
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_ConnectToServer_
+  commentId: Overload:LegoVR.Networking.ClientManager.ConnectToServer
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.ConnectToServer
+  nameWithType: ClientManager.ConnectToServer
+- uid: LegoVR.Networking.ClientManager.Face
+  name: Face
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_Face
+  commentId: F:LegoVR.Networking.ClientManager.Face
+  fullName: LegoVR.Networking.ClientManager.Face
+  nameWithType: ClientManager.Face
+- uid: LegoVR.Networking.ClientManager.facePos
+  name: facePos
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_facePos
+  commentId: F:LegoVR.Networking.ClientManager.facePos
+  fullName: LegoVR.Networking.ClientManager.facePos
+  nameWithType: ClientManager.facePos
+- uid: LegoVR.Networking.ClientManager.GetRoomList
+  name: GetRoomList()
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_GetRoomList
+  commentId: M:LegoVR.Networking.ClientManager.GetRoomList
+  fullName: LegoVR.Networking.ClientManager.GetRoomList()
+  nameWithType: ClientManager.GetRoomList()
+- uid: LegoVR.Networking.ClientManager.GetRoomList*
+  name: GetRoomList
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_GetRoomList_
+  commentId: Overload:LegoVR.Networking.ClientManager.GetRoomList
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.GetRoomList
+  nameWithType: ClientManager.GetRoomList
+- uid: LegoVR.Networking.ClientManager.Instance
+  name: Instance
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_Instance
+  commentId: P:LegoVR.Networking.ClientManager.Instance
+  fullName: LegoVR.Networking.ClientManager.Instance
+  nameWithType: ClientManager.Instance
+- uid: LegoVR.Networking.ClientManager.Instance*
+  name: Instance
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_Instance_
+  commentId: Overload:LegoVR.Networking.ClientManager.Instance
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.Instance
+  nameWithType: ClientManager.Instance
+- uid: LegoVR.Networking.ClientManager.JoinRoom(System.String)
+  name: JoinRoom(String)
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_JoinRoom_System_String_
+  commentId: M:LegoVR.Networking.ClientManager.JoinRoom(System.String)
+  fullName: LegoVR.Networking.ClientManager.JoinRoom(System.String)
+  nameWithType: ClientManager.JoinRoom(String)
+- uid: LegoVR.Networking.ClientManager.JoinRoom*
+  name: JoinRoom
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_JoinRoom_
+  commentId: Overload:LegoVR.Networking.ClientManager.JoinRoom
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.JoinRoom
+  nameWithType: ClientManager.JoinRoom
+- uid: LegoVR.Networking.ClientManager.Legs
+  name: Legs
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_Legs
+  commentId: F:LegoVR.Networking.ClientManager.Legs
+  fullName: LegoVR.Networking.ClientManager.Legs
+  nameWithType: ClientManager.Legs
+- uid: LegoVR.Networking.ClientManager.Map
+  name: Map
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_Map
+  commentId: F:LegoVR.Networking.ClientManager.Map
+  fullName: LegoVR.Networking.ClientManager.Map
+  nameWithType: ClientManager.Map
+- uid: LegoVR.Networking.ClientManager.menuPlayer
+  name: menuPlayer
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_menuPlayer
+  commentId: F:LegoVR.Networking.ClientManager.menuPlayer
+  fullName: LegoVR.Networking.ClientManager.menuPlayer
+  nameWithType: ClientManager.menuPlayer
+- uid: LegoVR.Networking.ClientManager.OnConnectedToMaster
+  name: OnConnectedToMaster()
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnConnectedToMaster
+  commentId: M:LegoVR.Networking.ClientManager.OnConnectedToMaster
+  fullName: LegoVR.Networking.ClientManager.OnConnectedToMaster()
+  nameWithType: ClientManager.OnConnectedToMaster()
+- uid: LegoVR.Networking.ClientManager.OnConnectedToMaster*
+  name: OnConnectedToMaster
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnConnectedToMaster_
+  commentId: Overload:LegoVR.Networking.ClientManager.OnConnectedToMaster
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.OnConnectedToMaster
+  nameWithType: ClientManager.OnConnectedToMaster
+- uid: LegoVR.Networking.ClientManager.OnJoinedRoom
+  name: OnJoinedRoom()
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnJoinedRoom
+  commentId: M:LegoVR.Networking.ClientManager.OnJoinedRoom
+  fullName: LegoVR.Networking.ClientManager.OnJoinedRoom()
+  nameWithType: ClientManager.OnJoinedRoom()
+- uid: LegoVR.Networking.ClientManager.OnJoinedRoom*
+  name: OnJoinedRoom
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnJoinedRoom_
+  commentId: Overload:LegoVR.Networking.ClientManager.OnJoinedRoom
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.OnJoinedRoom
+  nameWithType: ClientManager.OnJoinedRoom
+- uid: LegoVR.Networking.ClientManager.OnJoinRandomFailed(System.Int16,System.String)
+  name: OnJoinRandomFailed(Int16, String)
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnJoinRandomFailed_System_Int16_System_String_
+  commentId: M:LegoVR.Networking.ClientManager.OnJoinRandomFailed(System.Int16,System.String)
+  fullName: LegoVR.Networking.ClientManager.OnJoinRandomFailed(System.Int16, System.String)
+  nameWithType: ClientManager.OnJoinRandomFailed(Int16, String)
+- uid: LegoVR.Networking.ClientManager.OnJoinRandomFailed*
+  name: OnJoinRandomFailed
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnJoinRandomFailed_
+  commentId: Overload:LegoVR.Networking.ClientManager.OnJoinRandomFailed
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.OnJoinRandomFailed
+  nameWithType: ClientManager.OnJoinRandomFailed
+- uid: LegoVR.Networking.ClientManager.OnJoinRoomFailed(System.Int16,System.String)
+  name: OnJoinRoomFailed(Int16, String)
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnJoinRoomFailed_System_Int16_System_String_
+  commentId: M:LegoVR.Networking.ClientManager.OnJoinRoomFailed(System.Int16,System.String)
+  fullName: LegoVR.Networking.ClientManager.OnJoinRoomFailed(System.Int16, System.String)
+  nameWithType: ClientManager.OnJoinRoomFailed(Int16, String)
+- uid: LegoVR.Networking.ClientManager.OnJoinRoomFailed*
+  name: OnJoinRoomFailed
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnJoinRoomFailed_
+  commentId: Overload:LegoVR.Networking.ClientManager.OnJoinRoomFailed
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.OnJoinRoomFailed
+  nameWithType: ClientManager.OnJoinRoomFailed
+- uid: LegoVR.Networking.ClientManager.OnLeftRoom
+  name: OnLeftRoom()
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnLeftRoom
+  commentId: M:LegoVR.Networking.ClientManager.OnLeftRoom
+  fullName: LegoVR.Networking.ClientManager.OnLeftRoom()
+  nameWithType: ClientManager.OnLeftRoom()
+- uid: LegoVR.Networking.ClientManager.OnLeftRoom*
+  name: OnLeftRoom
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnLeftRoom_
+  commentId: Overload:LegoVR.Networking.ClientManager.OnLeftRoom
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.OnLeftRoom
+  nameWithType: ClientManager.OnLeftRoom
+- uid: LegoVR.Networking.ClientManager.SetAvatarCustomization(UnityEngine.Vector2,System.Int32,System.Int32)
+  name: SetAvatarCustomization(Vector2, Int32, Int32)
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_SetAvatarCustomization_UnityEngine_Vector2_System_Int32_System_Int32_
+  commentId: M:LegoVR.Networking.ClientManager.SetAvatarCustomization(UnityEngine.Vector2,System.Int32,System.Int32)
+  fullName: LegoVR.Networking.ClientManager.SetAvatarCustomization(UnityEngine.Vector2, System.Int32, System.Int32)
+  nameWithType: ClientManager.SetAvatarCustomization(Vector2, Int32, Int32)
+- uid: LegoVR.Networking.ClientManager.SetAvatarCustomization*
+  name: SetAvatarCustomization
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_SetAvatarCustomization_
+  commentId: Overload:LegoVR.Networking.ClientManager.SetAvatarCustomization
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.SetAvatarCustomization
+  nameWithType: ClientManager.SetAvatarCustomization
+- uid: LegoVR.Networking.JoinRoomButton
+  name: JoinRoomButton
+  href: api/LegoVR.Networking.JoinRoomButton.html
+  commentId: T:LegoVR.Networking.JoinRoomButton
+  fullName: LegoVR.Networking.JoinRoomButton
+  nameWithType: JoinRoomButton
+- uid: LegoVR.Networking.JoinRoomButton.JoinRoom(System.String)
+  name: JoinRoom(String)
+  href: api/LegoVR.Networking.JoinRoomButton.html#LegoVR_Networking_JoinRoomButton_JoinRoom_System_String_
+  commentId: M:LegoVR.Networking.JoinRoomButton.JoinRoom(System.String)
+  fullName: LegoVR.Networking.JoinRoomButton.JoinRoom(System.String)
+  nameWithType: JoinRoomButton.JoinRoom(String)
+- uid: LegoVR.Networking.JoinRoomButton.JoinRoom*
+  name: JoinRoom
+  href: api/LegoVR.Networking.JoinRoomButton.html#LegoVR_Networking_JoinRoomButton_JoinRoom_
+  commentId: Overload:LegoVR.Networking.JoinRoomButton.JoinRoom
+  isSpec: "True"
+  fullName: LegoVR.Networking.JoinRoomButton.JoinRoom
+  nameWithType: JoinRoomButton.JoinRoom
 - uid: LegoVR.Networking.LoadSceneBtn
   name: LoadSceneBtn
   href: api/LegoVR.Networking.LoadSceneBtn.html
@@ -718,210 +928,37 @@ references:
   commentId: T:LegoVR.Networking.LobbyMenuSetup
   fullName: LegoVR.Networking.LobbyMenuSetup
   nameWithType: LobbyMenuSetup
-- uid: LegoVR.Networking.ManagerSpawner
-  name: ManagerSpawner
-  href: api/LegoVR.Networking.ManagerSpawner.html
-  commentId: T:LegoVR.Networking.ManagerSpawner
-  fullName: LegoVR.Networking.ManagerSpawner
-  nameWithType: ManagerSpawner
-- uid: LegoVR.Networking.NetworkingManager
-  name: NetworkingManager
-  href: api/LegoVR.Networking.NetworkingManager.html
-  commentId: T:LegoVR.Networking.NetworkingManager
-  fullName: LegoVR.Networking.NetworkingManager
-  nameWithType: NetworkingManager
-- uid: LegoVR.Networking.NetworkingManager.BackToMenu
-  name: BackToMenu()
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_BackToMenu
-  commentId: M:LegoVR.Networking.NetworkingManager.BackToMenu
-  fullName: LegoVR.Networking.NetworkingManager.BackToMenu()
-  nameWithType: NetworkingManager.BackToMenu()
-- uid: LegoVR.Networking.NetworkingManager.BackToMenu*
-  name: BackToMenu
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_BackToMenu_
-  commentId: Overload:LegoVR.Networking.NetworkingManager.BackToMenu
-  isSpec: "True"
-  fullName: LegoVR.Networking.NetworkingManager.BackToMenu
-  nameWithType: NetworkingManager.BackToMenu
-- uid: LegoVR.Networking.NetworkingManager.Instance
-  name: Instance
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_Instance
-  commentId: P:LegoVR.Networking.NetworkingManager.Instance
-  fullName: LegoVR.Networking.NetworkingManager.Instance
-  nameWithType: NetworkingManager.Instance
-- uid: LegoVR.Networking.NetworkingManager.Instance*
-  name: Instance
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_Instance_
-  commentId: Overload:LegoVR.Networking.NetworkingManager.Instance
-  isSpec: "True"
-  fullName: LegoVR.Networking.NetworkingManager.Instance
-  nameWithType: NetworkingManager.Instance
-- uid: LegoVR.Networking.NetworkingManager.LeaveRoom
-  name: LeaveRoom()
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_LeaveRoom
-  commentId: M:LegoVR.Networking.NetworkingManager.LeaveRoom
-  fullName: LegoVR.Networking.NetworkingManager.LeaveRoom()
-  nameWithType: NetworkingManager.LeaveRoom()
-- uid: LegoVR.Networking.NetworkingManager.LeaveRoom*
-  name: LeaveRoom
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_LeaveRoom_
-  commentId: Overload:LegoVR.Networking.NetworkingManager.LeaveRoom
-  isSpec: "True"
-  fullName: LegoVR.Networking.NetworkingManager.LeaveRoom
-  nameWithType: NetworkingManager.LeaveRoom
-- uid: LegoVR.Networking.NetworkingManager.Map
-  name: Map
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_Map
-  commentId: F:LegoVR.Networking.NetworkingManager.Map
-  fullName: LegoVR.Networking.NetworkingManager.Map
-  nameWithType: NetworkingManager.Map
-- uid: LegoVR.Networking.NetworkingManager.OnLeftRoom
-  name: OnLeftRoom()
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_OnLeftRoom
-  commentId: M:LegoVR.Networking.NetworkingManager.OnLeftRoom
-  fullName: LegoVR.Networking.NetworkingManager.OnLeftRoom()
-  nameWithType: NetworkingManager.OnLeftRoom()
-- uid: LegoVR.Networking.NetworkingManager.OnLeftRoom*
-  name: OnLeftRoom
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_OnLeftRoom_
-  commentId: Overload:LegoVR.Networking.NetworkingManager.OnLeftRoom
-  isSpec: "True"
-  fullName: LegoVR.Networking.NetworkingManager.OnLeftRoom
-  nameWithType: NetworkingManager.OnLeftRoom
-- uid: LegoVR.Networking.NetworkingManager.OnRoomPropertiesUpdate(ExitGames.Client.Photon.Hashtable)
-  name: OnRoomPropertiesUpdate(Hashtable)
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_OnRoomPropertiesUpdate_ExitGames_Client_Photon_Hashtable_
-  commentId: M:LegoVR.Networking.NetworkingManager.OnRoomPropertiesUpdate(ExitGames.Client.Photon.Hashtable)
-  fullName: LegoVR.Networking.NetworkingManager.OnRoomPropertiesUpdate(ExitGames.Client.Photon.Hashtable)
-  nameWithType: NetworkingManager.OnRoomPropertiesUpdate(Hashtable)
-- uid: LegoVR.Networking.NetworkingManager.OnRoomPropertiesUpdate*
-  name: OnRoomPropertiesUpdate
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_OnRoomPropertiesUpdate_
-  commentId: Overload:LegoVR.Networking.NetworkingManager.OnRoomPropertiesUpdate
-  isSpec: "True"
-  fullName: LegoVR.Networking.NetworkingManager.OnRoomPropertiesUpdate
-  nameWithType: NetworkingManager.OnRoomPropertiesUpdate
-- uid: LegoVR.Networking.NetworkingManager.QuitApplication
-  name: QuitApplication()
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_QuitApplication
-  commentId: M:LegoVR.Networking.NetworkingManager.QuitApplication
-  fullName: LegoVR.Networking.NetworkingManager.QuitApplication()
-  nameWithType: NetworkingManager.QuitApplication()
-- uid: LegoVR.Networking.NetworkingManager.QuitApplication*
-  name: QuitApplication
-  href: api/LegoVR.Networking.NetworkingManager.html#LegoVR_Networking_NetworkingManager_QuitApplication_
-  commentId: Overload:LegoVR.Networking.NetworkingManager.QuitApplication
-  isSpec: "True"
-  fullName: LegoVR.Networking.NetworkingManager.QuitApplication
-  nameWithType: NetworkingManager.QuitApplication
-- uid: LegoVR.Networking.PUNLauncher
-  name: PUNLauncher
-  href: api/LegoVR.Networking.PUNLauncher.html
-  commentId: T:LegoVR.Networking.PUNLauncher
-  fullName: LegoVR.Networking.PUNLauncher
-  nameWithType: PUNLauncher
-- uid: LegoVR.Networking.PUNLauncher.Connect
-  name: Connect()
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_Connect
-  commentId: M:LegoVR.Networking.PUNLauncher.Connect
-  fullName: LegoVR.Networking.PUNLauncher.Connect()
-  nameWithType: PUNLauncher.Connect()
-- uid: LegoVR.Networking.PUNLauncher.Connect*
-  name: Connect
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_Connect_
-  commentId: Overload:LegoVR.Networking.PUNLauncher.Connect
-  isSpec: "True"
-  fullName: LegoVR.Networking.PUNLauncher.Connect
-  nameWithType: PUNLauncher.Connect
-- uid: LegoVR.Networking.PUNLauncher.Map
-  name: Map
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_Map
-  commentId: F:LegoVR.Networking.PUNLauncher.Map
-  fullName: LegoVR.Networking.PUNLauncher.Map
-  nameWithType: PUNLauncher.Map
-- uid: LegoVR.Networking.PUNLauncher.OnConnectedToMaster
-  name: OnConnectedToMaster()
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_OnConnectedToMaster
-  commentId: M:LegoVR.Networking.PUNLauncher.OnConnectedToMaster
-  fullName: LegoVR.Networking.PUNLauncher.OnConnectedToMaster()
-  nameWithType: PUNLauncher.OnConnectedToMaster()
-- uid: LegoVR.Networking.PUNLauncher.OnConnectedToMaster*
-  name: OnConnectedToMaster
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_OnConnectedToMaster_
-  commentId: Overload:LegoVR.Networking.PUNLauncher.OnConnectedToMaster
-  isSpec: "True"
-  fullName: LegoVR.Networking.PUNLauncher.OnConnectedToMaster
-  nameWithType: PUNLauncher.OnConnectedToMaster
-- uid: LegoVR.Networking.PUNLauncher.OnDisconnected(Photon.Realtime.DisconnectCause)
-  name: OnDisconnected(DisconnectCause)
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_OnDisconnected_Photon_Realtime_DisconnectCause_
-  commentId: M:LegoVR.Networking.PUNLauncher.OnDisconnected(Photon.Realtime.DisconnectCause)
-  fullName: LegoVR.Networking.PUNLauncher.OnDisconnected(Photon.Realtime.DisconnectCause)
-  nameWithType: PUNLauncher.OnDisconnected(DisconnectCause)
-- uid: LegoVR.Networking.PUNLauncher.OnDisconnected*
-  name: OnDisconnected
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_OnDisconnected_
-  commentId: Overload:LegoVR.Networking.PUNLauncher.OnDisconnected
-  isSpec: "True"
-  fullName: LegoVR.Networking.PUNLauncher.OnDisconnected
-  nameWithType: PUNLauncher.OnDisconnected
-- uid: LegoVR.Networking.PUNLauncher.OnJoinedRoom
-  name: OnJoinedRoom()
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_OnJoinedRoom
-  commentId: M:LegoVR.Networking.PUNLauncher.OnJoinedRoom
-  fullName: LegoVR.Networking.PUNLauncher.OnJoinedRoom()
-  nameWithType: PUNLauncher.OnJoinedRoom()
-- uid: LegoVR.Networking.PUNLauncher.OnJoinedRoom*
-  name: OnJoinedRoom
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_OnJoinedRoom_
-  commentId: Overload:LegoVR.Networking.PUNLauncher.OnJoinedRoom
-  isSpec: "True"
-  fullName: LegoVR.Networking.PUNLauncher.OnJoinedRoom
-  nameWithType: PUNLauncher.OnJoinedRoom
-- uid: LegoVR.Networking.PUNLauncher.OnJoinRandomFailed(System.Int16,System.String)
-  name: OnJoinRandomFailed(Int16, String)
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_OnJoinRandomFailed_System_Int16_System_String_
-  commentId: M:LegoVR.Networking.PUNLauncher.OnJoinRandomFailed(System.Int16,System.String)
-  fullName: LegoVR.Networking.PUNLauncher.OnJoinRandomFailed(System.Int16, System.String)
-  nameWithType: PUNLauncher.OnJoinRandomFailed(Int16, String)
-- uid: LegoVR.Networking.PUNLauncher.OnJoinRandomFailed*
-  name: OnJoinRandomFailed
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_OnJoinRandomFailed_
-  commentId: Overload:LegoVR.Networking.PUNLauncher.OnJoinRandomFailed
-  isSpec: "True"
-  fullName: LegoVR.Networking.PUNLauncher.OnJoinRandomFailed
-  nameWithType: PUNLauncher.OnJoinRandomFailed
-- uid: LegoVR.Networking.PUNLauncher.OnJoinRoomFailed(System.Int16,System.String)
-  name: OnJoinRoomFailed(Int16, String)
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_OnJoinRoomFailed_System_Int16_System_String_
-  commentId: M:LegoVR.Networking.PUNLauncher.OnJoinRoomFailed(System.Int16,System.String)
-  fullName: LegoVR.Networking.PUNLauncher.OnJoinRoomFailed(System.Int16, System.String)
-  nameWithType: PUNLauncher.OnJoinRoomFailed(Int16, String)
-- uid: LegoVR.Networking.PUNLauncher.OnJoinRoomFailed*
-  name: OnJoinRoomFailed
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_OnJoinRoomFailed_
-  commentId: Overload:LegoVR.Networking.PUNLauncher.OnJoinRoomFailed
-  isSpec: "True"
-  fullName: LegoVR.Networking.PUNLauncher.OnJoinRoomFailed
-  nameWithType: PUNLauncher.OnJoinRoomFailed
-- uid: LegoVR.Networking.PUNLauncher.roomName
-  name: roomName
-  href: api/LegoVR.Networking.PUNLauncher.html#LegoVR_Networking_PUNLauncher_roomName
-  commentId: F:LegoVR.Networking.PUNLauncher.roomName
-  fullName: LegoVR.Networking.PUNLauncher.roomName
-  nameWithType: PUNLauncher.roomName
-- uid: LegoVR.Networking.PUNPlayerManager
-  name: PUNPlayerManager
-  href: api/LegoVR.Networking.PUNPlayerManager.html
-  commentId: T:LegoVR.Networking.PUNPlayerManager
-  fullName: LegoVR.Networking.PUNPlayerManager
-  nameWithType: PUNPlayerManager
-- uid: LegoVR.Networking.PUNPlayerManager.localPlayerInstance
+- uid: LegoVR.Networking.PlayerManager
+  name: PlayerManager
+  href: api/LegoVR.Networking.PlayerManager.html
+  commentId: T:LegoVR.Networking.PlayerManager
+  fullName: LegoVR.Networking.PlayerManager
+  nameWithType: PlayerManager
+- uid: LegoVR.Networking.PlayerManager.localPlayerInstance
   name: localPlayerInstance
-  href: api/LegoVR.Networking.PUNPlayerManager.html#LegoVR_Networking_PUNPlayerManager_localPlayerInstance
-  commentId: F:LegoVR.Networking.PUNPlayerManager.localPlayerInstance
-  fullName: LegoVR.Networking.PUNPlayerManager.localPlayerInstance
-  nameWithType: PUNPlayerManager.localPlayerInstance
+  href: api/LegoVR.Networking.PlayerManager.html#LegoVR_Networking_PlayerManager_localPlayerInstance
+  commentId: F:LegoVR.Networking.PlayerManager.localPlayerInstance
+  fullName: LegoVR.Networking.PlayerManager.localPlayerInstance
+  nameWithType: PlayerManager.localPlayerInstance
+- uid: LegoVR.Networking.PlayerManager.OnPlayerPropertiesUpdate(Photon.Realtime.Player,ExitGames.Client.Photon.Hashtable)
+  name: OnPlayerPropertiesUpdate(Player, Hashtable)
+  href: api/LegoVR.Networking.PlayerManager.html#LegoVR_Networking_PlayerManager_OnPlayerPropertiesUpdate_Photon_Realtime_Player_ExitGames_Client_Photon_Hashtable_
+  commentId: M:LegoVR.Networking.PlayerManager.OnPlayerPropertiesUpdate(Photon.Realtime.Player,ExitGames.Client.Photon.Hashtable)
+  fullName: LegoVR.Networking.PlayerManager.OnPlayerPropertiesUpdate(Photon.Realtime.Player, ExitGames.Client.Photon.Hashtable)
+  nameWithType: PlayerManager.OnPlayerPropertiesUpdate(Player, Hashtable)
+- uid: LegoVR.Networking.PlayerManager.OnPlayerPropertiesUpdate*
+  name: OnPlayerPropertiesUpdate
+  href: api/LegoVR.Networking.PlayerManager.html#LegoVR_Networking_PlayerManager_OnPlayerPropertiesUpdate_
+  commentId: Overload:LegoVR.Networking.PlayerManager.OnPlayerPropertiesUpdate
+  isSpec: "True"
+  fullName: LegoVR.Networking.PlayerManager.OnPlayerPropertiesUpdate
+  nameWithType: PlayerManager.OnPlayerPropertiesUpdate
+- uid: LegoVR.Networking.PlayerManager.Testing
+  name: Testing
+  href: api/LegoVR.Networking.PlayerManager.html#LegoVR_Networking_PlayerManager_Testing
+  commentId: F:LegoVR.Networking.PlayerManager.Testing
+  fullName: LegoVR.Networking.PlayerManager.Testing
+  nameWithType: PlayerManager.Testing
 - uid: LegoVR.Networking.RigidBodyUpdate
   name: RigidBodyUpdate
   href: api/LegoVR.Networking.RigidBodyUpdate.html
@@ -941,6 +978,64 @@ references:
   isSpec: "True"
   fullName: LegoVR.Networking.RigidBodyUpdate.OnPhotonSerializeView
   nameWithType: RigidBodyUpdate.OnPhotonSerializeView
+- uid: LegoVR.Networking.RoomManager
+  name: RoomManager
+  href: api/LegoVR.Networking.RoomManager.html
+  commentId: T:LegoVR.Networking.RoomManager
+  fullName: LegoVR.Networking.RoomManager
+  nameWithType: RoomManager
+- uid: LegoVR.Networking.RoomManager.BackToLobby
+  name: BackToLobby()
+  href: api/LegoVR.Networking.RoomManager.html#LegoVR_Networking_RoomManager_BackToLobby
+  commentId: M:LegoVR.Networking.RoomManager.BackToLobby
+  fullName: LegoVR.Networking.RoomManager.BackToLobby()
+  nameWithType: RoomManager.BackToLobby()
+- uid: LegoVR.Networking.RoomManager.BackToLobby*
+  name: BackToLobby
+  href: api/LegoVR.Networking.RoomManager.html#LegoVR_Networking_RoomManager_BackToLobby_
+  commentId: Overload:LegoVR.Networking.RoomManager.BackToLobby
+  isSpec: "True"
+  fullName: LegoVR.Networking.RoomManager.BackToLobby
+  nameWithType: RoomManager.BackToLobby
+- uid: LegoVR.Networking.RoomManager.BackToMenu
+  name: BackToMenu()
+  href: api/LegoVR.Networking.RoomManager.html#LegoVR_Networking_RoomManager_BackToMenu
+  commentId: M:LegoVR.Networking.RoomManager.BackToMenu
+  fullName: LegoVR.Networking.RoomManager.BackToMenu()
+  nameWithType: RoomManager.BackToMenu()
+- uid: LegoVR.Networking.RoomManager.BackToMenu*
+  name: BackToMenu
+  href: api/LegoVR.Networking.RoomManager.html#LegoVR_Networking_RoomManager_BackToMenu_
+  commentId: Overload:LegoVR.Networking.RoomManager.BackToMenu
+  isSpec: "True"
+  fullName: LegoVR.Networking.RoomManager.BackToMenu
+  nameWithType: RoomManager.BackToMenu
+- uid: LegoVR.Networking.RoomManager.Instance
+  name: Instance
+  href: api/LegoVR.Networking.RoomManager.html#LegoVR_Networking_RoomManager_Instance
+  commentId: P:LegoVR.Networking.RoomManager.Instance
+  fullName: LegoVR.Networking.RoomManager.Instance
+  nameWithType: RoomManager.Instance
+- uid: LegoVR.Networking.RoomManager.Instance*
+  name: Instance
+  href: api/LegoVR.Networking.RoomManager.html#LegoVR_Networking_RoomManager_Instance_
+  commentId: Overload:LegoVR.Networking.RoomManager.Instance
+  isSpec: "True"
+  fullName: LegoVR.Networking.RoomManager.Instance
+  nameWithType: RoomManager.Instance
+- uid: LegoVR.Networking.RoomManager.OnRoomPropertiesUpdate(ExitGames.Client.Photon.Hashtable)
+  name: OnRoomPropertiesUpdate(Hashtable)
+  href: api/LegoVR.Networking.RoomManager.html#LegoVR_Networking_RoomManager_OnRoomPropertiesUpdate_ExitGames_Client_Photon_Hashtable_
+  commentId: M:LegoVR.Networking.RoomManager.OnRoomPropertiesUpdate(ExitGames.Client.Photon.Hashtable)
+  fullName: LegoVR.Networking.RoomManager.OnRoomPropertiesUpdate(ExitGames.Client.Photon.Hashtable)
+  nameWithType: RoomManager.OnRoomPropertiesUpdate(Hashtable)
+- uid: LegoVR.Networking.RoomManager.OnRoomPropertiesUpdate*
+  name: OnRoomPropertiesUpdate
+  href: api/LegoVR.Networking.RoomManager.html#LegoVR_Networking_RoomManager_OnRoomPropertiesUpdate_
+  commentId: Overload:LegoVR.Networking.RoomManager.OnRoomPropertiesUpdate
+  isSpec: "True"
+  fullName: LegoVR.Networking.RoomManager.OnRoomPropertiesUpdate
+  nameWithType: RoomManager.OnRoomPropertiesUpdate
 - uid: LegoVR.Networking.TakeOwnership
   name: TakeOwnership
   href: api/LegoVR.Networking.TakeOwnership.html
@@ -966,6 +1061,24 @@ references:
   commentId: N:LegoVR.PlayerCode
   fullName: LegoVR.PlayerCode
   nameWithType: LegoVR.PlayerCode
+- uid: LegoVR.PlayerCode.BodyRotation
+  name: BodyRotation
+  href: api/LegoVR.PlayerCode.BodyRotation.html
+  commentId: T:LegoVR.PlayerCode.BodyRotation
+  fullName: LegoVR.PlayerCode.BodyRotation
+  nameWithType: BodyRotation
+- uid: LegoVR.PlayerCode.BodyRotation.armSwinging
+  name: armSwinging
+  href: api/LegoVR.PlayerCode.BodyRotation.html#LegoVR_PlayerCode_BodyRotation_armSwinging
+  commentId: F:LegoVR.PlayerCode.BodyRotation.armSwinging
+  fullName: LegoVR.PlayerCode.BodyRotation.armSwinging
+  nameWithType: BodyRotation.armSwinging
+- uid: LegoVR.PlayerCode.BodyRotation.direction
+  name: direction
+  href: api/LegoVR.PlayerCode.BodyRotation.html#LegoVR_PlayerCode_BodyRotation_direction
+  commentId: F:LegoVR.PlayerCode.BodyRotation.direction
+  fullName: LegoVR.PlayerCode.BodyRotation.direction
+  nameWithType: BodyRotation.direction
 - uid: LegoVR.PlayerCode.FaceOffsets
   name: FaceOffsets
   href: api/LegoVR.PlayerCode.FaceOffsets.html
@@ -1014,6 +1127,12 @@ references:
   commentId: F:LegoVR.PlayerCode.FaceOffsets.SMIRKFACE
   fullName: LegoVR.PlayerCode.FaceOffsets.SMIRKFACE
   nameWithType: FaceOffsets.SMIRKFACE
+- uid: LegoVR.PlayerCode.MenuPlayer
+  name: MenuPlayer
+  href: api/LegoVR.PlayerCode.MenuPlayer.html
+  commentId: T:LegoVR.PlayerCode.MenuPlayer
+  fullName: LegoVR.PlayerCode.MenuPlayer
+  nameWithType: MenuPlayer
 - uid: LegoVR.PlayerCode.PlayerUpdate
   name: PlayerUpdate
   href: api/LegoVR.PlayerCode.PlayerUpdate.html
@@ -1092,6 +1211,38 @@ references:
   commentId: F:LegoVR.UI.ActivateTheRig.rig
   fullName: LegoVR.UI.ActivateTheRig.rig
   nameWithType: ActivateTheRig.rig
+- uid: LegoVR.UI.BodyPartColor
+  name: BodyPartColor
+  href: api/LegoVR.UI.BodyPartColor.html
+  commentId: T:LegoVR.UI.BodyPartColor
+  fullName: LegoVR.UI.BodyPartColor
+  nameWithType: BodyPartColor
+- uid: LegoVR.UI.BodyPartColor.ChangeColorMinus
+  name: ChangeColorMinus()
+  href: api/LegoVR.UI.BodyPartColor.html#LegoVR_UI_BodyPartColor_ChangeColorMinus
+  commentId: M:LegoVR.UI.BodyPartColor.ChangeColorMinus
+  fullName: LegoVR.UI.BodyPartColor.ChangeColorMinus()
+  nameWithType: BodyPartColor.ChangeColorMinus()
+- uid: LegoVR.UI.BodyPartColor.ChangeColorMinus*
+  name: ChangeColorMinus
+  href: api/LegoVR.UI.BodyPartColor.html#LegoVR_UI_BodyPartColor_ChangeColorMinus_
+  commentId: Overload:LegoVR.UI.BodyPartColor.ChangeColorMinus
+  isSpec: "True"
+  fullName: LegoVR.UI.BodyPartColor.ChangeColorMinus
+  nameWithType: BodyPartColor.ChangeColorMinus
+- uid: LegoVR.UI.BodyPartColor.ChangeColorPlus
+  name: ChangeColorPlus()
+  href: api/LegoVR.UI.BodyPartColor.html#LegoVR_UI_BodyPartColor_ChangeColorPlus
+  commentId: M:LegoVR.UI.BodyPartColor.ChangeColorPlus
+  fullName: LegoVR.UI.BodyPartColor.ChangeColorPlus()
+  nameWithType: BodyPartColor.ChangeColorPlus()
+- uid: LegoVR.UI.BodyPartColor.ChangeColorPlus*
+  name: ChangeColorPlus
+  href: api/LegoVR.UI.BodyPartColor.html#LegoVR_UI_BodyPartColor_ChangeColorPlus_
+  commentId: Overload:LegoVR.UI.BodyPartColor.ChangeColorPlus
+  isSpec: "True"
+  fullName: LegoVR.UI.BodyPartColor.ChangeColorPlus
+  nameWithType: BodyPartColor.ChangeColorPlus
 - uid: LegoVR.UI.DropdownChange
   name: DropdownChange
   href: api/LegoVR.UI.DropdownChange.html
@@ -1149,6 +1300,57 @@ references:
   isSpec: "True"
   fullName: LegoVR.UI.DropdownChange.WalkState
   nameWithType: DropdownChange.WalkState
+- uid: LegoVR.UI.FaceChangerUI
+  name: FaceChangerUI
+  href: api/LegoVR.UI.FaceChangerUI.html
+  commentId: T:LegoVR.UI.FaceChangerUI
+  fullName: LegoVR.UI.FaceChangerUI
+  nameWithType: FaceChangerUI
+- uid: LegoVR.UI.FaceChangerUI.ChangeFaceNegative
+  name: ChangeFaceNegative()
+  href: api/LegoVR.UI.FaceChangerUI.html#LegoVR_UI_FaceChangerUI_ChangeFaceNegative
+  commentId: M:LegoVR.UI.FaceChangerUI.ChangeFaceNegative
+  fullName: LegoVR.UI.FaceChangerUI.ChangeFaceNegative()
+  nameWithType: FaceChangerUI.ChangeFaceNegative()
+- uid: LegoVR.UI.FaceChangerUI.ChangeFaceNegative*
+  name: ChangeFaceNegative
+  href: api/LegoVR.UI.FaceChangerUI.html#LegoVR_UI_FaceChangerUI_ChangeFaceNegative_
+  commentId: Overload:LegoVR.UI.FaceChangerUI.ChangeFaceNegative
+  isSpec: "True"
+  fullName: LegoVR.UI.FaceChangerUI.ChangeFaceNegative
+  nameWithType: FaceChangerUI.ChangeFaceNegative
+- uid: LegoVR.UI.FaceChangerUI.ChangeFacePlus
+  name: ChangeFacePlus()
+  href: api/LegoVR.UI.FaceChangerUI.html#LegoVR_UI_FaceChangerUI_ChangeFacePlus
+  commentId: M:LegoVR.UI.FaceChangerUI.ChangeFacePlus
+  fullName: LegoVR.UI.FaceChangerUI.ChangeFacePlus()
+  nameWithType: FaceChangerUI.ChangeFacePlus()
+- uid: LegoVR.UI.FaceChangerUI.ChangeFacePlus*
+  name: ChangeFacePlus
+  href: api/LegoVR.UI.FaceChangerUI.html#LegoVR_UI_FaceChangerUI_ChangeFacePlus_
+  commentId: Overload:LegoVR.UI.FaceChangerUI.ChangeFacePlus
+  isSpec: "True"
+  fullName: LegoVR.UI.FaceChangerUI.ChangeFacePlus
+  nameWithType: FaceChangerUI.ChangeFacePlus
+- uid: LegoVR.UI.FaceChangerUI.PPM
+  name: PPM
+  href: api/LegoVR.UI.FaceChangerUI.html#LegoVR_UI_FaceChangerUI_PPM
+  commentId: F:LegoVR.UI.FaceChangerUI.PPM
+  fullName: LegoVR.UI.FaceChangerUI.PPM
+  nameWithType: FaceChangerUI.PPM
+- uid: LegoVR.UI.FaceChangerUI.ResetPreset
+  name: ResetPreset()
+  href: api/LegoVR.UI.FaceChangerUI.html#LegoVR_UI_FaceChangerUI_ResetPreset
+  commentId: M:LegoVR.UI.FaceChangerUI.ResetPreset
+  fullName: LegoVR.UI.FaceChangerUI.ResetPreset()
+  nameWithType: FaceChangerUI.ResetPreset()
+- uid: LegoVR.UI.FaceChangerUI.ResetPreset*
+  name: ResetPreset
+  href: api/LegoVR.UI.FaceChangerUI.html#LegoVR_UI_FaceChangerUI_ResetPreset_
+  commentId: Overload:LegoVR.UI.FaceChangerUI.ResetPreset
+  isSpec: "True"
+  fullName: LegoVR.UI.FaceChangerUI.ResetPreset
+  nameWithType: FaceChangerUI.ResetPreset
 - uid: LegoVR.UI.MenuSwitcher
   name: MenuSwitcher
   href: api/LegoVR.UI.MenuSwitcher.html
@@ -1174,6 +1376,19 @@ references:
   isSpec: "True"
   fullName: LegoVR.UI.MenuSwitcher.MenuState
   nameWithType: MenuSwitcher.MenuState
+- uid: LegoVR.UI.MenuSwitcher.QuitTheApp
+  name: QuitTheApp()
+  href: api/LegoVR.UI.MenuSwitcher.html#LegoVR_UI_MenuSwitcher_QuitTheApp
+  commentId: M:LegoVR.UI.MenuSwitcher.QuitTheApp
+  fullName: LegoVR.UI.MenuSwitcher.QuitTheApp()
+  nameWithType: MenuSwitcher.QuitTheApp()
+- uid: LegoVR.UI.MenuSwitcher.QuitTheApp*
+  name: QuitTheApp
+  href: api/LegoVR.UI.MenuSwitcher.html#LegoVR_UI_MenuSwitcher_QuitTheApp_
+  commentId: Overload:LegoVR.UI.MenuSwitcher.QuitTheApp
+  isSpec: "True"
+  fullName: LegoVR.UI.MenuSwitcher.QuitTheApp
+  nameWithType: MenuSwitcher.QuitTheApp
 - uid: LegoVR.UI.MenuSwitcher.SwitchMenu(UnityEngine.GameObject)
   name: SwitchMenu(GameObject)
   href: api/LegoVR.UI.MenuSwitcher.html#LegoVR_UI_MenuSwitcher_SwitchMenu_UnityEngine_GameObject_
@@ -1200,6 +1415,12 @@ references:
   isSpec: "True"
   fullName: LegoVR.UI.MenuSwitcher.UIInteraction
   nameWithType: MenuSwitcher.UIInteraction
+- uid: LegoVR.UI.ObjectPointerActivation
+  name: ObjectPointerActivation
+  href: api/LegoVR.UI.ObjectPointerActivation.html
+  commentId: T:LegoVR.UI.ObjectPointerActivation
+  fullName: LegoVR.UI.ObjectPointerActivation
+  nameWithType: ObjectPointerActivation
 - uid: LegoVR.UI.UIInteraction
   name: UIInteraction
   href: api/LegoVR.UI.UIInteraction.html
@@ -1219,12 +1440,6 @@ references:
   isSpec: "True"
   fullName: LegoVR.UI.UIInteraction.InteractUIElement
   nameWithType: UIInteraction.InteractUIElement
-- uid: LegoVR.UI.UIInteraction.rightHand
-  name: rightHand
-  href: api/LegoVR.UI.UIInteraction.html#LegoVR_UI_UIInteraction_rightHand
-  commentId: F:LegoVR.UI.UIInteraction.rightHand
-  fullName: LegoVR.UI.UIInteraction.rightHand
-  nameWithType: UIInteraction.rightHand
 - uid: LegoVR.UI.VolumeControl
   name: VolumeControl
   href: api/LegoVR.UI.VolumeControl.html

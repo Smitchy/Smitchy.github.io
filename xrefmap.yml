@@ -1,6 +1,295 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: LegoVR.Audio
+  name: LegoVR.Audio
+  href: api/LegoVR.Audio.html
+  commentId: N:LegoVR.Audio
+  fullName: LegoVR.Audio
+  nameWithType: LegoVR.Audio
+- uid: LegoVR.Audio.BallSound
+  name: BallSound
+  href: api/LegoVR.Audio.BallSound.html
+  commentId: T:LegoVR.Audio.BallSound
+  fullName: LegoVR.Audio.BallSound
+  nameWithType: BallSound
+- uid: LegoVR.Audio.SoundPoolManager
+  name: SoundPoolManager
+  href: api/LegoVR.Audio.SoundPoolManager.html
+  commentId: T:LegoVR.Audio.SoundPoolManager
+  fullName: LegoVR.Audio.SoundPoolManager
+  nameWithType: SoundPoolManager
+- uid: LegoVR.Audio.SoundPoolManager.PlaySound(UnityEngine.AudioClip,System.Single,UnityEngine.Vector3,UnityEngine.Transform)
+  name: PlaySound(AudioClip, Single, Vector3, Transform)
+  href: api/LegoVR.Audio.SoundPoolManager.html#LegoVR_Audio_SoundPoolManager_PlaySound_UnityEngine_AudioClip_System_Single_UnityEngine_Vector3_UnityEngine_Transform_
+  commentId: M:LegoVR.Audio.SoundPoolManager.PlaySound(UnityEngine.AudioClip,System.Single,UnityEngine.Vector3,UnityEngine.Transform)
+  fullName: LegoVR.Audio.SoundPoolManager.PlaySound(UnityEngine.AudioClip, System.Single, UnityEngine.Vector3, UnityEngine.Transform)
+  nameWithType: SoundPoolManager.PlaySound(AudioClip, Single, Vector3, Transform)
+- uid: LegoVR.Audio.SoundPoolManager.PlaySound*
+  name: PlaySound
+  href: api/LegoVR.Audio.SoundPoolManager.html#LegoVR_Audio_SoundPoolManager_PlaySound_
+  commentId: Overload:LegoVR.Audio.SoundPoolManager.PlaySound
+  isSpec: "True"
+  fullName: LegoVR.Audio.SoundPoolManager.PlaySound
+  nameWithType: SoundPoolManager.PlaySound
+- uid: LegoVR.Audio.SoundPoolManager.SingletonAwakened
+  name: SingletonAwakened()
+  href: api/LegoVR.Audio.SoundPoolManager.html#LegoVR_Audio_SoundPoolManager_SingletonAwakened
+  commentId: M:LegoVR.Audio.SoundPoolManager.SingletonAwakened
+  fullName: LegoVR.Audio.SoundPoolManager.SingletonAwakened()
+  nameWithType: SoundPoolManager.SingletonAwakened()
+- uid: LegoVR.Audio.SoundPoolManager.SingletonAwakened*
+  name: SingletonAwakened
+  href: api/LegoVR.Audio.SoundPoolManager.html#LegoVR_Audio_SoundPoolManager_SingletonAwakened_
+  commentId: Overload:LegoVR.Audio.SoundPoolManager.SingletonAwakened
+  isSpec: "True"
+  fullName: LegoVR.Audio.SoundPoolManager.SingletonAwakened
+  nameWithType: SoundPoolManager.SingletonAwakened
+- uid: LegoVR.Audio.SwishManager
+  name: SwishManager
+  href: api/LegoVR.Audio.SwishManager.html
+  commentId: T:LegoVR.Audio.SwishManager
+  fullName: LegoVR.Audio.SwishManager
+  nameWithType: SwishManager
+- uid: LegoVR.Audio.SwishManager.SetLower(System.Boolean)
+  name: SetLower(Boolean)
+  href: api/LegoVR.Audio.SwishManager.html#LegoVR_Audio_SwishManager_SetLower_System_Boolean_
+  commentId: M:LegoVR.Audio.SwishManager.SetLower(System.Boolean)
+  fullName: LegoVR.Audio.SwishManager.SetLower(System.Boolean)
+  nameWithType: SwishManager.SetLower(Boolean)
+- uid: LegoVR.Audio.SwishManager.SetLower*
+  name: SetLower
+  href: api/LegoVR.Audio.SwishManager.html#LegoVR_Audio_SwishManager_SetLower_
+  commentId: Overload:LegoVR.Audio.SwishManager.SetLower
+  isSpec: "True"
+  fullName: LegoVR.Audio.SwishManager.SetLower
+  nameWithType: SwishManager.SetLower
+- uid: LegoVR.Audio.SwishManager.SetUpper(System.Boolean)
+  name: SetUpper(Boolean)
+  href: api/LegoVR.Audio.SwishManager.html#LegoVR_Audio_SwishManager_SetUpper_System_Boolean_
+  commentId: M:LegoVR.Audio.SwishManager.SetUpper(System.Boolean)
+  fullName: LegoVR.Audio.SwishManager.SetUpper(System.Boolean)
+  nameWithType: SwishManager.SetUpper(Boolean)
+- uid: LegoVR.Audio.SwishManager.SetUpper*
+  name: SetUpper
+  href: api/LegoVR.Audio.SwishManager.html#LegoVR_Audio_SwishManager_SetUpper_
+  commentId: Overload:LegoVR.Audio.SwishManager.SetUpper
+  isSpec: "True"
+  fullName: LegoVR.Audio.SwishManager.SetUpper
+  nameWithType: SwishManager.SetUpper
+- uid: LegoVR.External
+  name: LegoVR.External
+  href: api/LegoVR.External.html
+  commentId: N:LegoVR.External
+  fullName: LegoVR.External
+  nameWithType: LegoVR.External
+- uid: LegoVR.External.MonoBehaviourSingleton`1
+  name: MonoBehaviourSingleton<T>
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html
+  commentId: T:LegoVR.External.MonoBehaviourSingleton`1
+  name.vb: MonoBehaviourSingleton(Of T)
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T)
+  nameWithType: MonoBehaviourSingleton<T>
+  nameWithType.vb: MonoBehaviourSingleton(Of T)
+- uid: LegoVR.External.MonoBehaviourSingleton`1.Instance
+  name: Instance
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_Instance
+  commentId: P:LegoVR.External.MonoBehaviourSingleton`1.Instance
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.Instance
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).Instance
+  nameWithType: MonoBehaviourSingleton<T>.Instance
+  nameWithType.vb: MonoBehaviourSingleton(Of T).Instance
+- uid: LegoVR.External.MonoBehaviourSingleton`1.Instance*
+  name: Instance
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_Instance_
+  commentId: Overload:LegoVR.External.MonoBehaviourSingleton`1.Instance
+  isSpec: "True"
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.Instance
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).Instance
+  nameWithType: MonoBehaviourSingleton<T>.Instance
+  nameWithType.vb: MonoBehaviourSingleton(Of T).Instance
+- uid: LegoVR.External.MonoBehaviourSingleton`1.IsAwakened
+  name: IsAwakened
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_IsAwakened
+  commentId: P:LegoVR.External.MonoBehaviourSingleton`1.IsAwakened
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.IsAwakened
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).IsAwakened
+  nameWithType: MonoBehaviourSingleton<T>.IsAwakened
+  nameWithType.vb: MonoBehaviourSingleton(Of T).IsAwakened
+- uid: LegoVR.External.MonoBehaviourSingleton`1.IsAwakened*
+  name: IsAwakened
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_IsAwakened_
+  commentId: Overload:LegoVR.External.MonoBehaviourSingleton`1.IsAwakened
+  isSpec: "True"
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.IsAwakened
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).IsAwakened
+  nameWithType: MonoBehaviourSingleton<T>.IsAwakened
+  nameWithType.vb: MonoBehaviourSingleton(Of T).IsAwakened
+- uid: LegoVR.External.MonoBehaviourSingleton`1.IsDestroyed
+  name: IsDestroyed
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_IsDestroyed
+  commentId: P:LegoVR.External.MonoBehaviourSingleton`1.IsDestroyed
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.IsDestroyed
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).IsDestroyed
+  nameWithType: MonoBehaviourSingleton<T>.IsDestroyed
+  nameWithType.vb: MonoBehaviourSingleton(Of T).IsDestroyed
+- uid: LegoVR.External.MonoBehaviourSingleton`1.IsDestroyed*
+  name: IsDestroyed
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_IsDestroyed_
+  commentId: Overload:LegoVR.External.MonoBehaviourSingleton`1.IsDestroyed
+  isSpec: "True"
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.IsDestroyed
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).IsDestroyed
+  nameWithType: MonoBehaviourSingleton<T>.IsDestroyed
+  nameWithType.vb: MonoBehaviourSingleton(Of T).IsDestroyed
+- uid: LegoVR.External.MonoBehaviourSingleton`1.IsStarted
+  name: IsStarted
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_IsStarted
+  commentId: P:LegoVR.External.MonoBehaviourSingleton`1.IsStarted
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.IsStarted
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).IsStarted
+  nameWithType: MonoBehaviourSingleton<T>.IsStarted
+  nameWithType.vb: MonoBehaviourSingleton(Of T).IsStarted
+- uid: LegoVR.External.MonoBehaviourSingleton`1.IsStarted*
+  name: IsStarted
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_IsStarted_
+  commentId: Overload:LegoVR.External.MonoBehaviourSingleton`1.IsStarted
+  isSpec: "True"
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.IsStarted
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).IsStarted
+  nameWithType: MonoBehaviourSingleton<T>.IsStarted
+  nameWithType.vb: MonoBehaviourSingleton(Of T).IsStarted
+- uid: LegoVR.External.MonoBehaviourSingleton`1.NotifyInstanceRepeated
+  name: NotifyInstanceRepeated()
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_NotifyInstanceRepeated
+  commentId: M:LegoVR.External.MonoBehaviourSingleton`1.NotifyInstanceRepeated
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.NotifyInstanceRepeated()
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).NotifyInstanceRepeated()
+  nameWithType: MonoBehaviourSingleton<T>.NotifyInstanceRepeated()
+  nameWithType.vb: MonoBehaviourSingleton(Of T).NotifyInstanceRepeated()
+- uid: LegoVR.External.MonoBehaviourSingleton`1.NotifyInstanceRepeated*
+  name: NotifyInstanceRepeated
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_NotifyInstanceRepeated_
+  commentId: Overload:LegoVR.External.MonoBehaviourSingleton`1.NotifyInstanceRepeated
+  isSpec: "True"
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.NotifyInstanceRepeated
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).NotifyInstanceRepeated
+  nameWithType: MonoBehaviourSingleton<T>.NotifyInstanceRepeated
+  nameWithType.vb: MonoBehaviourSingleton(Of T).NotifyInstanceRepeated
+- uid: LegoVR.External.MonoBehaviourSingleton`1.PrintError(System.String,System.Object[])
+  name: PrintError(String, Object[])
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_PrintError_System_String_System_Object___
+  commentId: M:LegoVR.External.MonoBehaviourSingleton`1.PrintError(System.String,System.Object[])
+  name.vb: PrintError(String, Object())
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.PrintError(System.String, System.Object[])
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).PrintError(System.String, System.Object())
+  nameWithType: MonoBehaviourSingleton<T>.PrintError(String, Object[])
+  nameWithType.vb: MonoBehaviourSingleton(Of T).PrintError(String, Object())
+- uid: LegoVR.External.MonoBehaviourSingleton`1.PrintError*
+  name: PrintError
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_PrintError_
+  commentId: Overload:LegoVR.External.MonoBehaviourSingleton`1.PrintError
+  isSpec: "True"
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.PrintError
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).PrintError
+  nameWithType: MonoBehaviourSingleton<T>.PrintError
+  nameWithType.vb: MonoBehaviourSingleton(Of T).PrintError
+- uid: LegoVR.External.MonoBehaviourSingleton`1.PrintLog(System.String,System.Object[])
+  name: PrintLog(String, Object[])
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_PrintLog_System_String_System_Object___
+  commentId: M:LegoVR.External.MonoBehaviourSingleton`1.PrintLog(System.String,System.Object[])
+  name.vb: PrintLog(String, Object())
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.PrintLog(System.String, System.Object[])
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).PrintLog(System.String, System.Object())
+  nameWithType: MonoBehaviourSingleton<T>.PrintLog(String, Object[])
+  nameWithType.vb: MonoBehaviourSingleton(Of T).PrintLog(String, Object())
+- uid: LegoVR.External.MonoBehaviourSingleton`1.PrintLog*
+  name: PrintLog
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_PrintLog_
+  commentId: Overload:LegoVR.External.MonoBehaviourSingleton`1.PrintLog
+  isSpec: "True"
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.PrintLog
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).PrintLog
+  nameWithType: MonoBehaviourSingleton<T>.PrintLog
+  nameWithType.vb: MonoBehaviourSingleton(Of T).PrintLog
+- uid: LegoVR.External.MonoBehaviourSingleton`1.PrintTrace
+  name: PrintTrace
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_PrintTrace
+  commentId: F:LegoVR.External.MonoBehaviourSingleton`1.PrintTrace
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.PrintTrace
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).PrintTrace
+  nameWithType: MonoBehaviourSingleton<T>.PrintTrace
+  nameWithType.vb: MonoBehaviourSingleton(Of T).PrintTrace
+- uid: LegoVR.External.MonoBehaviourSingleton`1.PrintWarn(System.String,System.Object[])
+  name: PrintWarn(String, Object[])
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_PrintWarn_System_String_System_Object___
+  commentId: M:LegoVR.External.MonoBehaviourSingleton`1.PrintWarn(System.String,System.Object[])
+  name.vb: PrintWarn(String, Object())
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.PrintWarn(System.String, System.Object[])
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).PrintWarn(System.String, System.Object())
+  nameWithType: MonoBehaviourSingleton<T>.PrintWarn(String, Object[])
+  nameWithType.vb: MonoBehaviourSingleton(Of T).PrintWarn(String, Object())
+- uid: LegoVR.External.MonoBehaviourSingleton`1.PrintWarn*
+  name: PrintWarn
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_PrintWarn_
+  commentId: Overload:LegoVR.External.MonoBehaviourSingleton`1.PrintWarn
+  isSpec: "True"
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.PrintWarn
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).PrintWarn
+  nameWithType: MonoBehaviourSingleton<T>.PrintWarn
+  nameWithType.vb: MonoBehaviourSingleton(Of T).PrintWarn
+- uid: LegoVR.External.MonoBehaviourSingleton`1.SingletonAwakened
+  name: SingletonAwakened()
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_SingletonAwakened
+  commentId: M:LegoVR.External.MonoBehaviourSingleton`1.SingletonAwakened
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.SingletonAwakened()
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).SingletonAwakened()
+  nameWithType: MonoBehaviourSingleton<T>.SingletonAwakened()
+  nameWithType.vb: MonoBehaviourSingleton(Of T).SingletonAwakened()
+- uid: LegoVR.External.MonoBehaviourSingleton`1.SingletonAwakened*
+  name: SingletonAwakened
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_SingletonAwakened_
+  commentId: Overload:LegoVR.External.MonoBehaviourSingleton`1.SingletonAwakened
+  isSpec: "True"
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.SingletonAwakened
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).SingletonAwakened
+  nameWithType: MonoBehaviourSingleton<T>.SingletonAwakened
+  nameWithType.vb: MonoBehaviourSingleton(Of T).SingletonAwakened
+- uid: LegoVR.External.MonoBehaviourSingleton`1.SingletonDestroyed
+  name: SingletonDestroyed()
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_SingletonDestroyed
+  commentId: M:LegoVR.External.MonoBehaviourSingleton`1.SingletonDestroyed
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.SingletonDestroyed()
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).SingletonDestroyed()
+  nameWithType: MonoBehaviourSingleton<T>.SingletonDestroyed()
+  nameWithType.vb: MonoBehaviourSingleton(Of T).SingletonDestroyed()
+- uid: LegoVR.External.MonoBehaviourSingleton`1.SingletonDestroyed*
+  name: SingletonDestroyed
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_SingletonDestroyed_
+  commentId: Overload:LegoVR.External.MonoBehaviourSingleton`1.SingletonDestroyed
+  isSpec: "True"
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.SingletonDestroyed
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).SingletonDestroyed
+  nameWithType: MonoBehaviourSingleton<T>.SingletonDestroyed
+  nameWithType.vb: MonoBehaviourSingleton(Of T).SingletonDestroyed
+- uid: LegoVR.External.MonoBehaviourSingleton`1.SingletonStarted
+  name: SingletonStarted()
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_SingletonStarted
+  commentId: M:LegoVR.External.MonoBehaviourSingleton`1.SingletonStarted
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.SingletonStarted()
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).SingletonStarted()
+  nameWithType: MonoBehaviourSingleton<T>.SingletonStarted()
+  nameWithType.vb: MonoBehaviourSingleton(Of T).SingletonStarted()
+- uid: LegoVR.External.MonoBehaviourSingleton`1.SingletonStarted*
+  name: SingletonStarted
+  href: api/LegoVR.External.MonoBehaviourSingleton-1.html#LegoVR_External_MonoBehaviourSingleton_1_SingletonStarted_
+  commentId: Overload:LegoVR.External.MonoBehaviourSingleton`1.SingletonStarted
+  isSpec: "True"
+  fullName: LegoVR.External.MonoBehaviourSingleton<T>.SingletonStarted
+  fullName.vb: LegoVR.External.MonoBehaviourSingleton(Of T).SingletonStarted
+  nameWithType: MonoBehaviourSingleton<T>.SingletonStarted
+  nameWithType.vb: MonoBehaviourSingleton(Of T).SingletonStarted
 - uid: LegoVR.FollowScripts
   name: LegoVR.FollowScripts
   href: api/LegoVR.FollowScripts.html
@@ -44,6 +333,25 @@ references:
   commentId: N:LegoVR.Helper
   fullName: LegoVR.Helper
   nameWithType: LegoVR.Helper
+- uid: LegoVR.Helper.CreateRoomHelper
+  name: CreateRoomHelper
+  href: api/LegoVR.Helper.CreateRoomHelper.html
+  commentId: T:LegoVR.Helper.CreateRoomHelper
+  fullName: LegoVR.Helper.CreateRoomHelper
+  nameWithType: CreateRoomHelper
+- uid: LegoVR.Helper.CreateRoomHelper.CreateRoom
+  name: CreateRoom()
+  href: api/LegoVR.Helper.CreateRoomHelper.html#LegoVR_Helper_CreateRoomHelper_CreateRoom
+  commentId: M:LegoVR.Helper.CreateRoomHelper.CreateRoom
+  fullName: LegoVR.Helper.CreateRoomHelper.CreateRoom()
+  nameWithType: CreateRoomHelper.CreateRoom()
+- uid: LegoVR.Helper.CreateRoomHelper.CreateRoom*
+  name: CreateRoom
+  href: api/LegoVR.Helper.CreateRoomHelper.html#LegoVR_Helper_CreateRoomHelper_CreateRoom_
+  commentId: Overload:LegoVR.Helper.CreateRoomHelper.CreateRoom
+  isSpec: "True"
+  fullName: LegoVR.Helper.CreateRoomHelper.CreateRoom
+  nameWithType: CreateRoomHelper.CreateRoom
 - uid: LegoVR.Helper.MathHelpers
   name: MathHelpers
   href: api/LegoVR.Helper.MathHelpers.html
@@ -63,6 +371,25 @@ references:
   isSpec: "True"
   fullName: LegoVR.Helper.MathHelpers.Mod
   nameWithType: MathHelpers.Mod
+- uid: LegoVR.Helper.PresetsHelper
+  name: PresetsHelper
+  href: api/LegoVR.Helper.PresetsHelper.html
+  commentId: T:LegoVR.Helper.PresetsHelper
+  fullName: LegoVR.Helper.PresetsHelper
+  nameWithType: PresetsHelper
+- uid: LegoVR.Helper.PresetsHelper.SavePresetsToCLM
+  name: SavePresetsToCLM()
+  href: api/LegoVR.Helper.PresetsHelper.html#LegoVR_Helper_PresetsHelper_SavePresetsToCLM
+  commentId: M:LegoVR.Helper.PresetsHelper.SavePresetsToCLM
+  fullName: LegoVR.Helper.PresetsHelper.SavePresetsToCLM()
+  nameWithType: PresetsHelper.SavePresetsToCLM()
+- uid: LegoVR.Helper.PresetsHelper.SavePresetsToCLM*
+  name: SavePresetsToCLM
+  href: api/LegoVR.Helper.PresetsHelper.html#LegoVR_Helper_PresetsHelper_SavePresetsToCLM_
+  commentId: Overload:LegoVR.Helper.PresetsHelper.SavePresetsToCLM
+  isSpec: "True"
+  fullName: LegoVR.Helper.PresetsHelper.SavePresetsToCLM
+  nameWithType: PresetsHelper.SavePresetsToCLM
 - uid: LegoVR.Locomotion
   name: LegoVR.Locomotion
   href: api/LegoVR.Locomotion.html
@@ -366,55 +693,6 @@ references:
   commentId: F:LegoVR.Locomotion.TeleportPlayer.teleporting
   fullName: LegoVR.Locomotion.TeleportPlayer.teleporting
   nameWithType: TeleportPlayer.teleporting
-- uid: LegoVR.Locomotion.TestingLerpOverTime
-  name: TestingLerpOverTime
-  href: api/LegoVR.Locomotion.TestingLerpOverTime.html
-  commentId: T:LegoVR.Locomotion.TestingLerpOverTime
-  fullName: LegoVR.Locomotion.TestingLerpOverTime
-  nameWithType: TestingLerpOverTime
-- uid: LegoVR.Locomotion.TestingLerpOverTime.distance
-  name: distance
-  href: api/LegoVR.Locomotion.TestingLerpOverTime.html#LegoVR_Locomotion_TestingLerpOverTime_distance
-  commentId: F:LegoVR.Locomotion.TestingLerpOverTime.distance
-  fullName: LegoVR.Locomotion.TestingLerpOverTime.distance
-  nameWithType: TestingLerpOverTime.distance
-- uid: LegoVR.Locomotion.TestingLerpOverTime.end
-  name: end
-  href: api/LegoVR.Locomotion.TestingLerpOverTime.html#LegoVR_Locomotion_TestingLerpOverTime_end
-  commentId: F:LegoVR.Locomotion.TestingLerpOverTime.end
-  fullName: LegoVR.Locomotion.TestingLerpOverTime.end
-  nameWithType: TestingLerpOverTime.end
-- uid: LegoVR.Locomotion.TestingLerpOverTime.increment
-  name: increment
-  href: api/LegoVR.Locomotion.TestingLerpOverTime.html#LegoVR_Locomotion_TestingLerpOverTime_increment
-  commentId: F:LegoVR.Locomotion.TestingLerpOverTime.increment
-  fullName: LegoVR.Locomotion.TestingLerpOverTime.increment
-  nameWithType: TestingLerpOverTime.increment
-- uid: LegoVR.Locomotion.TestingLerpOverTime.LerpIncrement
-  name: LerpIncrement()
-  href: api/LegoVR.Locomotion.TestingLerpOverTime.html#LegoVR_Locomotion_TestingLerpOverTime_LerpIncrement
-  commentId: M:LegoVR.Locomotion.TestingLerpOverTime.LerpIncrement
-  fullName: LegoVR.Locomotion.TestingLerpOverTime.LerpIncrement()
-  nameWithType: TestingLerpOverTime.LerpIncrement()
-- uid: LegoVR.Locomotion.TestingLerpOverTime.LerpIncrement*
-  name: LerpIncrement
-  href: api/LegoVR.Locomotion.TestingLerpOverTime.html#LegoVR_Locomotion_TestingLerpOverTime_LerpIncrement_
-  commentId: Overload:LegoVR.Locomotion.TestingLerpOverTime.LerpIncrement
-  isSpec: "True"
-  fullName: LegoVR.Locomotion.TestingLerpOverTime.LerpIncrement
-  nameWithType: TestingLerpOverTime.LerpIncrement
-- uid: LegoVR.Locomotion.TestingLerpOverTime.result
-  name: result
-  href: api/LegoVR.Locomotion.TestingLerpOverTime.html#LegoVR_Locomotion_TestingLerpOverTime_result
-  commentId: F:LegoVR.Locomotion.TestingLerpOverTime.result
-  fullName: LegoVR.Locomotion.TestingLerpOverTime.result
-  nameWithType: TestingLerpOverTime.result
-- uid: LegoVR.Locomotion.TestingLerpOverTime.start
-  name: start
-  href: api/LegoVR.Locomotion.TestingLerpOverTime.html#LegoVR_Locomotion_TestingLerpOverTime_start
-  commentId: F:LegoVR.Locomotion.TestingLerpOverTime.start
-  fullName: LegoVR.Locomotion.TestingLerpOverTime.start
-  nameWithType: TestingLerpOverTime.start
 - uid: LegoVR.Locomotion.ThrowTeleporter
   name: ThrowTeleporter
   href: api/LegoVR.Locomotion.ThrowTeleporter.html
@@ -712,6 +990,12 @@ references:
   commentId: F:LegoVR.Networking.ClientManager.Body
   fullName: LegoVR.Networking.ClientManager.Body
   nameWithType: ClientManager.Body
+- uid: LegoVR.Networking.ClientManager.Colors
+  name: Colors
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_Colors
+  commentId: F:LegoVR.Networking.ClientManager.Colors
+  fullName: LegoVR.Networking.ClientManager.Colors
+  nameWithType: ClientManager.Colors
 - uid: LegoVR.Networking.ClientManager.ConnectToServer
   name: ConnectToServer()
   href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_ConnectToServer
@@ -725,6 +1009,32 @@ references:
   isSpec: "True"
   fullName: LegoVR.Networking.ClientManager.ConnectToServer
   nameWithType: ClientManager.ConnectToServer
+- uid: LegoVR.Networking.ClientManager.CreateRoom
+  name: CreateRoom()
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_CreateRoom
+  commentId: M:LegoVR.Networking.ClientManager.CreateRoom
+  fullName: LegoVR.Networking.ClientManager.CreateRoom()
+  nameWithType: ClientManager.CreateRoom()
+- uid: LegoVR.Networking.ClientManager.CreateRoom*
+  name: CreateRoom
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_CreateRoom_
+  commentId: Overload:LegoVR.Networking.ClientManager.CreateRoom
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.CreateRoom
+  nameWithType: ClientManager.CreateRoom
+- uid: LegoVR.Networking.ClientManager.CreateRoomFailed
+  name: CreateRoomFailed()
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_CreateRoomFailed
+  commentId: M:LegoVR.Networking.ClientManager.CreateRoomFailed
+  fullName: LegoVR.Networking.ClientManager.CreateRoomFailed()
+  nameWithType: ClientManager.CreateRoomFailed()
+- uid: LegoVR.Networking.ClientManager.CreateRoomFailed*
+  name: CreateRoomFailed
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_CreateRoomFailed_
+  commentId: Overload:LegoVR.Networking.ClientManager.CreateRoomFailed
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.CreateRoomFailed
+  nameWithType: ClientManager.CreateRoomFailed
 - uid: LegoVR.Networking.ClientManager.Face
   name: Face
   href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_Face
@@ -737,19 +1047,6 @@ references:
   commentId: F:LegoVR.Networking.ClientManager.facePos
   fullName: LegoVR.Networking.ClientManager.facePos
   nameWithType: ClientManager.facePos
-- uid: LegoVR.Networking.ClientManager.GetRoomList
-  name: GetRoomList()
-  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_GetRoomList
-  commentId: M:LegoVR.Networking.ClientManager.GetRoomList
-  fullName: LegoVR.Networking.ClientManager.GetRoomList()
-  nameWithType: ClientManager.GetRoomList()
-- uid: LegoVR.Networking.ClientManager.GetRoomList*
-  name: GetRoomList
-  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_GetRoomList_
-  commentId: Overload:LegoVR.Networking.ClientManager.GetRoomList
-  isSpec: "True"
-  fullName: LegoVR.Networking.ClientManager.GetRoomList
-  nameWithType: ClientManager.GetRoomList
 - uid: LegoVR.Networking.ClientManager.Instance
   name: Instance
   href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_Instance
@@ -807,6 +1104,19 @@ references:
   isSpec: "True"
   fullName: LegoVR.Networking.ClientManager.OnConnectedToMaster
   nameWithType: ClientManager.OnConnectedToMaster
+- uid: LegoVR.Networking.ClientManager.OnCreateRoomFailed(System.Int16,System.String)
+  name: OnCreateRoomFailed(Int16, String)
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnCreateRoomFailed_System_Int16_System_String_
+  commentId: M:LegoVR.Networking.ClientManager.OnCreateRoomFailed(System.Int16,System.String)
+  fullName: LegoVR.Networking.ClientManager.OnCreateRoomFailed(System.Int16, System.String)
+  nameWithType: ClientManager.OnCreateRoomFailed(Int16, String)
+- uid: LegoVR.Networking.ClientManager.OnCreateRoomFailed*
+  name: OnCreateRoomFailed
+  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnCreateRoomFailed_
+  commentId: Overload:LegoVR.Networking.ClientManager.OnCreateRoomFailed
+  isSpec: "True"
+  fullName: LegoVR.Networking.ClientManager.OnCreateRoomFailed
+  nameWithType: ClientManager.OnCreateRoomFailed
 - uid: LegoVR.Networking.ClientManager.OnJoinedRoom
   name: OnJoinedRoom()
   href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnJoinedRoom
@@ -820,19 +1130,6 @@ references:
   isSpec: "True"
   fullName: LegoVR.Networking.ClientManager.OnJoinedRoom
   nameWithType: ClientManager.OnJoinedRoom
-- uid: LegoVR.Networking.ClientManager.OnJoinRandomFailed(System.Int16,System.String)
-  name: OnJoinRandomFailed(Int16, String)
-  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnJoinRandomFailed_System_Int16_System_String_
-  commentId: M:LegoVR.Networking.ClientManager.OnJoinRandomFailed(System.Int16,System.String)
-  fullName: LegoVR.Networking.ClientManager.OnJoinRandomFailed(System.Int16, System.String)
-  nameWithType: ClientManager.OnJoinRandomFailed(Int16, String)
-- uid: LegoVR.Networking.ClientManager.OnJoinRandomFailed*
-  name: OnJoinRandomFailed
-  href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnJoinRandomFailed_
-  commentId: Overload:LegoVR.Networking.ClientManager.OnJoinRandomFailed
-  isSpec: "True"
-  fullName: LegoVR.Networking.ClientManager.OnJoinRandomFailed
-  nameWithType: ClientManager.OnJoinRandomFailed
 - uid: LegoVR.Networking.ClientManager.OnJoinRoomFailed(System.Int16,System.String)
   name: OnJoinRoomFailed(Int16, String)
   href: api/LegoVR.Networking.ClientManager.html#LegoVR_Networking_ClientManager_OnJoinRoomFailed_System_Int16_System_String_
@@ -1079,54 +1376,6 @@ references:
   commentId: F:LegoVR.PlayerCode.BodyRotation.direction
   fullName: LegoVR.PlayerCode.BodyRotation.direction
   nameWithType: BodyRotation.direction
-- uid: LegoVR.PlayerCode.FaceOffsets
-  name: FaceOffsets
-  href: api/LegoVR.PlayerCode.FaceOffsets.html
-  commentId: T:LegoVR.PlayerCode.FaceOffsets
-  fullName: LegoVR.PlayerCode.FaceOffsets
-  nameWithType: FaceOffsets
-- uid: LegoVR.PlayerCode.FaceOffsets.FEMALE1
-  name: FEMALE1
-  href: api/LegoVR.PlayerCode.FaceOffsets.html#LegoVR_PlayerCode_FaceOffsets_FEMALE1
-  commentId: F:LegoVR.PlayerCode.FaceOffsets.FEMALE1
-  fullName: LegoVR.PlayerCode.FaceOffsets.FEMALE1
-  nameWithType: FaceOffsets.FEMALE1
-- uid: LegoVR.PlayerCode.FaceOffsets.FEMALE2
-  name: FEMALE2
-  href: api/LegoVR.PlayerCode.FaceOffsets.html#LegoVR_PlayerCode_FaceOffsets_FEMALE2
-  commentId: F:LegoVR.PlayerCode.FaceOffsets.FEMALE2
-  fullName: LegoVR.PlayerCode.FaceOffsets.FEMALE2
-  nameWithType: FaceOffsets.FEMALE2
-- uid: LegoVR.PlayerCode.FaceOffsets.GASPFACE
-  name: GASPFACE
-  href: api/LegoVR.PlayerCode.FaceOffsets.html#LegoVR_PlayerCode_FaceOffsets_GASPFACE
-  commentId: F:LegoVR.PlayerCode.FaceOffsets.GASPFACE
-  fullName: LegoVR.PlayerCode.FaceOffsets.GASPFACE
-  nameWithType: FaceOffsets.GASPFACE
-- uid: LegoVR.PlayerCode.FaceOffsets.HAPPYFACE
-  name: HAPPYFACE
-  href: api/LegoVR.PlayerCode.FaceOffsets.html#LegoVR_PlayerCode_FaceOffsets_HAPPYFACE
-  commentId: F:LegoVR.PlayerCode.FaceOffsets.HAPPYFACE
-  fullName: LegoVR.PlayerCode.FaceOffsets.HAPPYFACE
-  nameWithType: FaceOffsets.HAPPYFACE
-- uid: LegoVR.PlayerCode.FaceOffsets.MOUSTACHE
-  name: MOUSTACHE
-  href: api/LegoVR.PlayerCode.FaceOffsets.html#LegoVR_PlayerCode_FaceOffsets_MOUSTACHE
-  commentId: F:LegoVR.PlayerCode.FaceOffsets.MOUSTACHE
-  fullName: LegoVR.PlayerCode.FaceOffsets.MOUSTACHE
-  nameWithType: FaceOffsets.MOUSTACHE
-- uid: LegoVR.PlayerCode.FaceOffsets.SMALLFACE
-  name: SMALLFACE
-  href: api/LegoVR.PlayerCode.FaceOffsets.html#LegoVR_PlayerCode_FaceOffsets_SMALLFACE
-  commentId: F:LegoVR.PlayerCode.FaceOffsets.SMALLFACE
-  fullName: LegoVR.PlayerCode.FaceOffsets.SMALLFACE
-  nameWithType: FaceOffsets.SMALLFACE
-- uid: LegoVR.PlayerCode.FaceOffsets.SMIRKFACE
-  name: SMIRKFACE
-  href: api/LegoVR.PlayerCode.FaceOffsets.html#LegoVR_PlayerCode_FaceOffsets_SMIRKFACE
-  commentId: F:LegoVR.PlayerCode.FaceOffsets.SMIRKFACE
-  fullName: LegoVR.PlayerCode.FaceOffsets.SMIRKFACE
-  nameWithType: FaceOffsets.SMIRKFACE
 - uid: LegoVR.PlayerCode.MenuPlayer
   name: MenuPlayer
   href: api/LegoVR.PlayerCode.MenuPlayer.html
@@ -1193,24 +1442,18 @@ references:
   commentId: T:LegoVR.PlayerCode.SetScaleBasedOnHeight
   fullName: LegoVR.PlayerCode.SetScaleBasedOnHeight
   nameWithType: SetScaleBasedOnHeight
+- uid: LegoVR.PlayerCode.TestPlayerHeight
+  name: TestPlayerHeight
+  href: api/LegoVR.PlayerCode.TestPlayerHeight.html
+  commentId: T:LegoVR.PlayerCode.TestPlayerHeight
+  fullName: LegoVR.PlayerCode.TestPlayerHeight
+  nameWithType: TestPlayerHeight
 - uid: LegoVR.UI
   name: LegoVR.UI
   href: api/LegoVR.UI.html
   commentId: N:LegoVR.UI
   fullName: LegoVR.UI
   nameWithType: LegoVR.UI
-- uid: LegoVR.UI.ActivateTheRig
-  name: ActivateTheRig
-  href: api/LegoVR.UI.ActivateTheRig.html
-  commentId: T:LegoVR.UI.ActivateTheRig
-  fullName: LegoVR.UI.ActivateTheRig
-  nameWithType: ActivateTheRig
-- uid: LegoVR.UI.ActivateTheRig.rig
-  name: rig
-  href: api/LegoVR.UI.ActivateTheRig.html#LegoVR_UI_ActivateTheRig_rig
-  commentId: F:LegoVR.UI.ActivateTheRig.rig
-  fullName: LegoVR.UI.ActivateTheRig.rig
-  nameWithType: ActivateTheRig.rig
 - uid: LegoVR.UI.BodyPartColor
   name: BodyPartColor
   href: api/LegoVR.UI.BodyPartColor.html
@@ -1243,63 +1486,12 @@ references:
   isSpec: "True"
   fullName: LegoVR.UI.BodyPartColor.ChangeColorPlus
   nameWithType: BodyPartColor.ChangeColorPlus
-- uid: LegoVR.UI.DropdownChange
-  name: DropdownChange
-  href: api/LegoVR.UI.DropdownChange.html
-  commentId: T:LegoVR.UI.DropdownChange
-  fullName: LegoVR.UI.DropdownChange
-  nameWithType: DropdownChange
-- uid: LegoVR.UI.DropdownChange.DropDownControls(UnityEngine.UI.Dropdown)
-  name: DropDownControls(Dropdown)
-  href: api/LegoVR.UI.DropdownChange.html#LegoVR_UI_DropdownChange_DropDownControls_UnityEngine_UI_Dropdown_
-  commentId: M:LegoVR.UI.DropdownChange.DropDownControls(UnityEngine.UI.Dropdown)
-  fullName: LegoVR.UI.DropdownChange.DropDownControls(UnityEngine.UI.Dropdown)
-  nameWithType: DropdownChange.DropDownControls(Dropdown)
-- uid: LegoVR.UI.DropdownChange.DropDownControls*
-  name: DropDownControls
-  href: api/LegoVR.UI.DropdownChange.html#LegoVR_UI_DropdownChange_DropDownControls_
-  commentId: Overload:LegoVR.UI.DropdownChange.DropDownControls
-  isSpec: "True"
-  fullName: LegoVR.UI.DropdownChange.DropDownControls
-  nameWithType: DropdownChange.DropDownControls
-- uid: LegoVR.UI.DropdownChange.left
-  name: left
-  href: api/LegoVR.UI.DropdownChange.html#LegoVR_UI_DropdownChange_left
-  commentId: F:LegoVR.UI.DropdownChange.left
-  fullName: LegoVR.UI.DropdownChange.left
-  nameWithType: DropdownChange.left
-- uid: LegoVR.UI.DropdownChange.right
-  name: right
-  href: api/LegoVR.UI.DropdownChange.html#LegoVR_UI_DropdownChange_right
-  commentId: F:LegoVR.UI.DropdownChange.right
-  fullName: LegoVR.UI.DropdownChange.right
-  nameWithType: DropdownChange.right
-- uid: LegoVR.UI.DropdownChange.TeleportState
-  name: TeleportState()
-  href: api/LegoVR.UI.DropdownChange.html#LegoVR_UI_DropdownChange_TeleportState
-  commentId: M:LegoVR.UI.DropdownChange.TeleportState
-  fullName: LegoVR.UI.DropdownChange.TeleportState()
-  nameWithType: DropdownChange.TeleportState()
-- uid: LegoVR.UI.DropdownChange.TeleportState*
-  name: TeleportState
-  href: api/LegoVR.UI.DropdownChange.html#LegoVR_UI_DropdownChange_TeleportState_
-  commentId: Overload:LegoVR.UI.DropdownChange.TeleportState
-  isSpec: "True"
-  fullName: LegoVR.UI.DropdownChange.TeleportState
-  nameWithType: DropdownChange.TeleportState
-- uid: LegoVR.UI.DropdownChange.WalkState(UnityEngine.GameObject)
-  name: WalkState(GameObject)
-  href: api/LegoVR.UI.DropdownChange.html#LegoVR_UI_DropdownChange_WalkState_UnityEngine_GameObject_
-  commentId: M:LegoVR.UI.DropdownChange.WalkState(UnityEngine.GameObject)
-  fullName: LegoVR.UI.DropdownChange.WalkState(UnityEngine.GameObject)
-  nameWithType: DropdownChange.WalkState(GameObject)
-- uid: LegoVR.UI.DropdownChange.WalkState*
-  name: WalkState
-  href: api/LegoVR.UI.DropdownChange.html#LegoVR_UI_DropdownChange_WalkState_
-  commentId: Overload:LegoVR.UI.DropdownChange.WalkState
-  isSpec: "True"
-  fullName: LegoVR.UI.DropdownChange.WalkState
-  nameWithType: DropdownChange.WalkState
+- uid: LegoVR.UI.BodyPartColor.index
+  name: index
+  href: api/LegoVR.UI.BodyPartColor.html#LegoVR_UI_BodyPartColor_index
+  commentId: F:LegoVR.UI.BodyPartColor.index
+  fullName: LegoVR.UI.BodyPartColor.index
+  nameWithType: BodyPartColor.index
 - uid: LegoVR.UI.FaceChangerUI
   name: FaceChangerUI
   href: api/LegoVR.UI.FaceChangerUI.html
@@ -1332,25 +1524,31 @@ references:
   isSpec: "True"
   fullName: LegoVR.UI.FaceChangerUI.ChangeFacePlus
   nameWithType: FaceChangerUI.ChangeFacePlus
-- uid: LegoVR.UI.FaceChangerUI.PPM
-  name: PPM
-  href: api/LegoVR.UI.FaceChangerUI.html#LegoVR_UI_FaceChangerUI_PPM
-  commentId: F:LegoVR.UI.FaceChangerUI.PPM
-  fullName: LegoVR.UI.FaceChangerUI.PPM
-  nameWithType: FaceChangerUI.PPM
-- uid: LegoVR.UI.FaceChangerUI.ResetPreset
-  name: ResetPreset()
-  href: api/LegoVR.UI.FaceChangerUI.html#LegoVR_UI_FaceChangerUI_ResetPreset
-  commentId: M:LegoVR.UI.FaceChangerUI.ResetPreset
-  fullName: LegoVR.UI.FaceChangerUI.ResetPreset()
-  nameWithType: FaceChangerUI.ResetPreset()
-- uid: LegoVR.UI.FaceChangerUI.ResetPreset*
-  name: ResetPreset
-  href: api/LegoVR.UI.FaceChangerUI.html#LegoVR_UI_FaceChangerUI_ResetPreset_
-  commentId: Overload:LegoVR.UI.FaceChangerUI.ResetPreset
+- uid: LegoVR.UI.FaceChangerUI.materialCoords
+  name: materialCoords
+  href: api/LegoVR.UI.FaceChangerUI.html#LegoVR_UI_FaceChangerUI_materialCoords
+  commentId: F:LegoVR.UI.FaceChangerUI.materialCoords
+  fullName: LegoVR.UI.FaceChangerUI.materialCoords
+  nameWithType: FaceChangerUI.materialCoords
+- uid: LegoVR.UI.JoinRoomBtn
+  name: JoinRoomBtn
+  href: api/LegoVR.UI.JoinRoomBtn.html
+  commentId: T:LegoVR.UI.JoinRoomBtn
+  fullName: LegoVR.UI.JoinRoomBtn
+  nameWithType: JoinRoomBtn
+- uid: LegoVR.UI.JoinRoomBtn.JoinNamedRoom
+  name: JoinNamedRoom()
+  href: api/LegoVR.UI.JoinRoomBtn.html#LegoVR_UI_JoinRoomBtn_JoinNamedRoom
+  commentId: M:LegoVR.UI.JoinRoomBtn.JoinNamedRoom
+  fullName: LegoVR.UI.JoinRoomBtn.JoinNamedRoom()
+  nameWithType: JoinRoomBtn.JoinNamedRoom()
+- uid: LegoVR.UI.JoinRoomBtn.JoinNamedRoom*
+  name: JoinNamedRoom
+  href: api/LegoVR.UI.JoinRoomBtn.html#LegoVR_UI_JoinRoomBtn_JoinNamedRoom_
+  commentId: Overload:LegoVR.UI.JoinRoomBtn.JoinNamedRoom
   isSpec: "True"
-  fullName: LegoVR.UI.FaceChangerUI.ResetPreset
-  nameWithType: FaceChangerUI.ResetPreset
+  fullName: LegoVR.UI.JoinRoomBtn.JoinNamedRoom
+  nameWithType: JoinRoomBtn.JoinNamedRoom
 - uid: LegoVR.UI.MenuSwitcher
   name: MenuSwitcher
   href: api/LegoVR.UI.MenuSwitcher.html
@@ -1402,25 +1600,130 @@ references:
   isSpec: "True"
   fullName: LegoVR.UI.MenuSwitcher.SwitchMenu
   nameWithType: MenuSwitcher.SwitchMenu
-- uid: LegoVR.UI.MenuSwitcher.UIInteraction(Zinnia.Pointer.ObjectPointer.EventData)
-  name: UIInteraction(ObjectPointer.EventData)
-  href: api/LegoVR.UI.MenuSwitcher.html#LegoVR_UI_MenuSwitcher_UIInteraction_Zinnia_Pointer_ObjectPointer_EventData_
-  commentId: M:LegoVR.UI.MenuSwitcher.UIInteraction(Zinnia.Pointer.ObjectPointer.EventData)
-  fullName: LegoVR.UI.MenuSwitcher.UIInteraction(Zinnia.Pointer.ObjectPointer.EventData)
-  nameWithType: MenuSwitcher.UIInteraction(ObjectPointer.EventData)
-- uid: LegoVR.UI.MenuSwitcher.UIInteraction*
-  name: UIInteraction
-  href: api/LegoVR.UI.MenuSwitcher.html#LegoVR_UI_MenuSwitcher_UIInteraction_
-  commentId: Overload:LegoVR.UI.MenuSwitcher.UIInteraction
-  isSpec: "True"
-  fullName: LegoVR.UI.MenuSwitcher.UIInteraction
-  nameWithType: MenuSwitcher.UIInteraction
 - uid: LegoVR.UI.ObjectPointerActivation
   name: ObjectPointerActivation
   href: api/LegoVR.UI.ObjectPointerActivation.html
   commentId: T:LegoVR.UI.ObjectPointerActivation
   fullName: LegoVR.UI.ObjectPointerActivation
   nameWithType: ObjectPointerActivation
+- uid: LegoVR.UI.OpenMenu
+  name: OpenMenu
+  href: api/LegoVR.UI.OpenMenu.html
+  commentId: T:LegoVR.UI.OpenMenu
+  fullName: LegoVR.UI.OpenMenu
+  nameWithType: OpenMenu
+- uid: LegoVR.UI.OpenMenu.ChangeMenuState
+  name: ChangeMenuState()
+  href: api/LegoVR.UI.OpenMenu.html#LegoVR_UI_OpenMenu_ChangeMenuState
+  commentId: M:LegoVR.UI.OpenMenu.ChangeMenuState
+  fullName: LegoVR.UI.OpenMenu.ChangeMenuState()
+  nameWithType: OpenMenu.ChangeMenuState()
+- uid: LegoVR.UI.OpenMenu.ChangeMenuState*
+  name: ChangeMenuState
+  href: api/LegoVR.UI.OpenMenu.html#LegoVR_UI_OpenMenu_ChangeMenuState_
+  commentId: Overload:LegoVR.UI.OpenMenu.ChangeMenuState
+  isSpec: "True"
+  fullName: LegoVR.UI.OpenMenu.ChangeMenuState
+  nameWithType: OpenMenu.ChangeMenuState
+- uid: LegoVR.UI.OpenMenu.legoThrower
+  name: legoThrower
+  href: api/LegoVR.UI.OpenMenu.html#LegoVR_UI_OpenMenu_legoThrower
+  commentId: F:LegoVR.UI.OpenMenu.legoThrower
+  fullName: LegoVR.UI.OpenMenu.legoThrower
+  nameWithType: OpenMenu.legoThrower
+- uid: LegoVR.UI.OpenMenu.ParticleState
+  name: ParticleState()
+  href: api/LegoVR.UI.OpenMenu.html#LegoVR_UI_OpenMenu_ParticleState
+  commentId: M:LegoVR.UI.OpenMenu.ParticleState
+  fullName: LegoVR.UI.OpenMenu.ParticleState()
+  nameWithType: OpenMenu.ParticleState()
+- uid: LegoVR.UI.OpenMenu.ParticleState*
+  name: ParticleState
+  href: api/LegoVR.UI.OpenMenu.html#LegoVR_UI_OpenMenu_ParticleState_
+  commentId: Overload:LegoVR.UI.OpenMenu.ParticleState
+  isSpec: "True"
+  fullName: LegoVR.UI.OpenMenu.ParticleState
+  nameWithType: OpenMenu.ParticleState
+- uid: LegoVR.UI.RoomEntry
+  name: RoomEntry
+  href: api/LegoVR.UI.RoomEntry.html
+  commentId: T:LegoVR.UI.RoomEntry
+  fullName: LegoVR.UI.RoomEntry
+  nameWithType: RoomEntry
+- uid: LegoVR.UI.RoomEntry.JoinRoom
+  name: JoinRoom()
+  href: api/LegoVR.UI.RoomEntry.html#LegoVR_UI_RoomEntry_JoinRoom
+  commentId: M:LegoVR.UI.RoomEntry.JoinRoom
+  fullName: LegoVR.UI.RoomEntry.JoinRoom()
+  nameWithType: RoomEntry.JoinRoom()
+- uid: LegoVR.UI.RoomEntry.JoinRoom*
+  name: JoinRoom
+  href: api/LegoVR.UI.RoomEntry.html#LegoVR_UI_RoomEntry_JoinRoom_
+  commentId: Overload:LegoVR.UI.RoomEntry.JoinRoom
+  isSpec: "True"
+  fullName: LegoVR.UI.RoomEntry.JoinRoom
+  nameWithType: RoomEntry.JoinRoom
+- uid: LegoVR.UI.RoomEntry.RoomInfo
+  name: RoomInfo
+  href: api/LegoVR.UI.RoomEntry.html#LegoVR_UI_RoomEntry_RoomInfo
+  commentId: P:LegoVR.UI.RoomEntry.RoomInfo
+  fullName: LegoVR.UI.RoomEntry.RoomInfo
+  nameWithType: RoomEntry.RoomInfo
+- uid: LegoVR.UI.RoomEntry.RoomInfo*
+  name: RoomInfo
+  href: api/LegoVR.UI.RoomEntry.html#LegoVR_UI_RoomEntry_RoomInfo_
+  commentId: Overload:LegoVR.UI.RoomEntry.RoomInfo
+  isSpec: "True"
+  fullName: LegoVR.UI.RoomEntry.RoomInfo
+  nameWithType: RoomEntry.RoomInfo
+- uid: LegoVR.UI.RoomEntry.SetRoomInfo(Photon.Realtime.RoomInfo)
+  name: SetRoomInfo(RoomInfo)
+  href: api/LegoVR.UI.RoomEntry.html#LegoVR_UI_RoomEntry_SetRoomInfo_Photon_Realtime_RoomInfo_
+  commentId: M:LegoVR.UI.RoomEntry.SetRoomInfo(Photon.Realtime.RoomInfo)
+  fullName: LegoVR.UI.RoomEntry.SetRoomInfo(Photon.Realtime.RoomInfo)
+  nameWithType: RoomEntry.SetRoomInfo(RoomInfo)
+- uid: LegoVR.UI.RoomEntry.SetRoomInfo*
+  name: SetRoomInfo
+  href: api/LegoVR.UI.RoomEntry.html#LegoVR_UI_RoomEntry_SetRoomInfo_
+  commentId: Overload:LegoVR.UI.RoomEntry.SetRoomInfo
+  isSpec: "True"
+  fullName: LegoVR.UI.RoomEntry.SetRoomInfo
+  nameWithType: RoomEntry.SetRoomInfo
+- uid: LegoVR.UI.RoomList
+  name: RoomList
+  href: api/LegoVR.UI.RoomList.html
+  commentId: T:LegoVR.UI.RoomList
+  fullName: LegoVR.UI.RoomList
+  nameWithType: RoomList
+- uid: LegoVR.UI.RoomList.OnRoomListUpdate(System.Collections.Generic.List{Photon.Realtime.RoomInfo})
+  name: OnRoomListUpdate(List<RoomInfo>)
+  href: api/LegoVR.UI.RoomList.html#LegoVR_UI_RoomList_OnRoomListUpdate_System_Collections_Generic_List_Photon_Realtime_RoomInfo__
+  commentId: M:LegoVR.UI.RoomList.OnRoomListUpdate(System.Collections.Generic.List{Photon.Realtime.RoomInfo})
+  name.vb: OnRoomListUpdate(List(Of RoomInfo))
+  fullName: LegoVR.UI.RoomList.OnRoomListUpdate(System.Collections.Generic.List<Photon.Realtime.RoomInfo>)
+  fullName.vb: LegoVR.UI.RoomList.OnRoomListUpdate(System.Collections.Generic.List(Of Photon.Realtime.RoomInfo))
+  nameWithType: RoomList.OnRoomListUpdate(List<RoomInfo>)
+  nameWithType.vb: RoomList.OnRoomListUpdate(List(Of RoomInfo))
+- uid: LegoVR.UI.RoomList.OnRoomListUpdate*
+  name: OnRoomListUpdate
+  href: api/LegoVR.UI.RoomList.html#LegoVR_UI_RoomList_OnRoomListUpdate_
+  commentId: Overload:LegoVR.UI.RoomList.OnRoomListUpdate
+  isSpec: "True"
+  fullName: LegoVR.UI.RoomList.OnRoomListUpdate
+  nameWithType: RoomList.OnRoomListUpdate
+- uid: LegoVR.UI.RoomList.Rooms
+  name: Rooms
+  href: api/LegoVR.UI.RoomList.html#LegoVR_UI_RoomList_Rooms
+  commentId: P:LegoVR.UI.RoomList.Rooms
+  fullName: LegoVR.UI.RoomList.Rooms
+  nameWithType: RoomList.Rooms
+- uid: LegoVR.UI.RoomList.Rooms*
+  name: Rooms
+  href: api/LegoVR.UI.RoomList.html#LegoVR_UI_RoomList_Rooms_
+  commentId: Overload:LegoVR.UI.RoomList.Rooms
+  isSpec: "True"
+  fullName: LegoVR.UI.RoomList.Rooms
+  nameWithType: RoomList.Rooms
 - uid: LegoVR.UI.UIInteraction
   name: UIInteraction
   href: api/LegoVR.UI.UIInteraction.html
@@ -1440,76 +1743,6 @@ references:
   isSpec: "True"
   fullName: LegoVR.UI.UIInteraction.InteractUIElement
   nameWithType: UIInteraction.InteractUIElement
-- uid: LegoVR.UI.VolumeControl
-  name: VolumeControl
-  href: api/LegoVR.UI.VolumeControl.html
-  commentId: T:LegoVR.UI.VolumeControl
-  fullName: LegoVR.UI.VolumeControl
-  nameWithType: VolumeControl
-- uid: LegoVR.UI.VolumeControl.DecreaseVolOnPool
-  name: DecreaseVolOnPool()
-  href: api/LegoVR.UI.VolumeControl.html#LegoVR_UI_VolumeControl_DecreaseVolOnPool
-  commentId: M:LegoVR.UI.VolumeControl.DecreaseVolOnPool
-  fullName: LegoVR.UI.VolumeControl.DecreaseVolOnPool()
-  nameWithType: VolumeControl.DecreaseVolOnPool()
-- uid: LegoVR.UI.VolumeControl.DecreaseVolOnPool*
-  name: DecreaseVolOnPool
-  href: api/LegoVR.UI.VolumeControl.html#LegoVR_UI_VolumeControl_DecreaseVolOnPool_
-  commentId: Overload:LegoVR.UI.VolumeControl.DecreaseVolOnPool
-  isSpec: "True"
-  fullName: LegoVR.UI.VolumeControl.DecreaseVolOnPool
-  nameWithType: VolumeControl.DecreaseVolOnPool
-- uid: LegoVR.UI.VolumeControl.DecreaseVolumeOnSource(UnityEngine.AudioSource)
-  name: DecreaseVolumeOnSource(AudioSource)
-  href: api/LegoVR.UI.VolumeControl.html#LegoVR_UI_VolumeControl_DecreaseVolumeOnSource_UnityEngine_AudioSource_
-  commentId: M:LegoVR.UI.VolumeControl.DecreaseVolumeOnSource(UnityEngine.AudioSource)
-  fullName: LegoVR.UI.VolumeControl.DecreaseVolumeOnSource(UnityEngine.AudioSource)
-  nameWithType: VolumeControl.DecreaseVolumeOnSource(AudioSource)
-- uid: LegoVR.UI.VolumeControl.DecreaseVolumeOnSource*
-  name: DecreaseVolumeOnSource
-  href: api/LegoVR.UI.VolumeControl.html#LegoVR_UI_VolumeControl_DecreaseVolumeOnSource_
-  commentId: Overload:LegoVR.UI.VolumeControl.DecreaseVolumeOnSource
-  isSpec: "True"
-  fullName: LegoVR.UI.VolumeControl.DecreaseVolumeOnSource
-  nameWithType: VolumeControl.DecreaseVolumeOnSource
-- uid: LegoVR.UI.VolumeControl.IncreaseVolOnPool
-  name: IncreaseVolOnPool()
-  href: api/LegoVR.UI.VolumeControl.html#LegoVR_UI_VolumeControl_IncreaseVolOnPool
-  commentId: M:LegoVR.UI.VolumeControl.IncreaseVolOnPool
-  fullName: LegoVR.UI.VolumeControl.IncreaseVolOnPool()
-  nameWithType: VolumeControl.IncreaseVolOnPool()
-- uid: LegoVR.UI.VolumeControl.IncreaseVolOnPool*
-  name: IncreaseVolOnPool
-  href: api/LegoVR.UI.VolumeControl.html#LegoVR_UI_VolumeControl_IncreaseVolOnPool_
-  commentId: Overload:LegoVR.UI.VolumeControl.IncreaseVolOnPool
-  isSpec: "True"
-  fullName: LegoVR.UI.VolumeControl.IncreaseVolOnPool
-  nameWithType: VolumeControl.IncreaseVolOnPool
-- uid: LegoVR.UI.VolumeControl.IncreaseVolumeOnSource(UnityEngine.AudioSource)
-  name: IncreaseVolumeOnSource(AudioSource)
-  href: api/LegoVR.UI.VolumeControl.html#LegoVR_UI_VolumeControl_IncreaseVolumeOnSource_UnityEngine_AudioSource_
-  commentId: M:LegoVR.UI.VolumeControl.IncreaseVolumeOnSource(UnityEngine.AudioSource)
-  fullName: LegoVR.UI.VolumeControl.IncreaseVolumeOnSource(UnityEngine.AudioSource)
-  nameWithType: VolumeControl.IncreaseVolumeOnSource(AudioSource)
-- uid: LegoVR.UI.VolumeControl.IncreaseVolumeOnSource*
-  name: IncreaseVolumeOnSource
-  href: api/LegoVR.UI.VolumeControl.html#LegoVR_UI_VolumeControl_IncreaseVolumeOnSource_
-  commentId: Overload:LegoVR.UI.VolumeControl.IncreaseVolumeOnSource
-  isSpec: "True"
-  fullName: LegoVR.UI.VolumeControl.IncreaseVolumeOnSource
-  nameWithType: VolumeControl.IncreaseVolumeOnSource
-- uid: LegoVR.UI.VolumeControl.slid
-  name: slid
-  href: api/LegoVR.UI.VolumeControl.html#LegoVR_UI_VolumeControl_slid
-  commentId: F:LegoVR.UI.VolumeControl.slid
-  fullName: LegoVR.UI.VolumeControl.slid
-  nameWithType: VolumeControl.slid
-- uid: LegoVR.UI.VolumeControl.tog
-  name: tog
-  href: api/LegoVR.UI.VolumeControl.html#LegoVR_UI_VolumeControl_tog
-  commentId: F:LegoVR.UI.VolumeControl.tog
-  fullName: LegoVR.UI.VolumeControl.tog
-  nameWithType: VolumeControl.tog
 - uid: LegoVR.UI.VolumeTextChange
   name: VolumeTextChange
   href: api/LegoVR.UI.VolumeTextChange.html
@@ -1529,44 +1762,6 @@ references:
   isSpec: "True"
   fullName: LegoVR.UI.VolumeTextChange.ChangeText
   nameWithType: VolumeTextChange.ChangeText
-- uid: LegoVR.UI.WristUI
-  name: WristUI
-  href: api/LegoVR.UI.WristUI.html
-  commentId: T:LegoVR.UI.WristUI
-  fullName: LegoVR.UI.WristUI
-  nameWithType: WristUI
-- uid: LegoVR.UI.WristUI.wristUI
-  name: wristUI
-  href: api/LegoVR.UI.WristUI.html#LegoVR_UI_WristUI_wristUI
-  commentId: F:LegoVR.UI.WristUI.wristUI
-  fullName: LegoVR.UI.WristUI.wristUI
-  nameWithType: WristUI.wristUI
-- uid: LegoVR.UI.WristUI.WristUIState(UnityEngine.GameObject)
-  name: WristUIState(GameObject)
-  href: api/LegoVR.UI.WristUI.html#LegoVR_UI_WristUI_WristUIState_UnityEngine_GameObject_
-  commentId: M:LegoVR.UI.WristUI.WristUIState(UnityEngine.GameObject)
-  fullName: LegoVR.UI.WristUI.WristUIState(UnityEngine.GameObject)
-  nameWithType: WristUI.WristUIState(GameObject)
-- uid: LegoVR.UI.WristUI.WristUIState*
-  name: WristUIState
-  href: api/LegoVR.UI.WristUI.html#LegoVR_UI_WristUI_WristUIState_
-  commentId: Overload:LegoVR.UI.WristUI.WristUIState
-  isSpec: "True"
-  fullName: LegoVR.UI.WristUI.WristUIState
-  nameWithType: WristUI.WristUIState
-- uid: LegoVR.UI.WristUI.Yes
-  name: Yes()
-  href: api/LegoVR.UI.WristUI.html#LegoVR_UI_WristUI_Yes
-  commentId: M:LegoVR.UI.WristUI.Yes
-  fullName: LegoVR.UI.WristUI.Yes()
-  nameWithType: WristUI.Yes()
-- uid: LegoVR.UI.WristUI.Yes*
-  name: Yes
-  href: api/LegoVR.UI.WristUI.html#LegoVR_UI_WristUI_Yes_
-  commentId: Overload:LegoVR.UI.WristUI.Yes
-  isSpec: "True"
-  fullName: LegoVR.UI.WristUI.Yes
-  nameWithType: WristUI.Yes
 - uid: LegoVR.World
   name: LegoVR.World
   href: api/LegoVR.World.html
@@ -1629,6 +1824,12 @@ references:
   commentId: F:LegoVR.World.OccupiedWorldPos.occupiedSpaces
   fullName: LegoVR.World.OccupiedWorldPos.occupiedSpaces
   nameWithType: OccupiedWorldPos.occupiedSpaces
+- uid: LegoVR.World.SwishCollider
+  name: SwishCollider
+  href: api/LegoVR.World.SwishCollider.html
+  commentId: T:LegoVR.World.SwishCollider
+  fullName: LegoVR.World.SwishCollider
+  nameWithType: SwishCollider
 - uid: LegoVR.World.WorldGen
   name: WorldGen
   href: api/LegoVR.World.WorldGen.html

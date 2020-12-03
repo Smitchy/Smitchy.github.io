@@ -80,15 +80,19 @@
       <h4><a class="xref" href="LegoVR.PlayerCode.BodyRotation.html">BodyRotation</a></h4>
       <section><p>updates the minifig body&apos;s rotation using the forwarddirection singleton GetForwardQuat method</p>
 </section>
-      <h4><a class="xref" href="LegoVR.PlayerCode.FaceOffsets.html">FaceOffsets</a></h4>
-      <section></section>
       <h4><a class="xref" href="LegoVR.PlayerCode.MenuPlayer.html">MenuPlayer</a></h4>
       <section><p>MonoBehaviour only meant for cleaning up the menu player so photon can spawn one when joining a room</p>
 </section>
       <h4><a class="xref" href="LegoVR.PlayerCode.PlayerUpdate.html">PlayerUpdate</a></h4>
-      <section></section>
+      <section><p>Script to track <see cref="!:GameObject.transform.position"></see> and broadcast if this moves. Position values are rounded to the nearest integer.</p>
+</section>
       <h4><a class="xref" href="LegoVR.PlayerCode.SetScaleBasedOnHeight.html">SetScaleBasedOnHeight</a></h4>
-      <section></section>
+      <section><p>Handles scaling of Minifig object so that regardless of player height, the minifig is always scaled so that the feet
+allign with the 0 Y axis in Unity.</p>
+</section>
+      <h4><a class="xref" href="LegoVR.PlayerCode.TestPlayerHeight.html">TestPlayerHeight</a></h4>
+      <section><p>Resizes a GameObject based on position relative to Y axis 0. Sets <a class="xref" href="LegoVR.FollowScripts.FollowTransform.html#LegoVR_FollowScripts_FollowTransform_SetBoundaryLimits_UnityEngine_Vector3_UnityEngine_Vector3_">SetBoundaryLimits(Vector3, Vector3)</a> based on this height.</p>
+</section>
     <h3 id="delegates">Delegates
   </h3>
       <h4><a class="xref" href="LegoVR.PlayerCode.PlayerUpdate.MoveXNeg.html">PlayerUpdate.MoveXNeg</a></h4>

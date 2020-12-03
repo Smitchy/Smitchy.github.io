@@ -5,6 +5,78 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.Audio.BallSound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.Audio.BallSound.html",
+          "hash": "/FSTEDJQy8UEd5tSyiyjzw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.Audio.SoundPoolManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.Audio.SoundPoolManager.html",
+          "hash": "+vVlxTDGOYsgYJBEQBlu2w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.Audio.SwishManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.Audio.SwishManager.html",
+          "hash": "xP5FXcByvEu+S1j2x40DfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.Audio.html",
+          "hash": "/ZkxXKTSniZoTjfZ9X76tQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.External.MonoBehaviourSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.External.MonoBehaviourSingleton-1.html",
+          "hash": "fVos8BeAdLcGOkYklf5AAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.External.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.External.html",
+          "hash": "iltlOx7IM5N8Ju4BzWFIwA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LegoVR.FollowScripts.FollowRotation.yml",
       "output": {
         ".html": {
@@ -33,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.FollowScripts.FollowYRotation.html",
-          "hash": "LlJmHkk5rtEqs4Mw9XjMgw=="
+          "hash": "GdkUtzcAot4en8e1FJzIDA=="
         }
       },
       "is_incremental": true,
@@ -45,7 +117,19 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.FollowScripts.html",
-          "hash": "xJBCitQubI2vmLLIeImSdg=="
+          "hash": "yiIW2OlNgP1reotnapa1Ig=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.Helper.CreateRoomHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.Helper.CreateRoomHelper.html",
+          "hash": "0BeZFzpfnTUzJ2zlizWymg=="
         }
       },
       "is_incremental": true,
@@ -65,11 +149,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.Helper.PresetsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.Helper.PresetsHelper.html",
+          "hash": "qTWK1fkbWN/3SBolgI5rAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LegoVR.Helper.yml",
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Helper.html",
-          "hash": "H4o6u8m1fW5CDVlq7dKXGQ=="
+          "hash": "j8aOoDk4QACwt0FY6X01Zw=="
         }
       },
       "is_incremental": true,
@@ -81,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Locomotion.ArmSwinging.html",
-          "hash": "SYh6qmLHBM19KA5A3cyuDw=="
+          "hash": "tQzfK2e7/T/nQccg3tmnMQ=="
         }
       },
       "is_incremental": true,
@@ -117,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Locomotion.Jump.html",
-          "hash": "UhzV8ycKLU3rjVKs8T7YLA=="
+          "hash": "Sbvs8aEdyuUWqHlNLnAurQ=="
         }
       },
       "is_incremental": true,
@@ -141,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Locomotion.RigPositions.html",
-          "hash": "Xq8DzP4iaZnUAZpddqo7vA=="
+          "hash": "9C478sf/Tx91Z2dxIeJRAQ=="
         }
       },
       "is_incremental": true,
@@ -165,19 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Locomotion.TeleportPlayer.html",
-          "hash": "kfQ4JbgBvsGrxMdR/c2F4g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/LegoVR.Locomotion.TestingLerpOverTime.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LegoVR.Locomotion.TestingLerpOverTime.html",
-          "hash": "t/E11hoZyck9JgGvUezEyw=="
+          "hash": "mRvIrpTBtxPPWhW05agMQg=="
         }
       },
       "is_incremental": true,
@@ -189,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Locomotion.ThrowTeleporter.html",
-          "hash": "GbjYYAmT4KhNdxNJ8tyGug=="
+          "hash": "y8QYzfOmF12nrtVrV9BVHA=="
         }
       },
       "is_incremental": true,
@@ -201,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Locomotion.ViewPort.html",
-          "hash": "poLNWFQXUEEp8uZIfhDNLA=="
+          "hash": "hvekA7jysMFJiZiZJEmG8A=="
         }
       },
       "is_incremental": true,
@@ -237,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Locomotion.html",
-          "hash": "oMtbdz6S7fxePSd4fo9sZQ=="
+          "hash": "t+cGKkIPRbJMabaKjb52kA=="
         }
       },
       "is_incremental": true,
@@ -297,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Networking.ClientManager.html",
-          "hash": "tuaYUc6Xqyl+garY4IY3WA=="
+          "hash": "BdPMyDZscTIpT09DXQ5FlQ=="
         }
       },
       "is_incremental": true,
@@ -333,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Networking.LobbyMenuSetup.html",
-          "hash": "1frp4NL/XgyFcq/8BQ67xQ=="
+          "hash": "x3VdnL5ochg+0d1xRRimBQ=="
         }
       },
       "is_incremental": true,
@@ -345,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Networking.PlayerManager.html",
-          "hash": "cylWYJ19GAYgbY45K10bdg=="
+          "hash": "BUg4CjGgbpEgREtgTb3MKQ=="
         }
       },
       "is_incremental": true,
@@ -357,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Networking.RigidBodyUpdate.html",
-          "hash": "i3M76dT7x3ooj3u7KHb8cQ=="
+          "hash": "tEjyzTcaO45DjwRL7UnxlA=="
         }
       },
       "is_incremental": true,
@@ -393,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.Networking.html",
-          "hash": "1PdY+dByQWGEuvvfZw10Lw=="
+          "hash": "nKEYl5t5A7eUjS+rX+dXGg=="
         }
       },
       "is_incremental": true,
@@ -406,18 +490,6 @@
         ".html": {
           "relative_path": "api/LegoVR.PlayerCode.BodyRotation.html",
           "hash": "1mAwmrAW+HZ5J6quvmPVjg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/LegoVR.PlayerCode.FaceOffsets.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LegoVR.PlayerCode.FaceOffsets.html",
-          "hash": "kNk3UAKOjY1XRC58ht1X3A=="
         }
       },
       "is_incremental": true,
@@ -441,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.PlayerCode.PlayerUpdate.MoveXNeg.html",
-          "hash": "T2nVRMFvGRPF3qzQif21Kg=="
+          "hash": "Zb/qjyZfx8Ji4d6ZbmI4ig=="
         }
       },
       "is_incremental": true,
@@ -453,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.PlayerCode.PlayerUpdate.MoveXPos.html",
-          "hash": "WOicg0Mb0wzaD3zpYJi+pg=="
+          "hash": "v0Ou7DRh3rEeGqHqXsAGhA=="
         }
       },
       "is_incremental": true,
@@ -465,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.PlayerCode.PlayerUpdate.MoveZNeg.html",
-          "hash": "bwktKQakEGj92tes/fV8TA=="
+          "hash": "n3UC1eeu/uNIG2ZLZEIWPQ=="
         }
       },
       "is_incremental": true,
@@ -477,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.PlayerCode.PlayerUpdate.MoveZPos.html",
-          "hash": "O2+aGLFEE7oaf151MJC6EA=="
+          "hash": "q5QVsxdqgH+IDbfQ3sh3Cg=="
         }
       },
       "is_incremental": true,
@@ -489,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.PlayerCode.PlayerUpdate.html",
-          "hash": "s4wOaGo5PQe5wEU+1NflMA=="
+          "hash": "kfL3Gp6s70FOmPDl4fwu0w=="
         }
       },
       "is_incremental": true,
@@ -501,7 +573,19 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.PlayerCode.SetScaleBasedOnHeight.html",
-          "hash": "uJOnczVdKswXi4saVj3hfQ=="
+          "hash": "Q84tllHS+Ti1WrA8DV+HTA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.PlayerCode.TestPlayerHeight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.PlayerCode.TestPlayerHeight.html",
+          "hash": "cOrEq2eUks5ZTnr04qVbwQ=="
         }
       },
       "is_incremental": true,
@@ -513,19 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.PlayerCode.html",
-          "hash": "X6sd/TpDwDNhYvDlqVDqyQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/LegoVR.UI.ActivateTheRig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LegoVR.UI.ActivateTheRig.html",
-          "hash": "KcJguQgfBJLqzo9pKN1JRQ=="
+          "hash": "IG0oU49cW+Hkbn+inDsVow=="
         }
       },
       "is_incremental": true,
@@ -537,19 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.UI.BodyPartColor.html",
-          "hash": "17WeTY5QjlEKYU6fIsuo4Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/LegoVR.UI.DropdownChange.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LegoVR.UI.DropdownChange.html",
-          "hash": "6Dzu/Pqq4IJWWD32zYaIqw=="
+          "hash": "Z6z1KbBPq/vgegvN1GYbXw=="
         }
       },
       "is_incremental": true,
@@ -561,7 +621,19 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.UI.FaceChangerUI.html",
-          "hash": "lZjLhedQ9kGiZGLF+8nJew=="
+          "hash": "CrNS0J+cSBVn6NkoDeVLrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.UI.JoinRoomBtn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.UI.JoinRoomBtn.html",
+          "hash": "T9OBXv8wVECdJZ+KBml5vA=="
         }
       },
       "is_incremental": true,
@@ -573,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.UI.MenuSwitcher.html",
-          "hash": "JrDMHiE/Oj/XYX9eJqQrtg=="
+          "hash": "tdLE+g9EEKBTrFpuSHbrKw=="
         }
       },
       "is_incremental": true,
@@ -585,7 +657,43 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.UI.ObjectPointerActivation.html",
-          "hash": "jS2oAQkmM5HrniiXuS9rsw=="
+          "hash": "LIByYWCltlIWKdCijhfhAw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.UI.OpenMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.UI.OpenMenu.html",
+          "hash": "v0Afnt6UcKVgizIox/DQaA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.UI.RoomEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.UI.RoomEntry.html",
+          "hash": "DIoU+d1lLkw+a/tDGU06Mw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.UI.RoomList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.UI.RoomList.html",
+          "hash": "ftIuNs4Rs0+G92F7iZNLZQ=="
         }
       },
       "is_incremental": true,
@@ -605,35 +713,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/LegoVR.UI.VolumeControl.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LegoVR.UI.VolumeControl.html",
-          "hash": "Lauymqie7U/aXzsWESqUSw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/LegoVR.UI.VolumeTextChange.yml",
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.UI.VolumeTextChange.html",
-          "hash": "ycvVdVZSgScJJvw4Skoqmg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/LegoVR.UI.WristUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LegoVR.UI.WristUI.html",
-          "hash": "r3q+fcOtZBCL86XIJY+zLw=="
+          "hash": "B0XQq2wZ/5esbPyR/mkmgA=="
         }
       },
       "is_incremental": true,
@@ -645,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.UI.html",
-          "hash": "HzU4OeqhvStOYjUW/VA0pw=="
+          "hash": "k5DDtWvnJvmuUIk1qRwqzQ=="
         }
       },
       "is_incremental": true,
@@ -677,11 +761,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/LegoVR.World.SwishCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LegoVR.World.SwishCollider.html",
+          "hash": "xjZz3NtxROmNox5+9m/tRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LegoVR.World.WorldGen.yml",
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.World.WorldGen.html",
-          "hash": "V4y7F5MDUuiCmUDR62UzUQ=="
+          "hash": "+em1WrWhHELo4jNwPLbAww=="
         }
       },
       "is_incremental": true,
@@ -693,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/LegoVR.World.html",
-          "hash": "mqF1rAY7IM6DpMuOw6yAvA=="
+          "hash": "synRYnuYrC9/ziEjoM8MXA=="
         }
       },
       "is_incremental": true,
@@ -717,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "28o6yQGu9S+UhXCqKFaD6w=="
+          "hash": "qenQs3qcHqfBfvDDqKwI4A=="
         }
       },
       "is_incremental": false,
@@ -790,8 +886,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 58,
-          "skipped_file_count": 58
+          "total_file_count": 66,
+          "skipped_file_count": 66
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

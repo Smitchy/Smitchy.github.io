@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class FaceChangerUI
+    <title>Class OpenMenu
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class FaceChangerUI
+    <meta name="title" content="Class OpenMenu
    ">
     <meta name="generator" content="docfx 2.56.3.0">
     
@@ -68,12 +68,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="LegoVR.UI.FaceChangerUI">
+            <article class="content wrap" id="_content" data-uid="LegoVR.UI.OpenMenu">
   
   
-  <h1 id="LegoVR_UI_FaceChangerUI" data-uid="LegoVR.UI.FaceChangerUI" class="text-break">Class FaceChangerUI
+  <h1 id="LegoVR_UI_OpenMenu" data-uid="LegoVR.UI.OpenMenu" class="text-break">Class OpenMenu
   </h1>
-  <div class="markdown level0 summary"><p>logic for changing faces on minifig.</p>
+  <div class="markdown level0 summary"><p>Manages the wrist menu open/close state which in turn manages the particle system play/stop</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -83,29 +83,29 @@
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">FaceChangerUI</span></div>
+    <div class="level5"><span class="xref">OpenMenu</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="LegoVR.UI.html">LegoVR.UI</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="LegoVR_UI_FaceChangerUI_syntax">Syntax</h5>
+  <h5 id="LegoVR_UI_OpenMenu_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FaceChangerUI : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class OpenMenu : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=LegoVR_UI_FaceChangerUI_materialCoords.md&amp;value=---%0Auid%3A%20LegoVR.UI.FaceChangerUI.materialCoords%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=LegoVR_UI_OpenMenu_legoThrower.md&amp;value=---%0Auid%3A%20LegoVR.UI.OpenMenu.legoThrower%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Scripts/UI/FaceChangerUI.cs/#L22">View Source</a>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Scripts/UI/OpenMenu.cs/#L12">View Source</a>
   </span>
-  <h4 id="LegoVR_UI_FaceChangerUI_materialCoords" data-uid="LegoVR.UI.FaceChangerUI.materialCoords">materialCoords</h4>
+  <h4 id="LegoVR_UI_OpenMenu_legoThrower" data-uid="LegoVR.UI.OpenMenu.legoThrower">legoThrower</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 materialCoords</code></pre>
+    <pre><code class="lang-csharp hljs">public ParticleSystem legoThrower</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -117,7 +117,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="xref">UnityEngine.ParticleSystem</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -126,35 +126,33 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=LegoVR_UI_FaceChangerUI_ChangeFaceNegative.md&amp;value=---%0Auid%3A%20LegoVR.UI.FaceChangerUI.ChangeFaceNegative%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=LegoVR_UI_OpenMenu_ChangeMenuState.md&amp;value=---%0Auid%3A%20LegoVR.UI.OpenMenu.ChangeMenuState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Scripts/UI/FaceChangerUI.cs/#L60">View Source</a>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Scripts/UI/OpenMenu.cs/#L22">View Source</a>
   </span>
-  <a id="LegoVR_UI_FaceChangerUI_ChangeFaceNegative_" data-uid="LegoVR.UI.FaceChangerUI.ChangeFaceNegative*"></a>
-  <h4 id="LegoVR_UI_FaceChangerUI_ChangeFaceNegative" data-uid="LegoVR.UI.FaceChangerUI.ChangeFaceNegative">ChangeFaceNegative()</h4>
-  <div class="markdown level1 summary"><p>incremently decrease offset of minifig face material.</p>
-</div>
+  <a id="LegoVR_UI_OpenMenu_ChangeMenuState_" data-uid="LegoVR.UI.OpenMenu.ChangeMenuState*"></a>
+  <h4 id="LegoVR_UI_OpenMenu_ChangeMenuState" data-uid="LegoVR.UI.OpenMenu.ChangeMenuState">ChangeMenuState()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ChangeFaceNegative()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ChangeMenuState()</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=LegoVR_UI_FaceChangerUI_ChangeFacePlus.md&amp;value=---%0Auid%3A%20LegoVR.UI.FaceChangerUI.ChangeFacePlus%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=LegoVR_UI_OpenMenu_ParticleState.md&amp;value=---%0Auid%3A%20LegoVR.UI.OpenMenu.ParticleState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Scripts/UI/FaceChangerUI.cs/#L36">View Source</a>
+    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Scripts/UI/OpenMenu.cs/#L29">View Source</a>
   </span>
-  <a id="LegoVR_UI_FaceChangerUI_ChangeFacePlus_" data-uid="LegoVR.UI.FaceChangerUI.ChangeFacePlus*"></a>
-  <h4 id="LegoVR_UI_FaceChangerUI_ChangeFacePlus" data-uid="LegoVR.UI.FaceChangerUI.ChangeFacePlus">ChangeFacePlus()</h4>
-  <div class="markdown level1 summary"><p>incremently increase offset of minifig face material.</p>
-</div>
+  <a id="LegoVR_UI_OpenMenu_ParticleState_" data-uid="LegoVR.UI.OpenMenu.ParticleState*"></a>
+  <h4 id="LegoVR_UI_OpenMenu_ParticleState" data-uid="LegoVR.UI.OpenMenu.ParticleState">ParticleState()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ChangeFacePlus()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ParticleState()</code></pre>
   </div>
 </article>
           </div>
@@ -164,10 +162,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=LegoVR_UI_FaceChangerUI.md&amp;value=---%0Auid%3A%20LegoVR.UI.FaceChangerUI%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/new/master/apiSpec/new?filename=LegoVR_UI_OpenMenu.md&amp;value=---%0Auid%3A%20LegoVR.UI.OpenMenu%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Scripts/UI/FaceChangerUI.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/RuneSChr/LegoWorldVR/blob/master/Assets/Scripts/UI/OpenMenu.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

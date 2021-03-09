@@ -798,7 +798,9 @@ p {
 .about-content .about-title {
   font-size: 18px;
   font-weight: 500;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
 .about-content ul {
   padding-top: 15px; }
   .about-content ul li {
